@@ -1,0 +1,10 @@
+import CorsoTemplate from "../../../components/CorsoTemplate";
+
+export default function Dentosofia() {
+  return (
+    <CorsoTemplate
+      title="Corso di Dentosofia"
+      description="Un percorso formativo dedicato all’approccio neuromuscolare e alla postura cranio-oro-facciale, integrando corpo, funzione ed equilibrio."
+    />
+  );
+}
