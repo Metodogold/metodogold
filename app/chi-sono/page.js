@@ -73,7 +73,7 @@ export default function ChiSonoPage() {
                   Cristina Barni
                 </p>
                 <p className="mt-1 text-sm text-gray-600">
-                  Odontoiatra • Specialista in Ortodonzia e Gnatologia • Dentosofia
+                  Odontoiatra • Specialista in Ortodonzia e Gnatologia • Naturopata • Dentosofia
                   • Terapia cranio sacrale • Biomagnetista • Terapie Essene ed
                   Egizie
                 </p>
@@ -95,7 +95,7 @@ export default function ChiSonoPage() {
                 </Bullet>
                 <Bullet>
                   Specializzazione in <strong>Ortodonzia e Gnatologia</strong>{" "}
-                  (Roma – Policlinico A. Gemelli)
+                 <strong> (Roma – Policlinico A. Gemelli)</strong>
                 </Bullet>
                 <Bullet>
                   Formazione <strong>Cranio-Sacrale</strong> (Upledger)
@@ -108,7 +108,7 @@ export default function ChiSonoPage() {
                   Diploma triennale in <strong>Omeopatia</strong> (COII)
                 </Bullet>
                 <Bullet>
-                  Formazione come <strong>Biomagnetista</strong> (metodo Dr. Goiz)
+                  Formazione come <strong>Biomagnetista</strong><strong> (metodo Dr. Goiz)</strong>
                 </Bullet>
               </ul>
             </InfoCard>
@@ -135,7 +135,7 @@ export default function ChiSonoPage() {
           <div className="md:col-span-7 space-y-6">
             <div className="rounded-3xl border bg-white shadow-sm p-7 md:p-9">
               <p className="text-sm font-semibold text-yellow-600">
-                Percorso e visione
+                Biografia
               </p>
 
               <div className="mt-4 text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
@@ -164,15 +164,6 @@ export default function ChiSonoPage() {
                   diversi studi e con figure professionali differenti, in un
                   confronto continuo tra clinica, osservazione e integrazione.
                 </p>
-              </div>
-            </div>
-
-            <div className="rounded-3xl border bg-white shadow-sm p-7 md:p-9">
-              <p className="text-sm font-semibold text-yellow-700">
-                L’evoluzione verso l’integrazione
-              </p>
-
-              <div className="mt-4 text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
                 <p>
                   Nel tempo, nella pratica quotidiana ho incontrato sempre più
                   pazienti “complessi”: persone in cui i sintomi non erano mai solo
@@ -186,13 +177,21 @@ export default function ChiSonoPage() {
                   ma che in realtà mi aiutavano a comprendere meglio ciò che vedevo
                   ogni giorno in studio. Parallelamente ho intrapreso un percorso
                   personale di consapevolezza, iniziato con lo{" "}
-                  <strong>Yoga Kundalini</strong>, che pratico da 18 anni.
+                  <strong>Yoga Kundalini</strong>, che pratico da 18 anni e proseguito con esperienze formative orientate a una comprensione più ampia dell’essere umano.
                 </p>
+              </div>
+            </div>
 
+            <div className="rounded-3xl border bg-white shadow-sm p-7 md:p-9">
+              <p className="text-sm font-semibold text-yellow-600">
+                Competenze integrate e formazione
+              </p>
+
+              <div className="mt-4 text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
                 <p>
                   Una tappa fondamentale del mio percorso è stata la formazione come{" "}
-                  <strong>Terapista Cranio-Sacrale</strong> presso la scuola
-                  Upledger, che mi ha permesso di affinare l’ascolto manuale e la
+                  <strong>Terapista Cranio-Sacrale</strong> presso la scuola <strong>
+                  Upledger</strong>, che mi ha permesso di affinare l’ascolto manuale e la
                   lettura delle relazioni tra cranio, sistema nervoso e adattamenti
                   posturali. Nel 2014 ho incontrato uno strumento che ha segnato una
                   svolta clinica: l’<strong>attivatore plurifunzionale</strong>, che
@@ -200,30 +199,21 @@ export default function ChiSonoPage() {
                   cambiamento più rispettoso dei tempi biologici, basato su forze
                   leggere e su una integrazione più fisiologica.
                 </p>
-              </div>
-            </div>
-
-            <div className="rounded-3xl border bg-white shadow-sm p-7 md:p-9">
-              <p className="text-sm font-semibold text-yellow-700">
-                Competenze integrate e formazione
-              </p>
-
-              <div className="mt-4 text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
                 <p>
                   Questa evoluzione mi ha portato ad approfondire la{" "}
                   <strong>Dentosofia</strong> e a completare in seguito la formazione
-                  con Michel Montaud, integrando una visione che considera la bocca
+                  con <strong>Michel Montaud</strong>, integrando una visione che considera la bocca
                   non solo come struttura, ma come parte di un sistema complesso in
                   cui <strong>funzione, postura, sistema nervoso ed emotività</strong>{" "}
-                  dialogano costantemente. Nel 2018 ho conseguito anche il diploma
-                  triennale in <strong>Omeopatia</strong> presso il Centro Omeopatico
-                  Italiano Ippocrate (COII) di Roma e ho proseguito la mia
+                  dialogano costantemente. Nel 2018 ho conseguito anche il <strong>diploma
+                  triennale in Omeopatia</strong> presso il <strong>Centro Omeopatico
+                  Italiano Ippocrate (COII) </strong>di Roma e ho proseguito la mia
                   formazione, includendo anche la preparazione come{" "}
-                  <strong>biomagnetista</strong> secondo il metodo del Dr. Goiz.
+                  <strong>biomagnetista</strong> secondo il <strong>metodo del Dr. Goiz</strong>.
                 </p>
 
                 <p>
-                  Accanto alla clinica, la formazione è diventata una parte sempre
+                  Accanto alla clinica, la <strong>formazione </strong>è diventata una parte sempre
                   più centrale del mio lavoro: negli anni ho tenuto{" "}
                   <strong>conferenze, seminari ed eventi</strong> rivolti a
                   professionisti interessati a una lettura integrata della salute
@@ -235,9 +225,9 @@ export default function ChiSonoPage() {
 
                 <p>
                   Attualmente svolgo attività come libero professionista in
-                  Sardegna. Pur non lavorando più stabilmente a Roma, tornerò per
+                  Sardegna. Pur non lavorando più stabilmente a Roma, <strong>tornerò per
                   tenere corsi e formazione in collaborazione con{" "}
-                  <strong>Salute Sì</strong>, progetto dedicato alla salute in
+                  Salute Sì</strong>, progetto dedicato alla salute in
                   ambito integrato legato a NaturaSì.
                 </p>
 
@@ -287,27 +277,12 @@ export default function ChiSonoPage() {
                     href="/prenota"
                     className="px-6 py-3 rounded-full border border-gray-200 bg-white text-gray-900 font-semibold hover:bg-gray-50 transition"
                   >
-                    Prenota un contatto
+                    Contattaci per più info
                   </a>
                 </div>
               </div>
             </div>
 
-            {/* mini trust */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="rounded-2xl border bg-white p-4">
-                <p className="text-sm text-gray-500">Focus</p>
-                <p className="font-semibold text-gray-900">Gnatologia integrata</p>
-              </div>
-              <div className="rounded-2xl border bg-white p-4">
-                <p className="text-sm text-gray-500">Approccio</p>
-                <p className="font-semibold text-gray-900">Sistemico</p>
-              </div>
-              <div className="rounded-2xl border bg-white p-4">
-                <p className="text-sm text-gray-500">Metodo</p>
-                <p className="font-semibold text-gray-900">Ascolto + clinica</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
