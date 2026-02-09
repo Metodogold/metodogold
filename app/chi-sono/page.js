@@ -276,35 +276,34 @@ export default function ChiSonoPage() {
       </PersonSection>
 
       {/* PACHÌ */}
-      <PersonSection
-        id="francescopachi"
-imageSrc="/images/francescopachi.png"
-imageAlt="Dott Francesco Pachi"
-prefix="Dott."
-name="Francesco Pachì"
-roleline="• Odontoiatra • Specialista in Ortodonzia • Docente del Corso di Laurea in Odontoiatria e Protesi Dentaria (Università di Roma Tor Vergata) • Socio ordinario della S.I.D.O. • Dentosofia"
-          >
-    
-        <p>
-          Il Dottor Francesco Pachì si occupa di ortodonzia da oltre trent’anni, svolgendo la professione con passione, rigore e costante aggiornamento. Laureato in Odontoiatria e specializzato in Ortodonzia, fa parte del corpo docente del Corso di Laurea in Odontoiatria e Protesi Dentaria dell’Università di Roma Tor Vergata
-        </p>
+<PersonSection
+  id="francescopachi"
+  imageSrc="/images/francescopachi.png"
+  imageAlt="Dott Francesco Pachi"
+  prefix="Dott."
+  name="Francesco Pachì"
+  roleline="• Odontoiatra • Specialista in Ortodonzia • Docente del Corso di Laurea in Odontoiatria e Protesi Dentaria (Università di Roma Tor Vergata) • Socio ordinario della S.I.D.O. • Dentosofia"
+>
+  <p>
+    Il Dottor Francesco Pachì si occupa di ortodonzia da oltre trent’anni, svolgendo la professione con passione, rigore e costante aggiornamento. Laureato in Odontoiatria e specializzato in Ortodonzia, fa parte del corpo docente del Corso di Laurea in Odontoiatria e Protesi Dentaria dell’Università di Roma Tor Vergata
+  </p>
 
-        <p>
-          È autore di numerose pubblicazioni scientifiche su riviste nazionali e internazionali e interviene come relatore in congressi in Italia e all’estero, affrontando temi quali ortodonzia, malocclusioni, postura e ortodonzia funzionale. Da più di vent’anni dedica particolare attenzione allo studio delle connessioni tra occlusione e assetto posturale, approfondendo come le disarmonie del morso possano influire sull’equilibrio globale del paziente.
-        </p>
+  <p>
+    È autore di numerose pubblicazioni scientifiche su riviste nazionali e internazionali e interviene come relatore in congressi in Italia e all’estero, affrontando temi quali ortodonzia, malocclusioni, postura e ortodonzia funzionale. Da più di vent’anni dedica particolare attenzione allo studio delle connessioni tra occlusione e assetto posturale, approfondendo come le disarmonie del morso possano influire sull’equilibrio globale del paziente.
+  </p>
 
-        <p>
-          Socio ordinario della S.I.D.O. – Società Italiana di Ortodonzia dal 1990, nel corso della sua attività ha sperimentato diversi approcci terapeutici e molte tipologie di apparecchi ortodontici, selezionandoli nel tempo anche in base alle loro implicazioni sul sistema posturale.
-        </p>
+  <p>
+    Socio ordinario della S.I.D.O. – Società Italiana di Ortodonzia dal 1990, nel corso della sua attività ha sperimentato diversi approcci terapeutici e molte tipologie di apparecchi ortodontici, selezionandoli nel tempo anche in base alle loro implicazioni sul sistema posturale.
+  </p>
 
-        <p>
-          Parallelamente, ha coltivato un interesse costante per le medicine non convenzionali, tra cui omotossicologia, omeopatia, osteopatia e kinesiologia applicata. La sua ricerca professionale si fonda su una visione dell’essere umano come unità di corpo, pensieri, emozioni, anima e spirito, orientata a integrare questi livelli anche nella pratica ortodontica. In questo senso, riconosce nella dentosofia un modello capace di tradurre in modo concreto un approccio terapeutico più ampio e integrato.
-        </p>
+  <p>
+    Parallelamente, ha coltivato un interesse costante per le medicine non convenzionali, tra cui omotossicologia, omeopatia, osteopatia e kinesiologia applicata. La sua ricerca professionale si fonda su una visione dell’essere umano come unità di corpo, pensieri, emozioni, anima e spirito, orientata a integrare questi livelli anche nella pratica ortodontica. In questo senso, riconosce nella dentosofia un modello capace di tradurre in modo concreto un approccio terapeutico più ampio e integrato.
+  </p>
 
-        <p>
-          Seguendo questa visione, il Professor Pachì promuove un metodo di lavoro collaborativo, guidando le competenze della propria équipe verso un obiettivo condiviso e, quando necessario, valorizzando anche il contributo di altre figure specialistiche, sempre nell’interesse del paziente.
-        </p>
-      </PersonSection>
+  <p>
+    Seguendo questa visione, il Professor Pachì promuove un metodo di lavoro collaborativo, guidando le competenze della propria équipe verso un obiettivo condiviso e, quando necessario, valorizzando anche il contributo di altre figure specialistiche, sempre nell’interesse del paziente.
+  </p>
+</PersonSection>
 
       {/* SATTA — PARTE 1 */}
       <PersonSection
