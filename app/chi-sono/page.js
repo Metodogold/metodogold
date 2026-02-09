@@ -283,7 +283,7 @@ export default function ChiSonoPage() {
         prefix="Dott."
         name="Francesco Pachì"
         roleLine="• Odontoiatra • Specialista in Ortodonzia • Docente del Corso di Laurea in Odontoiatria e Protesi Dentaria (Università di Roma Tor Vergata) • Socio ordinario della S.I.D.O. • Dentosofia"
-      />
+    
         <p>
           Il Dottor Francesco Pachì si occupa di ortodonzia da oltre trent’anni, svolgendo la professione con passione, rigore e costante aggiornamento. Laureato in Odontoiatria e specializzato in Ortodonzia, fa parte del corpo docente del Corso di Laurea in Odontoiatria e Protesi Dentaria dell’Università di Roma Tor Vergata
         </p>
