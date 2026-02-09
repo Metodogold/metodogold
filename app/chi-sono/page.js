@@ -277,12 +277,12 @@ export default function ChiSonoPage() {
 
       {/* PACHÌ */}
       <PersonSection
-  id="francescopachi"
-  imageSrc="/images/francescopachi.png"
-  imageAlt="Dott. Francesco Pachì"
-  prefix="Dott."
-  name="Francesco Pachì"
-  roleLine="• Odontoiatra • Specialista in Ortodonzia • Docente del Corso di Laurea in Odontoiatria e Protesi Dentaria (Università di Roma Tor Vergata) • Socio ordinario della S.I.D.O. • Dentosofia"
+        id="francescopachi"
+imageSrc="/images/francescopachi.png"
+imageAlt="Dott Francesco Pachi"
+prefix="Dott."
+name="Francesco pachì"
+roleline="• Odontoiatra • Specialista in Ortodonzia • Docente del Corso di Laurea in Odontoiatria e Protesi Dentaria (Università di Roma Tor Vergata) • Socio ordinario della S.I.D.O. • Dentosofia"
           />
     
         <p>
