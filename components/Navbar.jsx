@@ -13,7 +13,7 @@ export default function Navbar() {
 
   // hover delay desktop
   const closingTimeout = useRef(null);
-  const CLOSE_DELAY_MS = 900;
+  const CLOSE_DELAY_MS = 100;
 
   const handleMouseEnter = (i) => {
     if (closingTimeout.current) clearTimeout(closingTimeout.current);
@@ -28,7 +28,17 @@ export default function Navbar() {
   };
 
   const menuItems = [
-    { name: "Chi sono", href: "/chi-sono" },
+    { name: "Chi siamo", href: "/chi-sono" ,
+      dropdown: [
+        { name: "Cristina Barni", href: "/chi-sono/#cristinabarni" },
+        { name: "Francesca Faliva", href: "/chi-sono/#francescafaliva" },
+        { name: "Francesco Pachì", href: "/chi-sono/#francescopachì" },
+        { name: "Luigi Satta", href: "/chi-sono/#luigisatta" },
+        { name: "Teresa Mazzei", href: "/chi-sono/#teresamazzei" },
+        
+      ],
+      
+    },
     {
       name: "Metodo Gold",
       href: "/chi-sono/il-metodo-gold",
@@ -46,7 +56,7 @@ export default function Navbar() {
         },
       ],
     },
-    { name: "Corsi", href: "/corsi" },
+    { name: "Formazione", href: "/corsi" },
     { name: "Eventi", href: "/eventi" },
     { name: "Media", href: "/media" },
     { name: "Contatti", href: "/contatti" },
