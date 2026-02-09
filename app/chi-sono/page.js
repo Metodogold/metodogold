@@ -260,7 +260,7 @@ export default function ChiSonoPage() {
         imageAlt="Dott.ssa Francesca Faliva"
         prefix=""
         name="Francesca Faliva"
-        roleLine="• Odontoiatra • Omeopata • Specialista in Ortodonzia e Gnatologia • Dentosofia • Terapia cranio sacrale • Biomagnetista • Terapie Essene ed Egizie"
+        roleLine="• Osteopata D.O.M.R.O.I. • Docente Osteopatia Craniale • Formatrice in Osteopatia Pediatrica e Biodinamica
       >
         <p>
           Francesca Faliva è osteopata e svolge la sua attività clinica tra Roma e Lido di Ostia. Dopo la laurea in Scienze Motorie presso l’ISEF di Roma e il diploma presso la Scuola Speciale per Terapisti della Riabilitazione, ha maturato una solida esperienza in ambito sanitario, lavorando anche in struttura ospedaliera e proseguendo parallelamente un percorso di formazione continuativa nell’ambito delle terapie manuali. Nel 1997 ha conseguito il Diploma in Osteopatia presso il C.E.R.D.O. e da allora ha sviluppato un orientamento clinico che integra la tradizione osteopatica con un’attenzione specifica all’area craniale e alla regolazione globale del sistema.
