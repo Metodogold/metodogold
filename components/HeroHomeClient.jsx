@@ -72,7 +72,7 @@ export default function HeroHomeClient() {
                            transition-all duration-200 active:scale-[0.99]
                            tracking-wide"
               >
-                Corsi
+                Formazione
               </Link>
             </div>
           </motion.div>
