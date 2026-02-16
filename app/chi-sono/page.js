@@ -200,7 +200,7 @@ export default function ChiSonoPage() {
               Attualmente svolgo attività come libero professionista in Sardegna. Pur non lavorando più stabilmente a Roma, tornerò per tenere corsi e formazione in collaborazione con Salute Sì, progetto dedicato alla salute in ambito integrato legato a NaturaSì.
             </p>
 
-            <p className="text-yellow-700>
+            <p className="mt-6 text-yellow-800">
               Il cuore del mio lavoro è l’ascolto: ascolto del corpo, delle funzioni, della postura, ma anche ascolto della storia e della fase di vita del paziente. Credo che una terapia efficace nasca da una diagnosi profonda, e che la diagnosi più accurata sia quella che unisce competenza clinica, osservazione e capacità di cogliere i meccanismi di adattamento dell’organismo. Per questo, accanto agli strumenti odontoiatrici, utilizzo anche metodiche di valutazione funzionale e un approccio kinesiologico personalizzato che mi aiuta a orientare il percorso in modo mirato.
             </p>
 
