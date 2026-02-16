@@ -179,9 +179,7 @@ export default function ChiSonoPage() {
       <section className="max-w-5xl mx-auto px-6 pb-20">
         <div className="mt-6">
           <div className="flex items-center justify-between gap-4 flex-wrap">
-            <p className="text-sm font-semibold text-yellow-600">
-              Competenze integrate e formazione
-            </p>
+  
             <span className="block h-[1px] flex-1 min-w-[180px] bg-gradient-to-r from-transparent via-yellow-400/35 to-transparent" />
           </div>
 
