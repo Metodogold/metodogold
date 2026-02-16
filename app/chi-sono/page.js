@@ -200,21 +200,13 @@ export default function ChiSonoPage() {
               Attualmente svolgo attività come libero professionista in Sardegna. Pur non lavorando più stabilmente a Roma, tornerò per tenere corsi e formazione in collaborazione con Salute Sì, progetto dedicato alla salute in ambito integrato legato a NaturaSì.
             </p>
 
-            <p>
+            <p className="text-yellow-700>
               Il cuore del mio lavoro è l’ascolto: ascolto del corpo, delle funzioni, della postura, ma anche ascolto della storia e della fase di vita del paziente. Credo che una terapia efficace nasca da una diagnosi profonda, e che la diagnosi più accurata sia quella che unisce competenza clinica, osservazione e capacità di cogliere i meccanismi di adattamento dell’organismo. Per questo, accanto agli strumenti odontoiatrici, utilizzo anche metodiche di valutazione funzionale e un approccio kinesiologico personalizzato che mi aiuta a orientare il percorso in modo mirato.
             </p>
 
             <p>
               I valori che guidano il mio operato sono la responsabilità e l’onestà: verso il paziente, verso la cura e verso la verità clinica del caso. Credo in una comunicazione chiara e rispettosa, capace di rendere comprensibile ciò che facciamo, senza creare dipendenza ma promuovendo consapevolezza. E credo che ogni percorso di salute, se sostenuto con serietà, possa diventare anche un percorso di conoscenza di sé: perché il sintomo spesso non è solo un problema da eliminare, ma un messaggio da comprendere.
             </p>
-
-            <div className="mt-6 rounded-3xl bg-yellow-50/70 p-6">
-              <p className="italic text-gray-700 leading-relaxed">
-                Credo che una terapia efficace nasca da una diagnosi profonda, capace
-                di unire competenza clinica e ascolto dei meccanismi di adattamento
-                dell’organismo.
-              </p>
-            </div>
 
             <div className="mt-8 rounded-3xl bg-gradient-to-b from-yellow-50 to-white p-7 shadow-sm">
               <p className="text-gray-700 leading-relaxed">
