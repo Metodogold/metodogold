@@ -184,7 +184,7 @@ export default function ChiSonoPage() {
           </div>
 
           <div className="mt-6 text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
-            <p>
+            <p className="border-l-4 border-yellow-600 pl-4">
               Una tappa fondamentale del mio percorso è stata la formazione come Terapista Cranio-Sacrale  presso la scuola Upledger, che mi ha permesso di affinare l’ascolto manuale e la lettura delle relazioni tra cranio, sistema nervoso e adattamenti posturali. Nel 2014 ho incontrato uno strumento che ha segnato una svolta clinica: l’attivatore plurifunzionale, che mi ha permesso di avvicinarmi a un modo di accompagnare il cambiamento più rispettoso dei tempi biologici, basato su forze leggere e su una integrazione più fisiologica.
             </p>
 
