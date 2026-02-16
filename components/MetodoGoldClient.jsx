@@ -543,57 +543,134 @@ Prevenzione e supporto in ambito sportivo. </span>
     </div>
   </div>
 
-  <div className="text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
-    <p className="first-letter:text-3xl first-letter:font-semibold first-letter:text-yellow-600 first-letter:mr-1">
-      Il termine “dentosofia” rappresenta una visione in cui la bocca è considerata come uno specchio
-      dell’equilibrio interno della persona. Non si limita a correggere la posizione dei denti, ma
-      osserva la funzione, la crescita e l’espressione dell’intero sistema.
-    </p>
+<div className="text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
 
-    <p>
-      La dentosofia considera la bocca un centro di regolazione dell’organismo, in relazione costante
-      con postura, respirazione, sistema nervoso ed equilibrio emozionale.
-      <span className="italic text-yellow-600"> La bocca diventa così una via privilegiata di dialogo con il corpo.</span>
-    </p>
+  <p className="first-letter:text-3xl first-letter:font-semibold first-letter:text-yellow-600 first-letter:mr-1">
+    La <strong>Dentosofia</strong> è un approccio odontoiatrico integrato che
+    legge la bocca come parte di un sistema più ampio, in relazione con la
+    persona nella sua globalità.
+  </p>
 
-    <div className="border-l-4 border-yellow-500 pl-4 py-2 my-2 text-gray-700 italic">
-      In dentosofia non si forza una forma: si accompagna un processo.
-    </div>
+  <p>
+    Il termine nasce dall’unione di dens (dente) e sophia (sapienza) e significa
+    letteralmente <strong>“saggezza dei denti”</strong>: un invito a leggere la
+    bocca non solo in termini meccanici, ma anche come espressione di funzioni,
+    adattamenti e storia individuale.
+  </p>
 
-    <p>
-      È indicata sia in età evolutiva che nell’adulto. Nei bambini accompagna la crescita, sostiene lo
-      sviluppo armonico e previene compensi. Nell’adulto favorisce il riequilibrio funzionale, riduce
-      tensioni e sostiene l’integrazione posturale. L’obiettivo non è raddrizzare i denti, ma favorire
-      uno sviluppo armonico, rispettando i tempi e le risorse del sistema.
-    </p>
+  <p>
+    Sviluppata negli anni ’80 dai medici dentisti <strong>Michel </strong>
+    <strong>Montaud</strong> e <strong>Rodrigue</strong>
+    <strong> Mathieu</strong>, la Dentosofia integra conoscenze di odontoiatria,
+    ortodonzia funzionale, fisiologia della respirazione e dello sviluppo
+    cranio-facciale, ponendo attenzione a come{" "}
+    <strong>
+      masticazione, deglutizione, fonazione, postura linguale e respirazione
+    </strong>{" "}
+    influenzino nel tempo forma delle arcate, equilibrio dell’occlusione e
+    benessere generale.
+  </p>
 
-    <h4 className="text-lg md:text-xl font-semibold text-yellow-600 mt-10 mb-3 tracking-wide">
-      L’attivatore plurifunzionale di Soulet-Besombes
-    </h4>
+  <p>
+    La Dentosofia si ispira alla visione dell’<strong>Antroposofia</strong> di{" "}
+    <strong>Rudolf Steiner</strong>, che considera l’essere umano come un’unità
+    composta da dimensione corporea, vitale, emozionale e spirituale. In questa
+    prospettiva, la salute non è solo assenza di sintomi, ma un{" "}
+    <strong>equilibrio dinamico</strong> tra queste diverse componenti.
+    Applicata al cavo orale, questa visione invita l’operatore a osservare il
+    paziente in modo più ampio: non solo con lo scopo di allineare i denti ma
+    cercando di promuovere un equilibrio piu ampio considerando tutte le sfere
+    del suo essere.
+  </p>
 
-    <p>
-      L’attivatore plurifunzionale è un dispositivo funzionale usato per favorire il riequilibrio delle
-      funzioni orali. Non è un apparecchio ortodontico tradizionale: non sposta i denti con forze
-      meccaniche, ma supporta funzioni fisiologiche come respirazione, deglutizione e postura linguale.
-      <span className="italic text-yellow-600"> Non impone un cambiamento, lo propone.</span>
-    </p>
+  <h4 className="text-lg md:text-xl font-semibold text-yellow-600 mt-10 mb-3 tracking-wide">
+   L’Attivatore Plurifunzionale di 
+    <strong> Soulet-Besombes</strong>
+  </h4>
 
-    <p>
-      Attraverso la stimolazione propriocettiva e il coinvolgimento della muscolatura oro-facciale,
-      l’attivatore dialoga con il sistema nervoso e favorisce una nuova organizzazione neuromotoria.
-      La sua efficacia è massima quando inserito in un percorso multidisciplinare che coinvolge
-      osteopatia, logopedia, gnatologia, fisioterapia e posturologia.
-    </p>
+    Lo strumento cardine della Dentosofia è l’
+    <strong>Attivatore Plurifunzionale (APF)</strong>, ideato da{" "}
+    <strong>Soulet-Besombes</strong>. È un dispositivo elastico, oggi
+    generalmente in silicone o in materiale termoplastico (in origine in
+    caucciù), che si posiziona tra le arcate e che, pur apparendo semplice, ha
+    un’azione complessa: si definisce “plurifunzionale” proprio perché non
+    agisce solo sui denti.
 
-    <p>
-      In età evolutiva accompagna la crescita. Nell’adulto aiuta a sciogliere schemi adattativi,
-      ridurre tensioni croniche e favorire un riequilibrio globale.
-      <span className="italic text-yellow-600"> Perché anche qui, il cambiamento vero nasce dall’interno.</span>
-    </p>
-    
 
-    
-  </div>
+  <p>
+    L’APF viene utilizzato con l’obiettivo di{" "}
+    <strong>rieducare e armonizzare le funzioni orali</strong> e il loro dialogo
+    con il resto del corpo, lavorando su più livelli:
+  </p>
+
+  <p>
+    <strong>Respirazione:</strong> favorisce la respirazione nasale e una
+    migliore organizzazione delle funzioni oro-faringee.
+  </p>
+
+  <p>
+    <strong>Deglutizione e postura linguale:</strong> sostiene un riequilibrio
+    dei pattern funzionali, spesso alla base di arcate strette o instabilità
+    occlusali.
+  </p>
+
+  <p>
+    <strong>Masticazione e tono neuromuscolare:</strong> stimola una
+    riorganizzazione più fisiologica dell’attività muscolare e promuove una
+    attività neurologica di zone specifiche del cervello.
+  </p>
+
+  <p>
+    <strong>Occlusione e postura:</strong> il lavoro sulla bocca può riflettersi
+    sull’organizzazione posturale e sui compensi, soprattutto nei pazienti con
+    disfunzioni cranio-cervico-mandibolari.
+  </p>
+
+  <p>
+    <strong>Coinvolgimento attivo del paziente:</strong> il paziente non è
+    passivo: l’apparecchio richiede collaborazione e costanza, diventando parte
+    di un percorso di consapevolezza delle proprie funzioni.
+  </p>
+
+  <p>
+    Nella Dentosofia l’APF viene apprezzato perché si propone di accompagnare il
+    cambiamento attraverso <strong>forze leggere</strong>, rispettose dei{" "}
+    <strong>tempi biologici</strong> e dell’adattamento del sistema. Questo rende
+    l’approccio generalmente <strong>meno invasivo</strong> rispetto a metodiche
+    che impongono correzioni rapide o prevalentemente meccaniche.
+  </p>
+
+  <h4 className="text-lg md:text-xl font-semibold text-yellow-600 mt-10 mb-3 tracking-wide">
+   Euritmia
+  </h4>
+    All’interno della visione antroposofica, un ruolo importante è svolto
+    dall’Euritmia, un’arte del movimento consapevole che unisce ritmo, postura,
+    respirazione e presenza, e che può trovare diverse applicazioni. Attraverso
+    gesti guidati e sequenze di movimento, l’Euritmia aiuta a portare attenzione
+    al corpo e al respiro, a modulare il tono neuromuscolare e a favorire una
+    migliore assimilazione dei cambiamenti funzionali che avvengono nel tempo.
+ 
+
+  <p>
+    L’Euritmia si fonda su un’immagine dell’essere umano come essere spirituale
+    che compie un’esperienza terrena e che, per questo, assume una costituzione
+    complessa e integrata. In questa prospettiva l’uomo è mediatore tra mondo
+    fisico e mondo spirituale ed è composto da corpo, anima e spirito; e
+    l’anima, a sua volta, esprime tre facoltà fondamentali — pensare, sentire e
+    volere — attraverso le quali l’individuo sviluppa autocoscienza, relazione
+    con gli altri e comprensione del mondo. Quanto più questa coscienza diviene
+    viva, tanto più il gesto con cui l’essere umano “plasma” la realtà, come
+    singolo e come comunità, può diventare coerente con il suo ruolo nei
+    confronti della Natura, del Cosmo e degli altri uomini.
+  </p>
+
+  <p>
+    L’Euritmia offre un linguaggio pratico per entrare in contatto con una
+    conoscenza che non sia soltanto intellettuale, ma vivente, rendendo
+    l’esperienza corporea un ponte tra percezione, consapevolezza e integrazione.
+  </p>
+</div>
+
 </section>
 
 
