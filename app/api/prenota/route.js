@@ -1,44 +1,38 @@
-// app/api/prenota/route.js
 import nodemailer from "nodemailer";
 
 export async function POST(req) {
   try {
-    const { nome, email, telefono, messaggio } = await req.json();
+    const data = await req.json();
+    const { nome, email, telefono, messaggio } = data;
 
-    // ✅ Legge ENV (obbligatorie)
-    const host = process.env.SMTP_HOST;
-    const port = Number(process.env.SMTP_PORT || 587);
-    const user = process.env.SMTP_USER;
-    const pass = process.env.SMTP_PASS;
-
-    // Se manca qualcosa, fallisce subito (niente fallback a 127.0.0.1)
-    if (!host || !user || !pass) {
-      return Response.json(
-        { ok: false, error: "Config SMTP mancante su Vercel (SMTP_HOST/SMTP_USER/SMTP_PASS)." },
-        { status: 500 }
-      );
+    // Validazione variabili ambiente (così capisci subito cosa manca su Vercel)
+    const required = ["SMTP_HOST", "SMTP_PORT", "SMTP_USER", "SMTP_PASS", "MAIL_FROM"];
+    for (const k of required) {
+      if (!process.env[k]) {
+        return Response.json(
+          { ok: false, error: `Variabile mancante: ${k}` },
+          { status: 500 }
+        );
+      }
     }
 
-    // ✅ Regola porta/secure
-    const secure = port === 465; // 465 => true, 587 => false
-
     const transporter = nodemailer.createTransport({
-      host,
-      port,
-      secure,
-      auth: { user, pass },
-      ...(port === 587 ? { requireTLS: true } : {}),
+      host: process.env.SMTP_HOST,
+      port: Number(process.env.SMTP_PORT),
+      secure: process.env.SMTP_SECURE === "true", // true se 465
+      auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
+      },
+      // utile con alcuni provider
+      tls: {
+        rejectUnauthorized: false,
+      },
     });
 
-    // (Opzionale ma utile) Verifica connessione SMTP
-    // await transporter.verify();
-
-    const to = process.env.MAIL_TO || user; // destinatario finale
-    const from = process.env.MAIL_FROM || user; // mittente (spesso deve essere lo stesso user)
-
-    const subject = `Nuova richiesta dal sito — ${nome || "Senza nome"}`;
-
     const text = [
+      "Nuova richiesta prenotazione",
+      "",
       `Nome: ${nome}`,
       `Email: ${email}`,
       `Telefono: ${telefono || "-"}`,
@@ -48,10 +42,10 @@ export async function POST(req) {
     ].join("\n");
 
     await transporter.sendMail({
-      from,
-      to,
-      replyTo: email, // così rispondi direttamente al contatto
-      subject,
+      from: process.env.MAIL_FROM,
+      to: process.env.MAIL_TO || "metodogold7@gmail.com",
+      replyTo: email,
+      subject: `Richiesta prenotazione - ${nome}`,
       text,
     });
 
@@ -59,7 +53,7 @@ export async function POST(req) {
   } catch (err) {
     console.error("❌ ERRORE INVIO EMAIL:", err);
     return Response.json(
-      { ok: false, error: err?.message || "Errore invio email" },
+      { ok: false, error: err?.message || "Invio email fallito" },
       { status: 500 }
     );
   }
