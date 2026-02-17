@@ -298,7 +298,7 @@ export default function ChiSonoPage() {
       {/* SATTA — PARTE 1 */}
       <PersonSection
         id="luigisatta"
-        imageSrc="/images/luigisatta.png"
+        imageSrc="/images/luigisatta.jpg"
         imageAlt="Dott. Luigi Satta"
         prefix="Dott."
         name="Luigi Satta"
