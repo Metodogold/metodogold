@@ -301,7 +301,7 @@ export default function PromoClient() {
         {/* più largo su desktop per evitare 3 righe */}
         <div className="md:col-span-10 lg:col-span-8">
           {/* titolo su 2 righe forzate anche su desktop */}
-          <h1 className="text-3xl font-extrabold tracking-tight leading-[0.95] text-white sm:text-4xl md:text-5xl lg:text-6xl xl:text-[4.25rem]">
+          <h1 className="text-3xl font-extrabold tracking-tight leading-[1.06] text-white sm:text-4xl md:text-5xl lg:text-6xl xl:text-[4.25rem]">
             <span className="block md:whitespace-nowrap">Corso di Gnatologia</span>
             <span className="block md:whitespace-nowrap">Osteopatica Integrata</span>
           </h1>
