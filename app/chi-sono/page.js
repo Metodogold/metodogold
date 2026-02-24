@@ -202,7 +202,7 @@ export default function ChiSonoPage() {
             </p>
             <div className="mt-6 rounded-3xl bg-yellow-50/100 p-6">
             <p>
-              Il cuore del mio lavoro è <strong>l’ascolto</strong>: ascolto del corpo, delle funzioni, della postura, ma anche ascolto della storia e della fase di vita del paziente. Credo che una terapia efficace nasca da una diagnosi profonda, e che la diagnosi più accurata sia quella che unisce competenza clinica, osservazione e capacità di cogliere i meccanismi di adattamento dell’organismo. Per questo, accanto agli strumenti odontoiatrici, utilizzo anche metodiche di valutazione funzionale e un approccio kinesiologico personalizzato che mi aiuta a orientare il percorso in modo mirato.
+              Il cuore del mio lavoro è <strong>l’ascolto</strong>: ascolto del corpo, delle funzioni, della postura, ma anche ascolto della storia e delle fasi di vita del paziente. Credo che una terapia efficace nasca da una diagnosi profonda, e che la diagnosi più accurata sia quella che unisce competenza clinica, osservazione e capacità di cogliere i meccanismi di adattamento dell’organismo. Per questo, accanto agli strumenti odontoiatrici, utilizzo anche metodiche di valutazione funzionale e un approccio kinesiologico personalizzato che mi aiuta a orientare il percorso in modo mirato.
             </p>
           </div>
             <p>
@@ -271,11 +271,11 @@ export default function ChiSonoPage() {
   <p>
     Dal 1989 opera come libera professionista presso studi medici e dal 2000 si
     dedica con continuità anche all’insegnamento, avendo svolto per oltre
-    venticinque anni attività come docente di Osteopatia Craniale. È stata
-    Responsabile del Dipartimento di Osteopatia Craniale del CSOT di Roma e ha
+    <strong> venticinque anni attività come docente di Osteopatia Craniale. È stata
+    Responsabile del Dipartimento di Osteopatia Craniale del CSOT di Roma</strong> e ha
     approfondito nel tempo, attraverso numerosi percorsi di studio e
-    aggiornamento, anche la formazione in osteopatia pediatrica e l’approccio
-    biodinamico, consolidando una visione integrata della salute e del lavoro
+    aggiornamento, anche la formazione in <strong>osteopatia pediatrica e l’approccio
+    biodinamico</strong>, consolidando una visione integrata della salute e del lavoro
     sul paziente.
   </p>
 
