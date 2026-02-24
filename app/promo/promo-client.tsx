@@ -200,29 +200,19 @@ function SectionTitle({
 
 function EcmSeal() {
   return (
-    <div className="inline-flex items-center gap-3 rounded-full border border-white/80 bg-black/25 px-4 py-3 md:px-5 md:py-4 backdrop-blur-md shadow-[0_14px_40px_-18px_rgba(0,0,0,0.6)]">
-      <span className="grid h-10 w-10 md:h-12 md:w-12 shrink-0 place-items-center rounded-full bg-gradient-to-br from-[#B8860B] via-[#D4AF37] to-[#F2D06B] text-slate-950">
-        <Award className="h-5 w-5 md:h-6 md:w-6" />
+    <div className="inline-flex items-center gap-2.5 rounded-full border border-white/70 bg-black/28 px-4 py-2.5 md:px-5 md:py-3 backdrop-blur-md shadow-[0_14px_40px_-18px_rgba(0,0,0,0.6)]">
+      <span className="grid h-8 w-8 md:h-9 md:w-9 shrink-0 place-items-center rounded-full bg-gradient-to-br from-[#B8860B] via-[#D4AF37] to-[#F2D06B] text-slate-950">
+        <Award className="h-4 w-4 md:h-5 md:w-5" />
       </span>
 
-      <div className="text-left leading-tight">
-        <div className="text-[10px] md:text-[11px] font-semibold tracking-[0.22em] text-white/85">
-          CREDITI ECM
-        </div>
-
-        <div className="mt-0.5 text-[1.35rem] sm:text-[1.55rem] md:text-[1.85rem] font-extrabold leading-none bg-gradient-to-r from-[#B8860B] via-[#D4AF37] to-[#F2D06B] bg-clip-text text-transparent">
-          50 CREDITI ECM
-        </div>
-
-        <div className="mt-1 text-sm md:text-base text-white/95">
-          <span className="border-b-2 border-[#D4AF37]">
-            {CONTENT.attestato}
-          </span>
-        </div>
-      </div>
+      <span className="text-2xl sm:text-3xl md:text-[2rem] font-extrabold leading-none bg-gradient-to-r from-[#B8860B] via-[#D4AF37] to-[#F2D06B] bg-clip-text text-transparent">
+        50 ECM
+      </span>
     </div>
   );
 }
+
+        
 /* === helper per mettere in bold parole/frasi specifiche === */
 function escapeRegExp(value: string) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -287,65 +277,56 @@ export default function PromoClient() {
         alt="Corso di Gnatologia Osteopatica Integrata"
         fill
         priority
-        className="object-cover object-center brightness-95"
+        className="object-cover object-[50%_35%] md:object-center brightness-95"
         sizes="100vw"
       />
       {/* overlay più scuro per leggibilità */}
       <div className="absolute inset-0 bg-black/58" />
-<div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/26" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/26" />
     </div>
 
     <div className="relative mx-auto max-w-6xl px-4">
-      {/* altezza più bassa (simile Formazione) */}
-      <div className="grid min-h-[390px] items-center gap-6 py-8 md:min-h-[455px] md:grid-cols-12 md:py-12">
-        {/* più largo su desktop per evitare 3 righe */}
+      {/* altezza compatta */}
+      <div className="grid min-h-[285px] items-center gap-3 py-5 md:min-h-[455px] md:grid-cols-12 md:gap-6 md:py-12">
         <div className="md:col-span-10 lg:col-span-8">
-          {/* titolo su 2 righe forzate anche su desktop */}
-          <h1 className="text-3xl font-extrabold tracking-tight leading-[1.06] text-white sm:text-4xl md:text-5xl lg:text-6xl xl:text-[4.25rem]">
-            <span className="block md:whitespace-nowrap">Corso di Gnatologia</span>
-            <span className="block md:whitespace-nowrap">Osteopatica Integrata</span>
-          </h1>
+          
 
-          <p className="mt-4 text-lg leading-snug font-semibold text-white sm:text-xl md:text-2xl">
-            {CONTENT.subtitle}
-          </p>
+<h1 className="mt-2 text-[2.35rem] font-extrabold tracking-tight leading-[1.14] text-white sm:mt-3 sm:text-[2.95rem] md:text-[3.7rem] md:leading-[1.16] lg:text-[4.2rem] xl:text-[4.7rem]">
+  <span className="block md:whitespace-nowrap">Corso di Gnatologia</span>
+  <span className="md:mt-2 md:whitespace-nowrap">Osteopatica Integrata</span>
+</h1>
 
-          <p className="mt-4 text-base leading-snug text-white sm:text-lg md:text-xl">
-            <span className="text-white">🤝</span> {CONTENT.collab}
-          </p>
-
-          {/* Grafica ECM attuale (pill), colori sfumati */}
-          <div className="mt-6">
-            <EcmSeal />
-          </div>
+<div className="mt-4 md:mt-5">
+  <EcmSeal />
+</div>
         </div>
       </div>
     </div>
   </div>
 
-  {/* Parte sotto come prima (icone + bottone + cards + banner) */}
+  {/* Parte sotto: testo grande + mesi + qualche icona + bottone */}
   <div className="relative mx-auto max-w-6xl px-4 pt-8 pb-10 md:pt-10 md:pb-10">
     <div className="mx-auto max-w-5xl text-center">
-      <div className="mt-0 flex flex-wrap justify-center gap-x-8 gap-y-3 text-base text-slate-700 md:text-lg">
+      <p className="text-2xl font-extrabold tracking-tight text-slate-900 md:text-4xl">
+        Percorso annuale teorico pratico in 3 moduli progressivi
+      </p>
+
+      <p className="mt-2 text-lg font-semibold text-slate-600 md:text-2xl">
+        Marzo • Giugno • Ottobre 2026
+      </p>
+
+      {/* lascio qualche icona */}
+      <div className="mt-5 flex flex-wrap justify-center gap-x-8 gap-y-3 text-base text-slate-700 md:text-lg">
         <div className="inline-flex items-center gap-2">
           <MapPin className="h-5 w-5 text-[color:var(--gold)]" />
           <span className="font-semibold">ROMA</span>
           <span className="text-slate-500">• In presenza</span>
         </div>
 
-        <div className="inline-flex items-center gap-2">
-          <CalendarDays className="h-5 w-5 text-[color:var(--gold)]" />
-          <span className="font-semibold">3 weekend (2026)</span>
-          <span className="text-slate-500">• Marzo • Giugno • Ottobre</span>
-        </div>
-
-        <div className="inline-flex items-center gap-2">
-          <GraduationCap className="h-5 w-5 text-[color:var(--gold)]" />
-          <span className="font-semibold">3 moduli progressivi</span>
-          <span className="text-slate-500">• teoria + pratica</span>
-        </div>
+        
       </div>
 
+      {/* tengo il bottone */}
       <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
         <a
           href="#programma"
