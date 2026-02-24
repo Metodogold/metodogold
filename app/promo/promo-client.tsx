@@ -291,14 +291,15 @@ export default function PromoClient() {
         <div className="md:col-span-10 lg:col-span-8">
           
 
-<h1 className="mt-2 text-[2.35rem] font-extrabold tracking-tight leading-[1.14] text-white sm:mt-3 sm:text-[2.95rem] md:text-[3.7rem] md:leading-[1.16] lg:text-[4.2rem] xl:text-[4.7rem]">
+<h1 className="mt-12 text-[2.35rem] font-extrabold tracking-tight leading-[1.14] text-white sm:mt-3 sm:text-[2.95rem] md:text-[3.7rem] md:leading-[1.16] lg:text-[4.2rem] xl:text-[4.7rem]">
   <span className="block md:whitespace-nowrap">Corso di Gnatologia</span>
   <span className="md:mt-2 md:whitespace-nowrap">Osteopatica Integrata</span>
 </h1>
 
-<div className="mt-4 md:mt-5">
+<div className="mt-10 md:mt-11">
   <EcmSeal />
 </div>
+
         </div>
       </div>
     </div>
@@ -398,34 +399,23 @@ export default function PromoClient() {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 720px"
             />
 
-            <div className="absolute inset-0 bg-black/10" />
+            <div className="absolute inset-0 bg-black/18 md:bg-black/12" />
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.42)_0%,rgba(0,0,0,0.22)_42%,rgba(0,0,0,0)_74%)] md:bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.32)_0%,rgba(0,0,0,0.16)_42%,rgba(0,0,0,0)_74%)]" />
 
             <div className="absolute inset-0 flex items-center justify-center px-4">
-              <div className="w-full max-w-[390px] sm:max-w-[440px] rounded-2xl border border-white/25 bg-black/10 backdrop-blur-sm px-5 py-5 sm:px-6 sm:py-6 text-center">
-                <div className="text-6xl font-extrabold leading-none text-white md:text-7xl">
-                  50 ECM
-                </div>
-                <div className="mt-2 text-xl font-extrabold text-white md:text-2xl">
-                  3 moduli progressivi • Roma
-                </div>
+           <div className="w-full max-w-[980px] text-center">
+            <p className="mx-auto max-w-[900px] text-[1.35rem] font-extrabold tracking-tight leading-[1.1] text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)] sm:text-[1.75rem] md:text-[2.75rem] md:leading-[1.08]">
+            <span className="block">Oltre ai denti,</span>
+            <span className="block">oltre all&apos;ATM.</span>
+            </p>
 
-                <div className="mt-4 flex flex-col items-center justify-center gap-2 sm:flex-row">
-                  <a
-                    href="#iscrizione"
-                    className="inline-flex items-center gap-2 rounded-2xl bg-[color:var(--gold)] px-4 py-2 text-base font-semibold text-slate-950 hover:opacity-90"
-                  >
-                    Richiedi info <ArrowRight className="h-4 w-4" />
-                  </a>
+           <div className="mx-auto mt-3 md:mt-4 h-px w-20 bg-white/70" />
 
-                  <a
-                    href="#programma"
-                    className="inline-flex items-center gap-2 rounded-2xl border border-white/35 bg-white/10 px-4 py-2 text-base font-semibold text-white hover:bg-white/15"
-                  >
-                    Vedi i moduli
-                  </a>
-                </div>
-              </div>
-            </div>
+          <p className="mx-auto mt-3 max-w-[330px] text-[1rem] font-semibold leading-[1.35] text-white drop-shadow-[0_3px_14px_rgba(0,0,0,0.9)] sm:mt-4 sm:max-w-[560px] sm:text-[1.2rem] sm:leading-[1.38] md:max-w-[1080px] md:text-[2rem] md:leading-[1.28]">
+           Una visione clinica completa per professionisti che vogliono fare la differenza.
+        </p>
+      </div>
+  </div>
           </div>
         </div>
         {/* fine blocco fino a cui hai chiesto aumento font progressivo continua sotto */}
@@ -435,21 +425,20 @@ export default function PromoClient() {
 </section>
       {/* OBIETTIVI + INTEGRAZIONI */}
       <section className="mx-auto max-w-6xl px-4 py-8">
-        <SectionTitle
-          title="Obiettivi e integrazioni cliniche"
-          subtitle="Approccio sistemico, interdisciplinare e orientato alle cause."
-          titleClassName="text-4xl sm:text-5xl md:text-6xl"
-          subtitleClassName="text-xl md:text-2xl"
-        />
+        <div className="mx-auto max-w-5xl text-center">
+  <p className="text-3xl font-bold tracking-tight leading-tight text-slate-900 sm:text-4xl md:text-5xl">
+    Approccio sistemico, interdisciplinare e orientato alle cause.
+  </p>
+</div>
 
         <div className="mt-6 md:mt-10 grid gap-8 md:grid-cols-12 md:items-start">
           <div className="md:col-span-7">
             <div className="grid gap-4">
               <div className="rounded-3xl bg-white p-6 shadow-sm md:p-7">
-                <div className="flex items-center justify-center gap-2 text-3xl font-extrabold text-slate-900 md:text-4xl">
-                  <GraduationCap className="h-7 w-7 text-[color:var(--gold)]" />
-                  <span>{CONTENT.objectivesTitle}</span>
-                </div>
+                <div className="flex items-center justify-center gap-2 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+  
+  <span>{CONTENT.objectivesTitle}</span>
+</div>
                 <ul className="mt-5 space-y-4 text-lg leading-relaxed text-slate-700 md:text-xl">
                   {CONTENT.objectives.map((t) => (
                     <li key={t} className="flex gap-3">
@@ -461,10 +450,10 @@ export default function PromoClient() {
               </div>
 
               <div className="rounded-3xl bg-white p-6 shadow-sm md:p-7">
-                <div className="flex items-center justify-center gap-2 text-3xl font-extrabold text-slate-900 md:text-4xl">
-                  <Sparkles className="h-7 w-7 text-[color:var(--gold)]" />
-                  <span>{CONTENT.integrazioniTitle}</span>
-                </div>
+               <div className="flex items-center justify-center gap-2 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+ 
+  <span>{CONTENT.integrazioniTitle}</span>
+</div>
                 <ul className="mt-5 space-y-4 text-lg leading-relaxed text-slate-700 md:text-xl">
                   {CONTENT.integrazioni.map((t) => (
                     <li key={t} className="flex gap-3">
