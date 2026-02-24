@@ -437,11 +437,11 @@ export default function PromoClient() {
           <div className="md:col-span-7">
             <div className="grid gap-4">
               <div className="rounded-3xl bg-white p-6 shadow-sm md:p-7">
-                <div className="flex items-center justify-center gap-2 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+                <div className="flex items-center justify-center gap-2 text-[2.1rem] leading-tight font-extrabold text-slate-900 sm:text-3xl md:text-4xl">
   
   <span>{CONTENT.objectivesTitle}</span>
 </div>
-                <ul className="mt-5 space-y-4 text-lg leading-relaxed text-slate-700 md:text-xl">
+                <ul className="mt-5 space-y-4 text-[1.22rem] leading-[1.45] text-slate-700 sm:text-[1.28rem] sm:leading-[1.48] md:text-xl md:leading-relaxed">
                   {CONTENT.objectives.map((t) => (
                     <li key={t} className="flex gap-3">
                       <span className="mt-2.5 h-2.5 w-2.5 shrink-0 rounded-full bg-[color:var(--gold)]" />
@@ -452,11 +452,11 @@ export default function PromoClient() {
               </div>
 
               <div className="rounded-3xl bg-white p-6 shadow-sm md:p-7">
-               <div className="flex items-center justify-center gap-2 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+               <div className="flex items-center justify-center gap-2 text-[2.1rem] leading-tight font-extrabold text-slate-900 sm:text-3xl md:text-4xl">
  
   <span>{CONTENT.integrazioniTitle}</span>
 </div>
-                <ul className="mt-5 space-y-4 text-lg leading-relaxed text-slate-700 md:text-xl">
+                <ul className="mt-5 space-y-4 text-[1.22rem] leading-[1.45] text-slate-700 sm:text-[1.28rem] sm:leading-[1.48] md:text-xl md:leading-relaxed">
                   {CONTENT.integrazioni.map((t) => (
                     <li key={t} className="flex gap-3">
                       <span className="mt-2.5 h-2.5 w-2.5 shrink-0 rounded-full bg-[color:var(--gold)]" />
