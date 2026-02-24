@@ -159,7 +159,7 @@ const CONTENT = {
       name: "Teresa Mazzei",
       role:
         'Euritmista, Master of Education Eurythmy, spec. in Euritmia Igienica e in "Eurythmy in working life", arte-terapia ad indirizzo antroposofico e Pedagogia di Emergenza',
-      img: "/images/teresamazzei.jpeg",
+      img: "/images/teresamazzei.png",
     },
   ],
 };
@@ -782,4 +782,5 @@ export default function PromoClient() {
       <div className="h-20 md:hidden" />
     </div>
   );
+
 }
