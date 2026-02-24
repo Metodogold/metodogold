@@ -379,45 +379,47 @@ export default function PromoClient() {
           </div>
         </div>
 
-        {/* BANNER promo1 */}
-        <div className="mt-4 overflow-hidden rounded-[2rem] border border-slate-200 bg-white">
-          <div className="relative h-[220px] sm:h-[250px] md:h-[290px] w-full">
-            <Image
-              src="/images/promo1.jpeg"
-              alt="Trattamento osteopatico"
-              fill
-              priority
-              className="object-cover object-center blur-sm scale-110 opacity-50"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 720px"
-            />
-            <Image
-              src="/images/promo1.jpeg"
-              alt="Trattamento osteopatico"
-              fill
-              priority
-              className="object-contain object-center"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 720px"
-            />
+{/* BANNER promo1 */}
+<div className="mt-4 overflow-hidden rounded-[2rem]">
+  <div className="relative h-[220px] sm:h-[250px] md:h-[300px] lg:h-[330px] w-full">
+    <Image
+      src="/images/promo1.jpeg"
+      alt="Cranio umano vista laterale"
+      fill
+      priority
+      className="object-cover object-[58%_45%] scale-100 opacity-95"
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 720px"
+    />
 
-            <div className="absolute inset-0 bg-black/18 md:bg-black/12" />
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.42)_0%,rgba(0,0,0,0.22)_42%,rgba(0,0,0,0)_74%)] md:bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.32)_0%,rgba(0,0,0,0.16)_42%,rgba(0,0,0,0)_74%)]" />
+    {/* overlay leggero per leggibilità */}
+    <div className="absolute inset-0 bg-black/[0.15] md:bg-black/12" />
+<div className="absolute inset-0 bg-gradient-to-r from-black/55 via-black/18 to-black/8 md:from-black/36 md:via-black/10 md:to-black/5" />
+<div className="absolute inset-0 bg-gradient-to-t from-black/38 via-black/8 to-black/12 md:from-black/14 md:via-transparent md:to-black/8" />
 
-            <div className="absolute inset-0 flex items-center justify-center px-4">
-           <div className="w-full max-w-[980px] text-center">
-            <p className="mx-auto max-w-[900px] text-[1.35rem] font-extrabold tracking-tight leading-[1.1] text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)] sm:text-[1.75rem] md:text-[2.75rem] md:leading-[1.08]">
-            <span className="block">Oltre ai denti,</span>
-            <span className="block">oltre all&apos;ATM.</span>
-            </p>
+    {/* testo */}
+    <div className="absolute inset-0 flex items-center justify-center px-4 -translate-y-2 md:-translate-y-4">
+      <div className="w-full max-w-[1150px] text-center">
+        <p className="mx-auto mt-3 md:mt-4 max-w-[360px] sm:max-w-[820px] md:max-w-[1220px] font-extrabold tracking-tight text-white leading-[1.22] sm:leading-[1.2] md:leading-[1.22] text-[1.6rem] sm:text-[1.8rem] md:text-[2.55rem] lg:text-[3rem]">
+  <span className="block">Oltre i denti, oltre l&apos;ATM.</span>
+ 
 
-           <div className="mx-auto mt-3 md:mt-4 h-px w-20 bg-white/70" />
+  {/* MOBILE: 3 righe */}
+  <span className="block mt-1 md:hidden">Una visione clinica completa</span>
+  <span className="block md:hidden">per professionisti che</span>
+  <span className="block md:hidden">vogliono fare la differenza.</span>
 
-          <p className="mx-auto mt-3 max-w-[330px] text-[1rem] font-semibold leading-[1.35] text-white drop-shadow-[0_3px_14px_rgba(0,0,0,0.9)] sm:mt-4 sm:max-w-[560px] sm:text-[1.2rem] sm:leading-[1.38] md:max-w-[1080px] md:text-[2rem] md:leading-[1.28]">
-           Una visione clinica completa per professionisti che vogliono fare la differenza.
-        </p>
+  {/* DESKTOP+: versione normale */}
+  <span className="hidden md:block mt-3">
+    Una visione clinica completa per professionisti
+  </span>
+  <span className="hidden md:block">
+    che vogliono fare la differenza.
+  </span>
+</p>
       </div>
+    </div>
   </div>
-          </div>
-        </div>
+</div>
         {/* fine blocco fino a cui hai chiesto aumento font progressivo continua sotto */}
       </div>
     </div>
