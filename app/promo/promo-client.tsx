@@ -2,7 +2,7 @@
 
 import type { CSSProperties } from "react";
 import Image from "next/image";
-import PrenotaForm from "../../components/PrenotaForm";
+import PrenotaForm from "../../components/PrenotaForm.js";
 import {
   ArrowRight,
   BadgePercent,
@@ -790,4 +790,5 @@ export default function PromoClient() {
       <div className="h-20 md:hidden" />
     </div>
   );
+
 }
