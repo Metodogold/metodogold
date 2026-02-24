@@ -2,7 +2,7 @@
 
 import type { CSSProperties } from "react";
 import Image from "next/image";
-import PrenotaForm from "../../components/PrenotaForm.js";
+import PrenotaForm from "../../components/PrenotaForm";
 import {
   ArrowRight,
   BadgePercent,
@@ -200,22 +200,22 @@ function SectionTitle({
 
 function EcmSeal() {
   return (
-    <div className="inline-flex items-center gap-3 rounded-full border border-[color:var(--gold)]/25 bg-[color:var(--gold)]/8 px-4 py-3 md:px-5 md:py-3 shadow-[0_8px_20px_-12px_rgba(212,175,55,0.35)]">
-      <span className="grid h-12 w-12 md:h-14 md:w-14 shrink-0 place-items-center rounded-full bg-[color:var(--gold)] text-slate-950">
+    <div className="inline-flex items-center gap-4 rounded-full border border-white/80 bg-black/25 px-5 py-4 md:px-6 md:py-5 backdrop-blur-md shadow-[0_14px_40px_-18px_rgba(0,0,0,0.6)]">
+      <span className="grid h-12 w-12 md:h-14 md:w-14 shrink-0 place-items-center rounded-full bg-gradient-to-br from-[#B8860B] via-[#D4AF37] to-[#F2D06B] text-slate-950">
         <Award className="h-6 w-6 md:h-7 md:w-7" />
       </span>
 
       <div className="text-left leading-tight">
-        <div className="text-[12px] md:text-xs font-semibold tracking-[0.24em] text-slate-600">
+        <div className="text-[11px] md:text-xs font-semibold tracking-[0.24em] text-white/85">
           CREDITI ECM
         </div>
 
-        <div className="text-[2rem] md:text-3xl font-extrabold text-[color:var(--gold)] leading-none">
+        <div className="mt-0.5 text-[1.65rem] sm:text-[1.9rem] md:text-[2.2rem] font-extrabold leading-none bg-gradient-to-r from-[#B8860B] via-[#D4AF37] to-[#F2D06B] bg-clip-text text-transparent">
           50 CREDITI ECM
         </div>
 
-        <div className="mt-1 text-base md:text-lg text-slate-700">
-          <span className="underline decoration-[color:var(--gold)] decoration-2 underline-offset-4">
+        <div className="mt-1 text-base md:text-lg text-white/95">
+          <span className="border-b-2 border-[#D4AF37]">
             {CONTENT.attestato}
           </span>
         </div>
@@ -279,159 +279,180 @@ export default function PromoClient() {
       className="min-h-screen bg-white text-slate-900"
     >
       {/* HERO */}
-      <section className="relative overflow-hidden">
-        <div className="pointer-events-none absolute inset-0">
-          <div
-            className="absolute -top-56 left-1/2 h-[36rem] w-[36rem] -translate-x-1/2 rounded-full blur-[160px] opacity-25"
-            style={{ background: gold }}
-          />
-        </div>
+<section className="relative overflow-hidden">
+  {/* HERO immagine (stile Formazione, più compatto) */}
+  <div className="relative">
+    <div className="absolute inset-0">
+      <Image
+        src="/images/promo2.jpeg"
+        alt="Corso di Gnatologia Osteopatica Integrata"
+        fill
+        priority
+        className="object-cover object-center brightness-90"
+        sizes="100vw"
+      />
+      {/* overlay più scuro per leggibilità */}
+      <div className="absolute inset-0 bg-black/60" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/82 via-black/56 to-black/28" />
+    </div>
 
-        <div className="relative mx-auto max-w-6xl px-4 pt-16 pb-10 md:pt-24 md:pb-10">
-          <div className="mx-auto max-w-5xl text-center">
-            <h1 className="text-5xl font-extrabold tracking-tight text-slate-900 md:text-6xl">
-              {CONTENT.title}
-            </h1>
+    <div className="relative mx-auto max-w-6xl px-4">
+      {/* altezza più bassa (simile Formazione) */}
+      <div className="grid min-h-[420px] items-center gap-8 py-10 md:min-h-[500px] md:grid-cols-12 md:py-14">
+        {/* più largo su desktop per evitare 3 righe */}
+        <div className="md:col-span-10 lg:col-span-8">
+          {/* titolo su 2 righe forzate anche su desktop */}
+          <h1 className="text-3xl font-extrabold tracking-tight leading-[0.95] text-white sm:text-4xl md:text-5xl lg:text-6xl xl:text-[4.25rem]">
+            <span className="block md:whitespace-nowrap">Corso di Gnatologia</span>
+            <span className="block md:whitespace-nowrap">Osteopatica Integrata</span>
+          </h1>
 
-            <p className="mt-4 text-xl leading-snug font-semibold text-slate-700 md:text-2xl">
-              {CONTENT.subtitle}
-            </p>
+          <p className="mt-4 text-lg leading-snug font-semibold text-white sm:text-xl md:text-2xl">
+            {CONTENT.subtitle}
+          </p>
 
-            <p className="mt-4 text-lg leading-snug text-slate-600 md:text-xl">
-              <span className="text-[color:var(--gold)]">🤝</span> {CONTENT.collab}
-            </p>
+          <p className="mt-4 text-base leading-snug text-white sm:text-lg md:text-xl">
+            <span className="text-white">🤝</span> {CONTENT.collab}
+          </p>
 
-            <div className="mt-6">
-              <EcmSeal />
-            </div>
-
-            <div className="mt-8 flex flex-wrap justify-center gap-x-8 gap-y-3 text-base text-slate-700 md:text-lg">
-              <div className="inline-flex items-center gap-2">
-                <MapPin className="h-5 w-5 text-[color:var(--gold)]" />
-                <span className="font-semibold">ROMA</span>
-                <span className="text-slate-500">• In presenza</span>
-              </div>
-
-              <div className="inline-flex items-center gap-2">
-                <CalendarDays className="h-5 w-5 text-[color:var(--gold)]" />
-                <span className="font-semibold">3 weekend (2026)</span>
-                <span className="text-slate-500">• Marzo • Giugno • Ottobre</span>
-              </div>
-
-              <div className="inline-flex items-center gap-2">
-                <GraduationCap className="h-5 w-5 text-[color:var(--gold)]" />
-                <span className="font-semibold">3 moduli progressivi</span>
-                <span className="text-slate-500">• teoria + pratica</span>
-              </div>
-            </div>
-
-            <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-              <a
-                href="#programma"
-                className="inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-300 bg-white px-6 py-3 text-base font-semibold text-slate-900 hover:bg-slate-50"
-              >
-                Vedi il programma
-              </a>
-            </div>
-          </div>
-
-          <div className="mt-10 grid gap-4 md:grid-cols-12 md:items-start">
-            <div className="md:col-span-12">
-              <div className="grid gap-4 md:grid-cols-2">
-                {/* DATE */}
-                <div className="rounded-3xl border border-slate-200 bg-slate-50 p-6 md:p-7">
-                  <div className="flex items-center gap-2 text-xl font-extrabold text-slate-900 md:text-2xl">
-                    <CalendarDays className="h-6 w-6 text-[color:var(--gold)]" />
-                    <span className="tracking-tight">{CONTENT.datesTitle}</span>
-                  </div>
-                  <ul className="mt-4 space-y-3 text-lg text-slate-700 md:text-xl">
-                    {CONTENT.dates.map((d) => (
-                      <li key={d} className="flex gap-2">
-                        <span className="text-[color:var(--gold)]">•</span>
-                        <span className="font-semibold">{d}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                {/* DESTINATARI */}
-                <div className="rounded-3xl border border-slate-200 bg-slate-50 p-6 md:p-7">
-                  <div className="flex items-center gap-2 text-xl font-extrabold text-slate-900 md:text-2xl">
-                    <Users className="h-6 w-6 text-[color:var(--gold)]" />
-                    <span className="tracking-tight">{CONTENT.destinatariTitle}</span>
-                  </div>
-
-                  <ul className="mt-4 space-y-3 text-lg font-bold text-slate-800 md:text-xl">
-                    {CONTENT.destinatariList.map((item) => (
-                      <li key={item} className="flex items-start gap-2">
-                        <span className="text-[color:var(--gold)]">•</span>
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  <p className="mt-3 text-base text-slate-600 md:text-lg">
-                    Percorso teorico–pratico con esercitazioni guidate
-                  </p>
-                </div>
-              </div>
-
-              {/* BANNER promo1 */}
-              <div className="mt-4 overflow-hidden rounded-[2rem] border border-slate-200 bg-white">
-                <div className="relative h-[220px] sm:h-[250px] md:h-[290px] w-full">
-                  <Image
-                    src="/images/promo1.jpeg"
-                    alt="Trattamento osteopatico"
-                    fill
-                    priority
-                    className="object-cover object-center blur-sm scale-110 opacity-50"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 720px"
-                  />
-                  <Image
-                    src="/images/promo1.jpeg"
-                    alt="Trattamento osteopatico"
-                    fill
-                    priority
-                    className="object-contain object-center"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 720px"
-                  />
-
-                  <div className="absolute inset-0 bg-black/10" />
-
-                  <div className="absolute inset-0 flex items-center justify-center px-4">
-                    <div className="w-full max-w-[390px] sm:max-w-[440px] rounded-2xl border border-white/25 bg-black/10 backdrop-blur-sm px-5 py-5 sm:px-6 sm:py-6 text-center">
-                      <div className="text-6xl font-extrabold leading-none text-white md:text-7xl">
-                        50 ECM
-                      </div>
-                      <div className="mt-2 text-xl font-extrabold text-white md:text-2xl">
-                        3 moduli progressivi • Roma
-                      </div>
-
-                      <div className="mt-4 flex flex-col items-center justify-center gap-2 sm:flex-row">
-                        <a
-                          href="#iscrizione"
-                          className="inline-flex items-center gap-2 rounded-2xl bg-[color:var(--gold)] px-4 py-2 text-base font-semibold text-slate-950 hover:opacity-90"
-                        >
-                          Richiedi info <ArrowRight className="h-4 w-4" />
-                        </a>
-
-                        <a
-                          href="#programma"
-                          className="inline-flex items-center gap-2 rounded-2xl border border-white/35 bg-white/10 px-4 py-2 text-base font-semibold text-white hover:bg-white/15"
-                        >
-                          Vedi i moduli
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* fine blocco fino a cui hai chiesto aumento font progressivo continua sotto */}
-            </div>
+          {/* Grafica ECM attuale (pill), colori sfumati */}
+          <div className="mt-6">
+            <EcmSeal />
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
 
+  {/* Parte sotto come prima (icone + bottone + cards + banner) */}
+  <div className="relative mx-auto max-w-6xl px-4 pt-8 pb-10 md:pt-10 md:pb-10">
+    <div className="mx-auto max-w-5xl text-center">
+      <div className="mt-0 flex flex-wrap justify-center gap-x-8 gap-y-3 text-base text-slate-700 md:text-lg">
+        <div className="inline-flex items-center gap-2">
+          <MapPin className="h-5 w-5 text-[color:var(--gold)]" />
+          <span className="font-semibold">ROMA</span>
+          <span className="text-slate-500">• In presenza</span>
+        </div>
+
+        <div className="inline-flex items-center gap-2">
+          <CalendarDays className="h-5 w-5 text-[color:var(--gold)]" />
+          <span className="font-semibold">3 weekend (2026)</span>
+          <span className="text-slate-500">• Marzo • Giugno • Ottobre</span>
+        </div>
+
+        <div className="inline-flex items-center gap-2">
+          <GraduationCap className="h-5 w-5 text-[color:var(--gold)]" />
+          <span className="font-semibold">3 moduli progressivi</span>
+          <span className="text-slate-500">• teoria + pratica</span>
+        </div>
+      </div>
+
+      <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+        <a
+          href="#programma"
+          className="inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-300 bg-white px-6 py-3 text-base font-semibold text-slate-900 hover:bg-slate-50"
+        >
+          Vedi il programma
+        </a>
+      </div>
+    </div>
+
+    <div className="mt-8 grid gap-4 md:grid-cols-12 md:items-start">
+      <div className="md:col-span-12">
+        <div className="grid gap-4 md:grid-cols-2">
+          {/* DATE */}
+          <div className="rounded-3xl border border-slate-200 bg-slate-50 p-6 md:p-7">
+            <div className="flex items-center gap-2 text-xl font-extrabold text-slate-900 md:text-2xl">
+              <CalendarDays className="h-6 w-6 text-[color:var(--gold)]" />
+              <span className="tracking-tight">{CONTENT.datesTitle}</span>
+            </div>
+            <ul className="mt-4 space-y-3 text-lg text-slate-700 md:text-xl">
+              {CONTENT.dates.map((d) => (
+                <li key={d} className="flex gap-2">
+                  <span className="text-[color:var(--gold)]">•</span>
+                  <span className="font-semibold">{d}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* DESTINATARI */}
+          <div className="rounded-3xl border border-slate-200 bg-slate-50 p-6 md:p-7">
+            <div className="flex items-center gap-2 text-xl font-extrabold text-slate-900 md:text-2xl">
+              <Users className="h-6 w-6 text-[color:var(--gold)]" />
+              <span className="tracking-tight">{CONTENT.destinatariTitle}</span>
+            </div>
+
+            <ul className="mt-4 space-y-3 text-lg font-bold text-slate-800 md:text-xl">
+              {CONTENT.destinatariList.map((item) => (
+                <li key={item} className="flex items-start gap-2">
+                  <span className="text-[color:var(--gold)]">•</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+
+            <p className="mt-3 text-base text-slate-600 md:text-lg">
+              Percorso teorico–pratico con esercitazioni guidate
+            </p>
+          </div>
+        </div>
+
+        {/* BANNER promo1 */}
+        <div className="mt-4 overflow-hidden rounded-[2rem] border border-slate-200 bg-white">
+          <div className="relative h-[220px] sm:h-[250px] md:h-[290px] w-full">
+            <Image
+              src="/images/promo1.jpeg"
+              alt="Trattamento osteopatico"
+              fill
+              priority
+              className="object-cover object-center blur-sm scale-110 opacity-50"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 720px"
+            />
+            <Image
+              src="/images/promo1.jpeg"
+              alt="Trattamento osteopatico"
+              fill
+              priority
+              className="object-contain object-center"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 720px"
+            />
+
+            <div className="absolute inset-0 bg-black/10" />
+
+            <div className="absolute inset-0 flex items-center justify-center px-4">
+              <div className="w-full max-w-[390px] sm:max-w-[440px] rounded-2xl border border-white/25 bg-black/10 backdrop-blur-sm px-5 py-5 sm:px-6 sm:py-6 text-center">
+                <div className="text-6xl font-extrabold leading-none text-white md:text-7xl">
+                  50 ECM
+                </div>
+                <div className="mt-2 text-xl font-extrabold text-white md:text-2xl">
+                  3 moduli progressivi • Roma
+                </div>
+
+                <div className="mt-4 flex flex-col items-center justify-center gap-2 sm:flex-row">
+                  <a
+                    href="#iscrizione"
+                    className="inline-flex items-center gap-2 rounded-2xl bg-[color:var(--gold)] px-4 py-2 text-base font-semibold text-slate-950 hover:opacity-90"
+                  >
+                    Richiedi info <ArrowRight className="h-4 w-4" />
+                  </a>
+
+                  <a
+                    href="#programma"
+                    className="inline-flex items-center gap-2 rounded-2xl border border-white/35 bg-white/10 px-4 py-2 text-base font-semibold text-white hover:bg-white/15"
+                  >
+                    Vedi i moduli
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* fine blocco fino a cui hai chiesto aumento font progressivo continua sotto */}
+      </div>
+    </div>
+  </div>
+</section>
       {/* OBIETTIVI + INTEGRAZIONI */}
       <section className="mx-auto max-w-6xl px-4 py-8">
         <SectionTitle
@@ -790,5 +811,4 @@ export default function PromoClient() {
       <div className="h-20 md:hidden" />
     </div>
   );
-
 }
