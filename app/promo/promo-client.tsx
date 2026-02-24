@@ -19,7 +19,7 @@ const gold2 = "#F2D06B";
 
 const CONTENT = {
   title: "CORSO GNATOLOGIA OSTEOPATICA INTEGRATA",
-  subtitle: "Percorso annuale teorico–pratico in 3 moduli – ROMA",
+  subtitle: "Percorso annuale teorico – pratico in 3 moduli",
   collab: "In collaborazione con Salute Sì e NaturaSì",
 
   attestato: "Attestato di Partecipazione",
@@ -200,21 +200,21 @@ function SectionTitle({
 
 function EcmSeal() {
   return (
-    <div className="inline-flex items-center gap-4 rounded-full border border-white/80 bg-black/25 px-5 py-4 md:px-6 md:py-5 backdrop-blur-md shadow-[0_14px_40px_-18px_rgba(0,0,0,0.6)]">
-      <span className="grid h-12 w-12 md:h-14 md:w-14 shrink-0 place-items-center rounded-full bg-gradient-to-br from-[#B8860B] via-[#D4AF37] to-[#F2D06B] text-slate-950">
-        <Award className="h-6 w-6 md:h-7 md:w-7" />
+    <div className="inline-flex items-center gap-3 rounded-full border border-white/80 bg-black/25 px-4 py-3 md:px-5 md:py-4 backdrop-blur-md shadow-[0_14px_40px_-18px_rgba(0,0,0,0.6)]">
+      <span className="grid h-10 w-10 md:h-12 md:w-12 shrink-0 place-items-center rounded-full bg-gradient-to-br from-[#B8860B] via-[#D4AF37] to-[#F2D06B] text-slate-950">
+        <Award className="h-5 w-5 md:h-6 md:w-6" />
       </span>
 
       <div className="text-left leading-tight">
-        <div className="text-[11px] md:text-xs font-semibold tracking-[0.24em] text-white/85">
+        <div className="text-[10px] md:text-[11px] font-semibold tracking-[0.22em] text-white/85">
           CREDITI ECM
         </div>
 
-        <div className="mt-0.5 text-[1.65rem] sm:text-[1.9rem] md:text-[2.2rem] font-extrabold leading-none bg-gradient-to-r from-[#B8860B] via-[#D4AF37] to-[#F2D06B] bg-clip-text text-transparent">
+        <div className="mt-0.5 text-[1.35rem] sm:text-[1.55rem] md:text-[1.85rem] font-extrabold leading-none bg-gradient-to-r from-[#B8860B] via-[#D4AF37] to-[#F2D06B] bg-clip-text text-transparent">
           50 CREDITI ECM
         </div>
 
-        <div className="mt-1 text-base md:text-lg text-white/95">
+        <div className="mt-1 text-sm md:text-base text-white/95">
           <span className="border-b-2 border-[#D4AF37]">
             {CONTENT.attestato}
           </span>
@@ -223,7 +223,6 @@ function EcmSeal() {
     </div>
   );
 }
-
 /* === helper per mettere in bold parole/frasi specifiche === */
 function escapeRegExp(value: string) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -288,17 +287,17 @@ export default function PromoClient() {
         alt="Corso di Gnatologia Osteopatica Integrata"
         fill
         priority
-        className="object-cover object-center brightness-90"
+        className="object-cover object-center brightness-95"
         sizes="100vw"
       />
       {/* overlay più scuro per leggibilità */}
-      <div className="absolute inset-0 bg-black/60" />
-      <div className="absolute inset-0 bg-gradient-to-r from-black/82 via-black/56 to-black/28" />
+      <div className="absolute inset-0 bg-black/58" />
+<div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/26" />
     </div>
 
     <div className="relative mx-auto max-w-6xl px-4">
       {/* altezza più bassa (simile Formazione) */}
-      <div className="grid min-h-[420px] items-center gap-8 py-10 md:min-h-[500px] md:grid-cols-12 md:py-14">
+      <div className="grid min-h-[390px] items-center gap-6 py-8 md:min-h-[455px] md:grid-cols-12 md:py-12">
         {/* più largo su desktop per evitare 3 righe */}
         <div className="md:col-span-10 lg:col-span-8">
           {/* titolo su 2 righe forzate anche su desktop */}
