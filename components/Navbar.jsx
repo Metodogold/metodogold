@@ -156,15 +156,7 @@ export default function Navbar() {
         <div className="md:hidden bg-[#4d1844] border-t border-white/10">
           <ul className="flex flex-col gap-1 py-3 px-6">
             {/* Chi sono */}
-            <li>
-              <Link
-                href="/chi-sono"
-                className="block text-white hover:text-yellow-400 transition py-2"
-                onClick={() => setMenuOpen(false)}
-              >
-                Chi sono
-              </Link>
-            </li>
+          
 
             {/* Metodo Gold accordion */}
             <li>
