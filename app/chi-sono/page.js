@@ -436,8 +436,9 @@ export default function ChiSonoPage() {
       {/* MAZZEI */}
 <PersonSection
   id="teresamazzei"
-  imageSrc="/images/teresamazzei.png"
+  imageSrc="/images/teresamazzei.jpeg"
   imageAlt="Dott.ssa Teresa Mazzei"
+  prefix="Dott.ssa"
   name="Teresa Mazzei"
   roleLine="• Euritmista • Arte-terapeuta ad indirizzo antroposofico (Italia) • Pedagogista di Emergenza (Germania)."
 >
@@ -462,6 +463,37 @@ export default function ChiSonoPage() {
     <strong>Mexico, Spagna, Portogallo, Australia</strong>).
   </p>
 </PersonSection>
+
+{/* NICOLASATTA */}
+<PersonSection
+  id="nicolasatta"
+  imageSrc="/images/module-bg-2.jpeg"
+  imageAlt="Dott. Nicola Satta"
+  prefix="Dott."
+  name="Nicola Satta"
+  roleLine="• Igienista Dentale • Osteopata • 20 anni di esperienza clinica, accademica e scientifica nel campo della prevenzione e della salute integrata."
+>
+  <p>Il Dott. Nicola Satta è <strong>Igienista Dentale e Osteopata </strong>con oltre 20 anni di esperienza clinica, accademica e scientifica nel campo della prevenzione e della salute integrata.</p>
+
+<p>Laureato in Igiene Dentale presso l’Università di Trieste, ha conseguito con lode la Laurea in <strong>Scienze delle Professioni Sanitarie Tecniche Assistenziali</strong> e un <strong>Master di II livello in Management delle Aziende Sanitarie.</strong> Ha completato la formazione in Osteopatia integrando l’approccio odontoiatrico con una visione globale della persona.</p>
+
+<p>Ha ricoperto ruoli accademici di rilievo presso l’Università degli Studi di Cagliari e altre sedi universitarie italiane, tra cui:</p>
+
+<ul>
+  <li>Direttore della didattica del Corso di Laurea in Igiene Dentale</li>
+  <li>Docente a contratto nei Corsi di Laurea in Igiene Dentale e Odontoiatria</li>
+  <li>Coordinatore di progetti di ricerca in Odontoiatria preventiva e di comunità</li>
+</ul>
+
+<p>Da oltre 7 anni collabora con la Dr.ssa Barni nella gestione dei pazienti gnatologici, con un’attenzione particolare alle disfunzioni dell’apparato stomatognatico e alle <strong>problematiche correlate all’equilibrio cranio-mandibolare.</strong></p>
+
+<p>L’integrazione tra igiene dentale, prevenzione e approccio osteopatico consente una presa in carico completa del paziente. In particolare, dedica un’attenzione approfondita alla cura dei pazienti con <strong>problematiche </strong><strong>parodontali</strong>, seguendoli attraverso <strong>protocolli personalizzati di igiene professionale</strong>, mantenimento parodontale e prevenzione a lungo termine, con un <strong>approccio multidisciplinare</strong> orientato alla stabilità funzionale e al benessere generale.</p>
+
+<p>È autore di pubblicazioni scientifiche nazionali e relatore in congressi nazionali e internazionali.</p>
+
+<p>Attualmente esercita la libera professione come Igienista Dentale e Osteopata tra Cagliari e Olbia, occupandosi di prevenzione, salute orale, trattamento osteopatico per adulti, donne in gravidanza, neonati e bambini.</p>
+</PersonSection>
+
 
       {/* SHOW TOP — freccia fissa */}
       <a
