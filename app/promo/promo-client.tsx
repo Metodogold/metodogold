@@ -288,14 +288,14 @@ export default function PromoClient() {
       />
       {/* overlay più scuro per leggibilità */}
       <div className="absolute inset-0 bg-black/58" />
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/26" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/26" />
     </div>
 
     <div className="relative mx-auto max-w-6xl px-8">
       {/* altezza compatta */}
       <div className="grid min-h-[285px] items-center gap-3 py-5 md:min-h-[455px] md:grid-cols-12 md:gap-6 md:py-12">
         <div className="md:col-span-10 lg:col-span-8">
-          <h1 className="mt-20 text-[2.35rem] font-extrabold tracking-tight leading-[1.14] text-white sm:mt-10 sm:text-[2.95rem] md:text-[3.7rem] md:leading-[1.16] lg:text-[4.2rem] xl:text-[4.7rem]">
+          <h1 className="mt-20 text-[2.35rem] font-extrabold tracking-tight leading-[1.26] text-white sm:mt-10 sm:text-[2.95rem] sm:leading-[1.18] md:text-[3.7rem] md:leading-[1.16] lg:text-[4.2rem] xl:text-[4.7rem]">
   <span className="block">Corso di Gnatologia</span>
   <span className="block">{"Osteopatica\u00A0Integrata"}</span>
 </h1>
@@ -396,9 +396,7 @@ export default function PromoClient() {
     />
 
     {/* overlay leggero per leggibilità */}
-    <div className="absolute inset-0 bg-black/[0.15] md:bg-black/12" />
-<div className="absolute inset-0 bg-gradient-to-r from-black/55 via-black/18 to-black/8 md:from-black/36 md:via-black/10 md:to-black/5" />
-<div className="absolute inset-0 bg-gradient-to-t from-black/38 via-black/8 to-black/12 md:from-black/14 md:via-transparent md:to-black/8" />
+    <div className="absolute inset-0 bg-black/[0.20] md:bg-black/12" />
 
     {/* testo */}
     <div className="absolute inset-0 flex items-center justify-center px-4 -translate-y-2 md:-translate-y-4">
@@ -786,5 +784,4 @@ export default function PromoClient() {
       <div className="h-20 md:hidden" />
     </div>
   );
-
 }
