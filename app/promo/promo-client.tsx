@@ -25,7 +25,7 @@ const CONTENT = {
   attestato: "Attestato di Partecipazione",
 
   datesTitle: "Date (3 weekend)",
-  dates: ["27–28–29 Marzo 2026", "19–20–21 Giugno 2026", "9–10–11 Ottobre 2026"],
+  dates: ["8-9-10 Maggio 2026", "3-4-5 Luglio 2026", "9-10-11 Ottobre 2026"],
 
   destinatariTitle: "Destinatari",
   destinatariList: [
@@ -159,7 +159,13 @@ const CONTENT = {
       name: "Teresa Mazzei",
       role:
         'Euritmista, Master of Education Eurythmy, spec. in Euritmia Igienica e in "Eurythmy in working life", arte-terapia ad indirizzo antroposofico e Pedagogia di Emergenza',
-      img: "/images/teresamazzei.png",
+      img: "/images/teresamazzei.jpeg",
+    },
+    {
+      name: "Dr. Nicola Satta",
+      role:
+        'testo',
+      img: "/images/module-bg-2.jpeg",
     },
   ],
 };
@@ -273,7 +279,7 @@ export default function PromoClient() {
   <div className="relative">
     <div className="absolute inset-0">
       <Image
-        src="/images/promo2.jpeg"
+        src="/images/gnatologia-hero.png"
         alt="Corso di Gnatologia Osteopatica Integrata"
         fill
         priority
@@ -282,7 +288,7 @@ export default function PromoClient() {
       />
       {/* overlay più scuro per leggibilità */}
       <div className="absolute inset-0 bg-black/58" />
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/26" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/26" />
     </div>
 
     <div className="relative mx-auto max-w-6xl px-4">
@@ -313,7 +319,7 @@ export default function PromoClient() {
       </p>
 
       <p className="mt-2 text-lg font-semibold text-slate-600 md:text-2xl">
-        Marzo • Giugno • Ottobre 2026
+        Maggio • Luglio • Ottobre 2026
       </p>
 
       {/* lascio qualche icona */}
@@ -782,5 +788,4 @@ export default function PromoClient() {
       <div className="h-20 md:hidden" />
     </div>
   );
-
 }
