@@ -21,8 +21,8 @@ const CORSI = [
       "Strumenti clinici applicabili da subito",
     ],
     modules: [
-      { label: "Modulo 1", anchor: "#modulo-1", title: "27–28–29 Marzo" },
-      { label: "Modulo 2", anchor: "#modulo-2", title: "19–20–21 Giugno" },
+      { label: "Modulo 1", anchor: "#modulo-1", title: "8-9-10 Maggio" },
+      { label: "Modulo 2", anchor: "#modulo-2", title: "3-4-5 Luglio" },
       { label: "Modulo 3", anchor: "#modulo-3", title: "9–10–11 Ottobre" },
     ],
   },
@@ -38,25 +38,21 @@ function Bullet({ children }) {
 }
 
 /** ✅ MODULI SOTTO HERO: box puliti, numeri NON gialli */
-function ModuleCard({ idx, m }) {
+function ModuleCard({ m }) {
   return (
     <a
-      href={m.anchor}
+      href={m.anchor}  // es: "#modulo-1"
       title={`${m.label} — ${m.title}`}
-      className="group rounded-3xl border border-slate-200 bg-white px-6 py-5 shadow-sm hover:shadow-md transition"
+      className="group block rounded-3xl border border-slate-200 bg-white px-6 py-5 shadow-sm hover:shadow-md transition"
     >
-      <div className="flex items-center gap-4">
-        </div>
-
-        <div className="leading-tight min-w-0">
-          <p className="text-slate-900 font-extrabold text-base sm:text-lg">
-            {m.label}
-          </p>
-          <p className="mt-1 text-slate-600 text-sm sm:text-[15px] font-bold">
-            {m.title}
-          </p>
-        </div>
-    
+      <div className="leading-tight min-w-0">
+        <p className="text-slate-900 font-extrabold text-base sm:text-lg">
+          {m.label}
+        </p>
+        <p className="mt-1 text-slate-600 text-sm sm:text-[15px] font-bold">
+          {m.title}
+        </p>
+      </div>
     </a>
   );
 }
@@ -94,7 +90,7 @@ export default function CorsiPage() {
           {/* ✅ TESTI IN SOVRIMPRESSIONE ALLA FOTO */}
           <div className="absolute inset-0">
             <div className="max-w-6xl mx-auto px-6 h-full">
-              <div className="h-full flex items-end pb-10 sm:pb-12 md:pb-14">
+              <div className="h-full flex items-end pb-3 sm:pb-12 md:pb-14">
                 <div className="max-w-4xl w-full">
                   {/* ROMA 2026 */}
                   <div className="flex flex-wrap items-center gap-3">
@@ -104,32 +100,32 @@ export default function CorsiPage() {
                   </div>
 
                   {/* Titolo */}
-                  <h1 className="mt-5 text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight">
+                  <h1 className="mt-2 sm:mt-5 text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight">
                     Corso di Gnatologia
                     <br />
                     Osteopatica Integrata
                   </h1>
 
-                  {/* Sottotitolo + 50 ECM */}
-                  <div className="mt-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-                    <p className="text-white/90 text-base sm:text-lg font-semibold">
-                      Una visione sistemica dell’apparato stomatognatico
-                    </p>
+                 {/* Sottotitolo + 50 ECM */}
+<div className="mt-5 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
+  <p className="text-white/90 text-base sm:text-lg font-semibold">
+    Una visione sistemica dell’apparato stomatognatico
+  </p>
 
-                    {/* ✅ badge pubblicitario */}
-                    <div className="shrink-0">
-                      <div className="rounded-3xl px-7 py-4 shadow-lg border border-yellow-200 bg-gradient-to-r from-yellow-600 via-yellow-500 to-yellow-400">
-                        <div className="text-white leading-none text-center">
-                          <div className="text-[12px] font-extrabold tracking-widest uppercase opacity-95">
-                            Crediti
-                          </div>
-                          <div className="mt-1 text-3xl sm:text-4xl font-extrabold tracking-tight">
-                            50 ECM
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+  {/* ✅ badge pubblicitario */}
+  <div className="shrink-0  sm:self-auto">
+    <div className="inline-flex w-fit rounded-3xl px-6 py-4 sm:px-7 shadow-lg border border-yellow-200 bg-gradient-to-r from-yellow-600 via-yellow-500 to-yellow-400">
+      <div className="text-white leading-none text-center">
+        <div className="text-[12px] font-extrabold tracking-widest uppercase opacity-95">
+          Crediti
+        </div>
+        <div className="mt-1 text-3xl sm:text-4xl font-extrabold tracking-tight">
+          50 ECM
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
                   {/* (niente moduli qui: li mettiamo sotto la foto) */}
                 </div>
@@ -313,17 +309,14 @@ export default function CorsiPage() {
   <div className="max-w-4xl">
     <div className="space-y-9">
       {/* MODULO 1 */}
-      <section
-        id="modulo-1"
-        
-      >
+      <section id="modulo-1" className="scroll-mt-[110px] md:scroll-mt-[140px]">
         {/* Riga titolo */}
         <div className="flex flex-wrap items-baseline gap-3">
           <p className="text-lg md:text-xl font-extrabold text-yellow-600">
             Modulo 1
           </p>
           <span className="text-lg md:text-xl font-bold text-yellow-600">
-            • 27 - 28 - 29 Marzo 2026
+            •  8 - 9 - 10 Maggio 2026
           </span>
         </div>
 
@@ -364,16 +357,13 @@ export default function CorsiPage() {
       </section>
 
       {/* MODULO 2 */}
-      <section
-        id="modulo-2"
-       
-      >
+      <section id="modulo-2" className="scroll-mt-[110px] md:scroll-mt-[140px]">
         <div className="flex flex-wrap items-baseline gap-3">
           <p className="text-lg md:text-xl font-extrabold text-yellow-600">
             Modulo 2
           </p>
           <span className="text-lg md:text-xl font-bold text-yellow-600">
-            • 19 - 20 - 21 Giugno 2026
+            •  3 - 4 - 5 Luglio 2026
           </span>
         </div>
 
@@ -412,10 +402,7 @@ export default function CorsiPage() {
       </section>
 
       {/* MODULO 3 */}
-      <section
-        id="modulo-3"
-       
-      >
+      <section id="modulo-3" className="scroll-mt-[110px] md:scroll-mt-[140px]">
         <div className="flex flex-wrap items-baseline gap-3">
           <p className="text-lg md:text-xl font-extrabold text-yellow-600">
             Modulo 3
