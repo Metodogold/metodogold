@@ -288,16 +288,16 @@ export default function PromoClient() {
       />
       {/* overlay più scuro per leggibilità */}
       <div className="absolute inset-0 bg-black/58" />
-      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/26" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/26" />
     </div>
 
-    <div className="relative mx-auto max-w-6xl px-4">
+    <div className="relative mx-auto max-w-6xl px-8">
       {/* altezza compatta */}
       <div className="grid min-h-[285px] items-center gap-3 py-5 md:min-h-[455px] md:grid-cols-12 md:gap-6 md:py-12">
         <div className="md:col-span-10 lg:col-span-8">
           
 
-<h1 className="mt-12 text-[2.35rem] font-extrabold tracking-tight leading-[1.14] text-white sm:mt-3 sm:text-[2.95rem] md:text-[3.7rem] md:leading-[1.16] lg:text-[4.2rem] xl:text-[4.7rem]">
+<h1 className="mt-20 text-[2.35rem] font-extrabold tracking-tight leading-[1.14] text-white sm:mt-10 sm:text-[2.95rem] md:text-[3.7rem] md:leading-[1.16] lg:text-[4.2rem] xl:text-[4.7rem]">
   <span className="block md:whitespace-nowrap">Corso di Gnatologia</span>
   <span className="md:mt-2 md:whitespace-nowrap">Osteopatica Integrata</span>
 </h1>
