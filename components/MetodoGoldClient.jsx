@@ -19,34 +19,34 @@ export default function MetodoGoldClient() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  return (
-    <main className="w-full">
-  
 
-    {/* HERO BANNER (responsive: mobile + desktop) */}
-<section className="w-full">
-  {/* MOBILE: banner strip (non tagliato) */}
-  <Image
-    src="/images/metodo-gold-banner.jpg"
-    alt="Metodo Gold - Aligning all parts of yourself"
-    width={1600}
-    height={250}
-    priority
-    sizes="100vw"
-    className="block w-full h-auto md:hidden"
-  />
+ return (
+    <main id="top" className="w-full pt-8">
+      {/* HERO BANNER – mobile */}
+      <section className="w-full md:hidden">
+        <Image
+          src="/images/metodo-gold-banner.jpg"
+          alt="Metodo Gold - Aligning all parts of yourself"
+          width={1600}
+          height={250}
+          priority
+          className="w-full h-auto block"
+          sizes="100vw"
+        />
+      </section>
 
-  {/* DESKTOP+: banner completo (non tagliato) */}
-  <Image
-    src="/images/banner-metodo.png"
-    alt="Metodo Gold - Aligning all parts of yourself"
-    width={1901}
-    height={547}
-    priority
-    sizes="100vw"
-    className="hidden w-full h-auto md:block"
-  />
-</section>
+      {/* HERO BANNER – desktop */}
+      <section className="w-full hidden md:block">
+        <Image
+          src="/images/banner-metodo.png"
+          alt="Metodo Gold - Aligning all parts of yourself"
+          width={1920}
+          height={600}
+          priority
+          className="w-full h-auto block"
+          sizes="100vw"
+        />
+      </section>
 
 
 
