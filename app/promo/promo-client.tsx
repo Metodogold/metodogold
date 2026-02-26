@@ -287,8 +287,8 @@ export default function PromoClient() {
         sizes="100vw"
       />
       {/* overlay più scuro per leggibilità */}
-      <div className="absolute inset-0 bg-black/58" />
-      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/26" />
+      <div className="absolute inset-0 bg-black/38" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/35 to-black/20" />
     </div>
 
     <div className="relative mx-auto max-w-6xl px-8">
@@ -556,7 +556,7 @@ export default function PromoClient() {
 
                   <div className="mt-2 text-lg text-slate-700 md:text-xl">
                     Costo scontato entro{" "}
-                    <span className="font-semibold">28 Febbraio 2026</span>
+                    <span className="font-semibold">30 Marzo 2026</span>
                   </div>
 
                   <div className="mt-2 text-5xl font-extrabold leading-tight text-[color:var(--gold)] md:text-6xl">
