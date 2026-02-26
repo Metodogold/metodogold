@@ -35,6 +35,7 @@ export default function Navbar() {
         { name: "Francesco Pachì", href: "/chi-sono/#francescopachi" },
         { name: "Luigi Satta", href: "/chi-sono/#luigisatta" },
         { name: "Teresa Mazzei", href: "/chi-sono/#teresamazzei" },
+        { name: "Nicola Satta", href: "/chi-sono/#nicolasatta" },
         
       ],
       
@@ -155,7 +156,7 @@ export default function Navbar() {
       {menuOpen && (
         <div className="md:hidden bg-[#4d1844] border-t border-white/10">
           <ul className="flex flex-col gap-1 py-3 px-6">
-            {/* Chi sono */}
+          
           
 
             {/* Metodo Gold accordion */}
