@@ -1,9 +1,9 @@
 export default function Footer() {
   const sitiAmici = [
     {
-      name: "NaturaSì",
-      href: "https://www.naturasi.it/",
-      logo: "/images/partners/naturasi_aligned.png",
+      name: "SaluteSì",
+      href: "https://www.facebook.com/profile.php?id=61558871587697",
+      logo: "/images/partners/salutesi.png",
     },
   ];
 
