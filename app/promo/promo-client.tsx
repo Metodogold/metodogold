@@ -295,11 +295,9 @@ export default function PromoClient() {
       {/* altezza compatta */}
       <div className="grid min-h-[285px] items-center gap-3 py-5 md:min-h-[455px] md:grid-cols-12 md:gap-6 md:py-12">
         <div className="md:col-span-10 lg:col-span-8">
-          
-
-<h1 className="mt-20 text-[2.35rem] font-extrabold tracking-tight leading-[1.14] text-white sm:mt-10 sm:text-[2.95rem] md:text-[3.7rem] md:leading-[1.16] lg:text-[4.2rem] xl:text-[4.7rem]">
-  <span className="block md:whitespace-nowrap">Corso di Gnatologia</span>
-  <span className="md:mt-2 md:whitespace-nowrap">Osteopatica Integrata</span>
+          <h1 className="mt-20 text-[2.35rem] font-extrabold tracking-tight leading-[1.14] text-white sm:mt-10 sm:text-[2.95rem] md:text-[3.7rem] md:leading-[1.16] lg:text-[4.2rem] xl:text-[4.7rem]">
+  <span className="block">Corso di Gnatologia</span>
+  <span className="block">{"Osteopatica\u00A0Integrata"}</span>
 </h1>
 
 <div className="mt-10 md:mt-11">
