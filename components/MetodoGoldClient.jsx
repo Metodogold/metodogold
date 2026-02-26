@@ -23,57 +23,66 @@ export default function MetodoGoldClient() {
     <main className="w-full">
   
 
-      {/* HERO BANNER – visibile SOLO su desktop */}
-     <section className="w-full hidden md:block overflow-hidden">
-  <div className="w-full">
-    <Image
-  src="/images/metodo-gold-banner.jpg"
-  alt="Metodo Gold - Aligning all parts of yourself"
-  width={1920}
-  height={600}
-  priority
-  className="w-full h-auto block"
-/>
+    {/* HERO BANNER (responsive: mobile + desktop) */}
+<section className="w-full">
+  {/* MOBILE: banner strip (non tagliato) */}
+  <Image
+    src="/images/metodo-gold-banner.jpg"
+    alt="Metodo Gold - Aligning all parts of yourself"
+    width={1600}
+    height={250}
+    priority
+    sizes="100vw"
+    className="block w-full h-auto md:hidden"
+  />
 
-  </div>
+  {/* DESKTOP+: banner completo (non tagliato) */}
+  <Image
+    src="/images/banner-metodo.png"
+    alt="Metodo Gold - Aligning all parts of yourself"
+    width={1901}
+    height={547}
+    priority
+    sizes="100vw"
+    className="hidden w-full h-auto md:block"
+  />
 </section>
+
+
 
 
       {/* CONTENUTO */}
       <section className="max-w-4xl mx-auto px-6 pt-8 pb-24">
-        {/* TITOLO */}
-        <div className="text-center mb-4">
-          <h2 className="text-3xl md:text-4xl font-semibold text-yellow-600">
-            Il Metodo Gold <sup>®</sup>
-          </h2>
-        </div>
+        
 
-        {/* 4 VOCI LINKABILI */}
-        <div className="flex flex-wrap justify-center gap-4 md:gap-8 text-sm md:text-base font-semibold text-gray-700 mb-10">
-         {voci.map((voce) => {
-  const first = voce.label.slice(0, 1);
-  const rest = voce.label.slice(1);
+       {/* 4 VOCI LINKABILI */}
+<div className="flex flex-wrap justify-center gap-6 md:gap-10 text-base sm:text-[17px] md:text-lg font-semibold text-slate-700 mb-10">
+  {voci.map((voce) => {
+    const first = voce.label.slice(0, 1);
+    const rest = voce.label.slice(1);
 
-  return (
-    <a
-      key={voce.id}
-      href={`#${voce.id}`}
-      className="hover:text-yellow-600 transition tracking-wide px-2 py-1"
-    >
-      <span className="text-yellow-600 font-semibold">{first}</span>
-      {rest}
-    </a>
-  );
-})}
+    return (
+      <a
+        key={voce.id}
+        href={`#${voce.id}`}
+        className="group relative px-2 py-1.5 tracking-wide transition-colors hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37]/50 rounded-md"
+      >
+        <span className="text-[#D4AF37] font-bold">{first}</span>
+        {rest}
 
-        </div>
+        {/* sfumatura “gold” sotto */}
+        <span className="pointer-events-none absolute left-1/2 top-full mt-1 h-[3px] w-[70%] -translate-x-1/2 rounded-full bg-gradient-to-r from-[#B8860B]/0 via-[#D4AF37]/70 to-[#F2D06B]/0 opacity-70 transition-all duration-300 group-hover:w-[92%] group-hover:opacity-100" />
+      </a>
+    );
+  })}
+</div>
         
 
         {/* TESTO INTRO */}
         <div className="text-gray-800 leading-relaxed text-[15px] space-y-3 mt-6">
 
   <p>
-    <span className="font-semibold text-lg text-yellow-600">Il Metodo Gold</span> propone un approccio multidisciplinare alla salute, basato su una comprensione integrata e globale dell’essere umano, in cui la bocca e i denti rappresentano una chiave di lettura per l’equilibrio generale.<br></br><br></br> Questo progetto nasce con l’obiettivo di creare un dialogo reale tra discipline diverse, mettendo in relazione {" "}
+    <span className="font-semibold text-lg text-yellow-600">Il Metodo Gold <sup>®</sup></span> propone un approccio multidisciplinare alla salute, basato su una comprensione integrata e globale dell’essere umano, in cui la bocca e i denti rappresentano una chiave di lettura per l’equilibrio generale.<br></br><br></br> Questo progetto nasce con l’obiettivo di creare un dialogo reale tra discipline diverse, mettendo in relazione {" "}
     <span className="text-yellow-600 font-medium">Gnatologia</span>,{" "}
     <span className="text-yellow-600 font-medium">Osteopatia</span>,{" "}
     <span className="text-yellow-600 font-medium">Logopedia</span>,{" "}
@@ -84,7 +93,7 @@ export default function MetodoGoldClient() {
 
 
   <p>
-    Nei livelli più avanzati, il percorso si apre anche a un approfondimento delle energie sottili, attraverso pratiche tramandate dall’Antroposofia e dalle <span className="text-yellow-600 font-medium">Terapie Essene ed Egizie.</span>{" "} In questa visione, l’individuo viene considerato nella sua totalità, nei suoi aspetti fisici, funzionali, emozionali, mentali e spirituali, come un sistema unico e inscindibile.
+    Nei livelli più avanzati, il percorso si apre anche a un approfondimento delle energie sottili, attraverso pratiche tramandate dall’<span className="text-yellow-600 font-medium">Antroposofia </span>e dalle <span className="text-yellow-600 font-medium">Terapie Essene ed Egizie.</span>{" "} In questa visione, l’individuo viene considerato nella sua totalità, nei suoi aspetti fisici, funzionali, emozionali, mentali e spirituali, come un sistema unico e inscindibile.
     </p>
 
      <p>
@@ -107,7 +116,7 @@ export default function MetodoGoldClient() {
 
  <p className="border-l-4 border-yellow-600 pl-4"> Questo tipo di approccio è indicato in presenza di disturbi muscolo-scheletrici come cervicalgie, dorsalgie, lombalgie, sciatalgie, dolori articolari, rigidità e limitazioni di movimento, così come nei disturbi posturali caratterizzati da asimmetrie, compensi, atteggiamenti scorretti e squilibri globali. È particolarmente utile nei disturbi cranio-cervico-mandibolari, nelle < span className="font-semibold"> disfunzioni dell’articolazione temporo-mandibolare, nelle cefalee, nelle tensioni craniche, nei dolori facciali e nelle malocclusioni. </span> Trova inoltre indicazione nei disturbi viscerali funzionali, come < span className="font-semibold">problematiche digestive, reflusso, gonfiore e tensioni addominali, e nei disturbi legati allo stress,</span> in cui si manifestano tensioni croniche, affaticamento e < span className="font-semibold">alterazioni del tono neurovegetativo. </span>
 </p>
-<p> Ma è altresi indicato in chi vuole portare il suo stato di consapevolezza ad un livello superiore andando a rimuovere blocchi fisici ed emotivi dal proprio sistema e portare un miglioramento nella propria vita attraverso un lavoro su se stesso a diversi livelli.
+<p> Ma è altresi indicato in chi vuole portare il proprio stato di consapevolezza ad un livello superiore, andando a rimuovere blocchi fisici ed emotivi dal proprio sistema e portare un miglioramento nella propria vita attraverso un lavoro su se stesso a diversi livelli.
   </p>
 
   <p>< span className="font-semibold text-yellow-600"> Il Metodo GOLD </span> non si propone di eliminare il sintomo in modo isolato, ma di comprendere il linguaggio del corpo, leggere i compensi, sciogliere le tensioni e accompagnare l’organismo verso un recupero della sua capacità di autoregolazione. </p>
@@ -123,80 +132,79 @@ export default function MetodoGoldClient() {
 <section className="mt-10">
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
     {[
-      {
-        id: "gnatologia",
-        title: "Gnatologia",
-        img: "/images/metodo/gnatologia.png",
-        quote:
-          "“La bocca non è solo un organo funzionale, ma un punto di incontro tra struttura, postura ed emozione.”",
-        abstract:
-          "La gnatologia studia la funzione dell’apparato stomatognatico e le sue relazioni con il resto del corpo, integrando equilibrio neuromuscolare, postura e adattamenti funzionali.",
-      },
-      {
-        id: "osteopatia",
-        title: "Osteopatia",
-        img: "/images/metodo/osteopatia.png",
-        quote:
-          "“Il corpo non mente. Racconta sempre la sua storia, se impariamo ad ascoltarla.”",
-        abstract:
-          "Disciplina manuale che valuta e tratta restrizioni e compensi, sostenendo la capacità di autoregolazione dell’organismo e l’equilibrio tra struttura e funzione.",
-      },
-      {
-        id: "logopedia",
-        title: "Logopedia e Terapia Miofunzionale",
-        img: "/images/metodo/logopedia.png",
-        quote:
-          "“Ogni funzione è un dialogo tra il sistema nervoso e l’esperienza della persona.”",
-        abstract:
-          "Rieduca le funzioni orali (respirazione, deglutizione, postura linguale, fonazione), favorendo schemi più fisiologici e stabili in età evolutiva e nell’adulto.",
-      },
-      {
-        id: "dentosofia",
-        title: "Dentosofia",
-        img: "/images/metodo/dentosofia.png",
-        quote:
-          "“La forma è memoria della funzione, e la funzione è espressione dell’essere.”",
-        abstract:
-          "Approccio che osserva la bocca come centro di regolazione: crescita, funzione, postura e sistema nervoso in relazione, con strumenti funzionali come l’attivatore.",
-      },
-      {
-  id: "omeopatia",
-  title: "Omeopatia",
-  img: "/images/metodo/omeopatia.png",
-  quote:
-    "“La guarigione non si impone: si risveglia dall’interno.”",
-  abstract:
-    "Sistema terapeutico basato sul principio di similitudine, che stimola le capacità di autoregolazione dell’organismo, sostenendo un riequilibrio profondo e personalizzato.",
-},
-{
-  id: "optometria",
-  title: "Optometria",
-  img: "/images/metodo/optometria.png",
-  quote:
-    "“Vedere non è solo un atto visivo, ma un’esperienza neurologica e posturale.”",
-  abstract:
-    "Disciplina che valuta la funzione visiva in relazione al sistema nervoso e alla postura, migliorando integrazione sensoriale, equilibrio e coordinazione.",
-},
-{
-  id: "biomagnetismo",
-  title: "Biomagnetismo",
-  img: "/images/metodo/biomagnetismo.png",
-  quote:
-    "“Il corpo risponde quando l’equilibrio energetico viene ristabilito.”",
-  abstract:
-    "Tecnica che utilizza campi magnetici per riequilibrare il pH e i sistemi biologici, favorendo la rigenerazione e il recupero funzionale.",
-},
-{
-  id: "terapie-antiche",
-  title: "Terapie Essene ed Egizie",
-  img: "/images/metodo/terapie-antiche.png",
-  quote:
-    "“Antiche conoscenze al servizio dell’equilibrio moderno.”",
-  abstract:
-    "Pratiche tradizionali che lavorano sui piani energetici, simbolici e corporei, integrando il lavoro fisico con quello emozionale e spirituale.",
-},
-
-    ].map((c) => (
+  {
+    id: "gnatologia",
+    title: "Gnatologia",
+    img: "/images/metodo/gnatologia.png",
+    quote:
+      "“La bocca non è solo un organo funzionale, ma un punto di incontro tra struttura, postura ed emozione.”",
+    abstract:
+      "La gnatologia studia la funzione dell’apparato stomatognatico e le sue relazioni con il resto del corpo, integrando equilibrio neuromuscolare, postura e adattamenti funzionali.",
+  },
+  {
+    id: "osteopatia",
+    title: "Osteopatia",
+    img: "/images/metodo/osteopatia.png",
+    quote:
+      "“Il corpo non mente. Racconta sempre la sua storia, se impariamo ad ascoltarla.”",
+    abstract:
+      "Disciplina manuale che valuta e tratta restrizioni e compensi, sostenendo la capacità di autoregolazione dell’organismo e l’equilibrio tra struttura e funzione.",
+  },
+  {
+    id: "omeopatia",
+    title: "Omeopatia",
+    img: "/images/metodo/omeopatia.png",
+    quote:
+      "“La guarigione non si impone: si risveglia dall’interno.”",
+    abstract:
+      "Sistema terapeutico basato sul principio di similitudine, che stimola le capacità di autoregolazione dell’organismo, sostenendo un riequilibrio profondo e personalizzato.",
+  },
+  {
+    id: "optometria",
+    title: "Optometria",
+    img: "/images/metodo/optometria.png",
+    quote:
+      "“Vedere non è solo un atto visivo, ma un’esperienza neurologica e posturale.”",
+    abstract:
+      "Disciplina che valuta la funzione visiva in relazione al sistema nervoso e alla postura, migliorando integrazione sensoriale, equilibrio e coordinazione.",
+  },
+  {
+    id: "logopedia",
+    title: "Logopedia e Terapia Miofunzionale",
+    img: "/images/metodo/logopedia.png",
+    quote:
+      "“Ogni funzione è un dialogo tra il sistema nervoso e l’esperienza della persona.”",
+    abstract:
+      "Rieduca le funzioni orali (respirazione, deglutizione, postura linguale, fonazione), favorendo schemi più fisiologici e stabili in età evolutiva e nell’adulto.",
+  },
+  {
+    id: "dentosofia",
+    title: "Dentosofia",
+    img: "/images/metodo/dentosofia.png",
+    quote:
+      "“La forma è memoria della funzione, e la funzione è espressione dell’essere.”",
+    abstract:
+      "Approccio che osserva la bocca come centro di regolazione: crescita, funzione, postura e sistema nervoso in relazione, con strumenti funzionali come l’attivatore.",
+  },
+  {
+    id: "biomagnetismo",
+    title: "Biomagnetismo",
+    img: "/images/metodo/biomagnetismo.png",
+    quote:
+      "“Il corpo risponde quando l’equilibrio energetico viene ristabilito.”",
+    abstract:
+      "Tecnica che utilizza campi magnetici per riequilibrare il pH e i sistemi biologici, favorendo la rigenerazione e il recupero funzionale.",
+  },
+  {
+    id: "terapie-antiche",
+    title: "Terapie Essene ed Egizie",
+    img: "/images/metodo/terapie-antiche.png",
+    quote:
+      "“Antiche conoscenze al servizio dell’equilibrio moderno.”",
+    abstract:
+      "Pratiche tradizionali che lavorano sui piani energetici, simbolici e corporei, integrando il lavoro fisico con quello emozionale e spirituale.",
+  },
+].map((c) => (
       <a
         key={c.id}
         href={`#${c.id}`}
@@ -388,7 +396,7 @@ acufeni.
 
     
     <p>
-      L’osteopatia si fonda su alcuni pilastri concettuali che ne guidano l’approccio clinico. Il corpo è <span className="font-semibold">un’unità funzionale</span> in cui struttura, funzione, mente ed emozioni sono interconnesse. L’organismo possiede meccanismi intrinseci di <span className="font-semibold"> autoregolazione e di autoguarigione</span>, che l’osteopata si propone di sostenere e facilitare. Esiste una relazione costante tra struttura e funzione, per cui ogni alterazione strutturale può influenzare la funzione e viceversa. Inoltre, una <span className="font-semibold">un’unità funzionale</span> in cui struttura, funzione, mente ed emozioni sono interconnesse. L’organismo possiede meccanismi intrinseci di <span className="font-semibold"> buona circolazione</span>, intesa come <span className="font-semibold">flusso sanguigno, linfatico e nervoso</span>, è essenziale per la salute dei tessuti e per il corretto funzionamento dei sistemi.
+      L’osteopatia si fonda su alcuni pilastri concettuali che ne guidano l’approccio clinico. Il corpo è <span className="font-semibold">un’unità funzionale</span> in cui struttura, funzione, mente ed emozioni sono interconnesse. L’organismo possiede meccanismi intrinseci di <span className="font-semibold"> autoregolazione e di autoguarigione</span>, che l’osteopata si propone di sostenere e facilitare. Esiste una relazione costante tra struttura e funzione, per cui ogni alterazione strutturale può influenzare la funzione e viceversa.L’organismo possiede meccanismi intrinseci di <span className="font-semibold"> buona circolazione</span>, intesa come <span className="font-semibold">flusso sanguigno, linfatico e nervoso</span>, è essenziale per la salute dei tessuti e per il corretto funzionamento dei sistemi.
     </p>
 
     <div className="border-l-4 border-yellow-500 pl-4 py-2 my-2 text-gray-700 italic">
@@ -433,6 +441,8 @@ Prevenzione e supporto in ambito sportivo. </span>
 </a>
 
 </section>
+
+
 
 
 {/* LOGOPEDIA */}
@@ -681,111 +691,6 @@ Prevenzione e supporto in ambito sportivo. </span>
   ↑ Torna su
 </a>
 
-
-
-{/* OMEOPATIA */}
-<section id="omeopatia" className="scroll-mt-32 mt-20">
-  <h3 className="text-2xl md:text-3xl font-semibold text-yellow-600 mb-4">
-    Omeopatia
-  </h3>
-
-  <div className="relative w-full h-[140px] sm:h-[170px] md:h-[200px] rounded-2xl overflow-hidden mb-6 bg-black">
-    <Image
-  src="/images/metodo/omeopatia.png"
-  alt="Omeopatia"
-  fill
-  quality={85}
-  sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 768px"
-  className="absolute inset-0 w-full h-full object-cover object-[center_55%] scale-[1.12] -translate-x-6"
-/>
-
-    <div className="absolute inset-0 bg-black/15" />
-
-    <div className="absolute inset-0 flex items-center px-6 sm:px-10">
-      <p className="italic font-semibold text-white text-sm sm:text-base md:text-lg leading-snug drop-shadow-sm max-w-2xl">
-        “Curare non è sopprimere il sintomo, ma sostenere la forza vitale.”
-      </p>
-    </div>
-  </div>
-
-  <div className="text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
-    <p className="first-letter:text-3xl first-letter:font-semibold first-letter:text-yellow-600 first-letter:mr-1">
-      L’omeopatia nasce alla fine del XVIII secolo grazie al <span className="font-semibold">medico tedesco Samuel Hahnemann</span>, che sviluppò questo approccio osservando come alcune sostanze, se somministrate in dosi minime, potessero stimolare una risposta di riequilibrio nell’organismo. Il principio su cui si fonda è la <span className="font-semibold">legge della similitudine</span>, secondo cui una sostanza capace di provocare determinati sintomi in una persona sana può aiutare l’organismo a ritrovare l’equilibrio in presenza di sintomi simili. Il rimedio omeopatico, quindi, non agisce per opposizione al sintomo, ma per <span className="font-semibold">risonanza</span> con esso, stimolando una <span className="font-semibold">risposta interna di autoregolazione</span>. 
-    </p>
-    <p>
-      L’omeopatia è un sistema terapeutico che considera la persona nella sua globalità e si basa sull’idea che l’organismo possieda una naturale capacità di autoregolazione e di autoguarigione. <span className="font-semibold">Non si limita a sopprimere il sintomo</span>, ma ricerca le cause profonde dello squilibrio, osservando come il corpo, la mente e le emozioni interagiscano tra loro. In questa visione, il sintomo non è un nemico da combattere, ma <span className="font-semibold">un messaggio</span> attraverso cui l’organismo esprime una difficoltà di adattamento.
-    </p>
-    <p>I rimedi omeopatici derivano da sostanze di origine <span className="font-semibold">vegetale, animale e minerale</span>. Piante, minerali, metalli e, in alcuni casi, sostanze di origine animale vengono utilizzati come base per la preparazione dei <span className="font-semibold">rimedi</span>, secondo un processo rigoroso che ne preserva l’informazione originaria. Queste sostanze non vengono utilizzate in senso chimico o farmacologico, ma vengono sottoposte a un processo di <span className="font-semibold">diluizione e dinamizzazione</span>, attraverso cui l’informazione energetica della sostanza viene progressivamente potenziata.</p>
-    <p>La dinamizzazione è un passaggio fondamentale dell’omeopatia. Attraverso successive diluizioni e succussioni, il rimedio perde la componente materiale e chimica, ma mantiene e amplifica la sua <span className="font-semibold"> impronta energetica</span>. In questa prospettiva, non è la molecola a esercitare l’effetto, ma la <span className="font-semibold"> frequenza, l’informazione vibratoria che il rimedio porta con sé</span>. L’omeopatia, quindi, non lavora sul piano chimico, ma sul <span className="font-semibold">piano informazionale ed energetico</span>, dialogando con i sistemi di regolazione dell’organismo.</p>
-    <div className="border-l-4 border-yellow-500 pl-4 py-2 my-2 text-gray-700 italic">“Il rimedio giusto agisce come una scintilla che risveglia la forza vitale.” (Ispirato al pensiero di J.T. Kent)</div>
-
-<p>Questo spiega perché l’omeopatia si inserisce naturalmente in una visione di <span className="font-semibold"> medicina integrata</span>, in cui il corpo non è considerato solo come una macchina biochimica, ma come un sistema complesso, intelligente, sensibile e adattativo. Il rimedio omeopatico agisce come uno stimolo <span className="font-semibold">sottile</span> che invita l’organismo a ritrovare il proprio <span className="font-semibold">equilibrio</span>, senza forzarlo e senza sostituirsi ai suoi meccanismi naturali.
-  </p>
-  <p>L’approccio omeopatico non osserva soltanto la malattia, ma la modalità con cui la persona vive, reagisce, si adatta e risponde agli eventi. Ogni individuo è unico nella sua costituzione, nella sua storia, nella sua sensibilità e nel suo modo di esprimere il disagio. Per questo motivo, l’omeopatia non propone protocolli standardizzati, ma un <span className="font-semibold"> percorso personalizzato </span> che tiene conto della totalità della persona, includendo la sfera fisica, emotiva, mentale ed energetica.</p>
-    <p>L’omeopatia si inserisce con naturalezza nei percorsi multidisciplinari, in integrazione con osteopatia, gnatologia, dentosofia, logopedia e biomagnetismo, contribuendo a sostenere i processi di autoregolazione dell’organismo. Mentre le altre discipline lavorano prevalentemente sul piano strutturale, funzionale e biomeccanico, l’omeopatia accompagna l’individuo attraverso processi di <span className="font-semibold">disintossicazione</span> e di riequilibrio sul piano sistemico, reattivo ed energetico, favorendo una migliore risposta dell’organismo agli stimoli interni ed esterni.
-    </p>
-    <p>Questo approccio è adatto a <span className="font-semibold"> tutte le età, dai bambini agli adulti, dagli anziani alle donne in gravidanza</span>, e può essere utilizzato come sostegno nei momenti di cambiamento, di crescita, di stress o di fragilità. Non si pone in alternativa alla medicina convenzionale, ma in <span className="font-semibold">complementarità</span>, con l’obiettivo di ampliare la lettura della persona e di accompagnarla verso un <span className="font-semibold">equilibrio più profondo e stabile</span>.
-    </p>
-    <p>Nella visione della medicina integrata, <span className="font-semibold">l’obiettivo dell’omeopatia</span> non è quello di combattere il sintomo, ma è quello di andare alla causa di ciò che ha scatenato la malattia, sostenendo la salute e la capacità dell’organismo a ritrovare il proprio centro. <span className="font-semibold">La vera guarigione</span> non è solo l’eliminazione del sintomo, ma il recupero dell’armonia tra corpo, mente e spirito.
-    </p>
-    </div>
-
-  <a href="#top" className="inline-flex items-center gap-2 mt-6 text-sm text-yellow-600 hover:underline">
-    ↑ Torna su
-  </a>
-</section>
-
-{/* OPTOMETRIA */}
-<section id="optometria" className="scroll-mt-32 mt-20">
-  <h3 className="text-2xl md:text-3xl font-semibold text-yellow-600 mb-4">
-    Optometria
-  </h3>
-
-  <div className="relative w-full h-[140px] sm:h-[170px] md:h-[200px] rounded-2xl overflow-hidden mb-6 bg-black">
-    <Image
-  src="/images/metodo/optometria.png"
-  alt="Optometria"
-  fill
-  quality={85}
-  sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 768px"
-  className="absolute inset-0 w-full h-full object-cover object-[center_55%] scale-[1.12] -translate-x-6"
-/>
-
-    <div className="absolute inset-0 bg-black/15" />
-
-    <div className="absolute inset-0 flex items-center px-6 sm:px-10">
-      <p className="italic font-semibold text-white text-sm sm:text-base md:text-lg leading-snug drop-shadow-sm max-w-2xl">
-        “Vedere è un atto neurologico, posturale ed esperienziale.”
-      </p>
-    </div>
-  </div>
-
-  {/* niente first-letter qui (evita la L’ spezzata) */}
-  <div className="text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
-    <p>
-      <span className="text-2xl font-semibold text-yellow-600 align-baseline">L’</span>
-      optometria è la disciplina che si occupa della valutazione della funzione visiva e del modo in cui il sistema visivo si integra con il resto del corpo. Non si limita a misurare la vista in termini di acuità visiva, ma osserva come gli occhi si muovono, come collaborano tra loro, come mettono a fuoco, come si coordinano con la postura, con il sistema nervoso e con i processi cognitivi.
-    </p>
-
-    <p>
-      La visione non è un atto puramente meccanico, ma un processo complesso che coinvolge occhi, cervello, muscoli, postura ed equilibrio. In questa prospettiva, l’optometria funzionale considera il sistema visivo come parte integrante dell’organizzazione globale della persona, in continuo dialogo con il sistema muscolo-scheletrico, con il sistema nervoso e con la percezione dello spazio.
-    </p>
-
-    <div className="border-l-4 border-yellow-500 pl-4 py-2 my-2 text-gray-700 italic">
-      Allenare la visione significa migliorare il modo in cui il corpo si orienta nello spazio.
-    </div>
-    <p>L’optometria si occupa di valutare e trattare le disfunzioni visive funzionali, come difficoltà di messa a fuoco, problemi di convergenza, affaticamento visivo, alterazioni della coordinazione oculo-motoria e disturbi legati all’uso prolungato degli schermi. Interviene anche nei casi in cui la visione influisce sulla postura, sull’equilibrio e sull’orientamento nello spazio, contribuendo a creare compensi a distanza.
-      </p>
-    <p>In un’ottica integrata, l’optometria ha un ruolo fondamentale nei percorsi multidisciplinari, in collaborazione con osteopatia, gnatologia, dentosofia, logopedia e altre discipline. La funzione visiva, infatti, è strettamente collegata alla postura, alla posizione della testa, all’equilibrio cranio-cervicale e alla regolazione neuromuscolare.
-    </p>
-    <p>L’approccio optometrico non si limita a correggere un difetto visivo, ma accompagna la persona verso una visione più efficiente, stabile e integrata, favorendo una migliore organizzazione del sistema. In questa visione, vedere bene non significa solo vedere nitido, ma vedere in equilibrio.
-      </p>
-  </div>
-
-  <a href="#top" className="inline-flex items-center gap-2 mt-6 text-sm text-yellow-600 hover:underline">
-    ↑ Torna su
-  </a>
-</section>
 
 {/* BIOMAGNETISMO */}
 <section id="biomagnetismo" className="scroll-mt-32 mt-20">
