@@ -8,8 +8,9 @@ export default function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // mobile accordion
+  // mobile accordions
   const [mobileMetodoOpen, setMobileMetodoOpen] = useState(false);
+  const [mobileChiOpen, setMobileChiOpen] = useState(false);
 
   // hover delay desktop
   const closingTimeout = useRef(null);
@@ -28,7 +29,9 @@ export default function Navbar() {
   };
 
   const menuItems = [
-    { name: "Chi siamo", href: "/chi-sono" ,
+    {
+      name: "Chi siamo",
+      href: "/chi-sono",
       dropdown: [
         { name: "Cristina Barni", href: "/chi-sono/#cristinabarni" },
         { name: "Francesca Faliva", href: "/chi-sono/#francescafaliva" },
@@ -36,9 +39,7 @@ export default function Navbar() {
         { name: "Luigi Satta", href: "/chi-sono/#luigisatta" },
         { name: "Teresa Mazzei", href: "/chi-sono/#teresamazzei" },
         { name: "Nicola Satta", href: "/chi-sono/#nicolasatta" },
-        
       ],
-      
     },
     {
       name: "Metodo Gold",
@@ -91,7 +92,6 @@ export default function Navbar() {
                   )}
                 </Link>
 
-                {/* Dropdown Metodo Gold */}
                 {item.dropdown && dropdownOpen === i && (
                   <ul className="absolute top-full left-0 bg-white shadow-lg rounded-xl mt-3 py-2 w-64 z-50">
                     {item.dropdown.map((sub, j) => (
@@ -145,6 +145,7 @@ export default function Navbar() {
           onClick={() => {
             setMenuOpen((v) => !v);
             setMobileMetodoOpen(false);
+            setMobileChiOpen(false);
           }}
           aria-label="Apri menu"
         >
@@ -152,64 +153,122 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* ================= MOBILE ================= */}
-      {menuOpen && (
-        <div className="md:hidden bg-[#4d1844] border-t border-white/10">
-          <ul className="flex flex-col gap-1 py-3 px-6">
-          
-          
+{/* ================= MOBILE ================= */}
+{menuOpen && (
+  <div className="md:hidden bg-[#4d1844] border-t border-white/10">
+    <ul className="flex flex-col gap-1 py-3 px-6">
 
-            {/* Metodo Gold accordion */}
-            <li>
-              <button
-                className="flex items-center justify-between w-full text-white hover:text-yellow-400 transition py-2"
-                onClick={() => setMobileMetodoOpen((v) => !v)}
-              >
-                Metodo Gold
-                <ChevronDown
-                  size={18}
-                  className={`transition-transform ${
-                    mobileMetodoOpen ? "rotate-180" : ""
-                  }`}
-                />
-              </button>
+      {/* CHI SIAMO */}
+      <li>
+        <div className="relative flex items-center py-2">
+          <Link
+            href="/chi-sono"
+            className="flex-1 pr-12 text-white hover:text-yellow-400 transition font-medium"
+            onClick={() => setMenuOpen(false)}
+          >
+            Chi siamo
+          </Link>
 
-              {mobileMetodoOpen && (
-                <ul className="ml-4 pb-2">
-                  {menuItems
-                    .find((x) => x.name === "Metodo Gold")
-                    ?.dropdown.map((leaf, i) => (
-                      <li key={i}>
-                        <Link
-                          href={leaf.href}
-                          className="block text-white/80 hover:text-yellow-400 transition text-sm py-1.5"
-                          onClick={() => setMenuOpen(false)}
-                        >
-                          • {leaf.name}
-                        </Link>
-                      </li>
-                    ))}
-                </ul>
-              )}
-            </li>
+          <button
+            type="button"
+            className="absolute right-0 top-1/2 -translate-y-1/2 p-2 text-white hover:text-yellow-400 transition"
+            aria-label="Apri sottomenu Chi siamo"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              setMobileChiOpen((v) => !v);
+            }}
+          >
+            <ChevronDown
+              size={18}
+              className={`transition-transform ${mobileChiOpen ? "rotate-180" : ""}`}
+            />
+          </button>
+        </div>
 
-            {/* Resto menu */}
+        {mobileChiOpen && (
+          <ul className="ml-4 pb-2">
             {menuItems
-              .filter((x) => !["Chi sono", "Metodo Gold"].includes(x.name))
-              .map((item, i) => (
+              .find((x) => x.name === "Chi siamo")
+              ?.dropdown?.map((leaf, i) => (
                 <li key={i}>
                   <Link
-                    href={item.href}
-                    className="block text-white hover:text-yellow-400 transition py-2"
+                    href={leaf.href}
+                    className="block text-white/80 hover:text-yellow-400 transition text-sm py-1.5"
                     onClick={() => setMenuOpen(false)}
                   >
-                    {item.name}
+                    • {leaf.name}
                   </Link>
                 </li>
               ))}
           </ul>
+        )}
+      </li>
+
+      {/* METODO GOLD */}
+      <li>
+        <div className="relative flex items-center py-2">
+          <Link
+            href="/chi-sono/il-metodo-gold"
+            className="flex-1 pr-12 text-white hover:text-yellow-400 transition font-medium"
+            onClick={() => setMenuOpen(false)}
+          >
+            Metodo Gold
+          </Link>
+
+          <button
+            type="button"
+            className="absolute right-0 top-1/2 -translate-y-1/2 p-2 text-white hover:text-yellow-400 transition"
+            aria-label="Apri sottomenu Metodo Gold"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              setMobileMetodoOpen((v) => !v);
+            }}
+          >
+            <ChevronDown
+              size={18}
+              className={`transition-transform ${mobileMetodoOpen ? "rotate-180" : ""}`}
+            />
+          </button>
         </div>
-      )}
+
+        {mobileMetodoOpen && (
+          <ul className="ml-4 pb-2">
+            {menuItems
+              .find((x) => x.name === "Metodo Gold")
+              ?.dropdown?.map((leaf, i) => (
+                <li key={i}>
+                  <Link
+                    href={leaf.href}
+                    className="block text-white/80 hover:text-yellow-400 transition text-sm py-1.5"
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    • {leaf.name}
+                  </Link>
+                </li>
+              ))}
+          </ul>
+        )}
+      </li>
+
+      {/* RESTO MENU */}
+      {menuItems
+        .filter((x) => !["Chi siamo", "Metodo Gold"].includes(x.name))
+        .map((item, i) => (
+          <li key={i}>
+            <Link
+              href={item.href}
+              className="block text-white hover:text-yellow-400 transition py-2"
+              onClick={() => setMenuOpen(false)}
+            >
+              {item.name}
+            </Link>
+          </li>
+        ))}
+    </ul>
+  </div>
+)}
     </nav>
   );
 }
