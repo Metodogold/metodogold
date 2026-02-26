@@ -164,7 +164,7 @@ const CONTENT = {
     {
       name: "Dr. Nicola Satta",
       role:
-        'testo',
+        'Igienista Dentale e Osteopata, con oltre 20 anni di esperienza clinica, accademica e scientifica nel campo della prevenzione e della salute integrata.',
       img: "/images/module-bg-2.jpeg",
     },
   ],
@@ -786,4 +786,5 @@ export default function PromoClient() {
       <div className="h-20 md:hidden" />
     </div>
   );
+
 }
