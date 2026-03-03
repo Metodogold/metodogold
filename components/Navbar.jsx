@@ -35,10 +35,11 @@ export default function Navbar() {
       dropdown: [
         { name: "Cristina Barni", href: "/chi-sono/#cristinabarni" },
         { name: "Francesca Faliva", href: "/chi-sono/#francescafaliva" },
+        { name: "Nicola Satta", href: "/chi-sono/#nicolasatta" },
         { name: "Francesco Pachì", href: "/chi-sono/#francescopachi" },
         { name: "Luigi Satta", href: "/chi-sono/#luigisatta" },
         { name: "Teresa Mazzei", href: "/chi-sono/#teresamazzei" },
-        { name: "Nicola Satta", href: "/chi-sono/#nicolasatta" },
+        
       ],
     },
     {
