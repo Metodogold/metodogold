@@ -60,9 +60,7 @@ export default function ContattiClient() {
             <span className="block w-72 h-[1px] bg-gradient-to-r from-transparent via-yellow-400/80 to-transparent" />
           </div>
 
-          <p className="mt-5 italic text-gray-600">
-            “Ogni percorso inizia da una domanda posta nel modo giusto.”
-          </p>
+        
         </div>
       </section>
 
