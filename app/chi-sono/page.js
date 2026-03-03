@@ -33,13 +33,12 @@ function PersonSection({
        
 <div className="md:col-span-5 space-y-5">
   <div className="rounded-3xl bg-white shadow-sm overflow-hidden">
-    <div className="w-full">
+    <div className="relative w-full aspect-[4/5] bg-slate-100">
   <Image
     src={imageSrc}
     alt={imageAlt}
-    width={900}
-    height={1200}
-    className="block w-full h-auto"
+    fill
+    className="object-cover object-center"
     sizes="(max-width: 768px) 100vw, 520px"
     priority={false}
   />
@@ -125,7 +124,7 @@ export default function ChiSonoPage() {
 
           {/* DX */}
           <div className="md:col-span-7">
-            <PersonHeader name="Cristina Barni" />
+            <PersonHeader name="Dott.ssa Cristina Barni" />
             <div className="mt-4 text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
               <p>
                 Sono <strong>Cristina Barni</strong>, odontoiatra, specialista in{" "}
@@ -250,9 +249,9 @@ export default function ChiSonoPage() {
   id="francescafaliva"
   imageSrc="/images/francescafaliva.png"
   imageAlt="Dott.ssa Francesca Faliva"
-  prefix=""
-  name="Francesca Faliva"
-  roleLine="• Osteopata D.O.M.R.O.I. • Docente Osteopatia Craniale • Formatrice in Osteopatia Pediatrica e Biodinamica"
+  prefix="Dott.ssa "
+  name="Dott.ssa Francesca Faliva"
+  roleLine="• Osteopata D.O.M.R.O.I. • Docente Osteopatia Craniale • Formatrice in Osteopatia Pediatrica e Biodinamica • Responsabile Progetto Salutesì"
 >
   <p>
     Francesca Faliva è <strong>osteopata</strong> e svolge la sua attività
@@ -293,13 +292,43 @@ export default function ChiSonoPage() {
   </p>
       </PersonSection>
 
+      {/* NICOLASATTA */}
+<PersonSection
+  id="nicolasatta"
+  imageSrc="/images/module-bg-2.jpeg"
+  imageAlt="Dott. Nicola Satta"
+  prefix="Dott."
+  name="Dott. Nicola Satta"
+  roleLine="• Igienista Dentale • Osteopata • 20 anni di esperienza clinica, accademica e scientifica nel campo della prevenzione e della salute integrata."
+>
+  <p>Il Dott. Nicola Satta è <strong>Igienista Dentale e Osteopata </strong>con oltre 20 anni di esperienza clinica, accademica e scientifica nel campo della prevenzione e della salute integrata.</p>
+
+<p>Laureato in Igiene Dentale presso l’Università di Trieste, ha conseguito con lode la Laurea in <strong>Scienze delle Professioni Sanitarie Tecniche Assistenziali</strong> e un <strong>Master di II livello in Management delle Aziende Sanitarie.</strong> Ha completato la formazione in Osteopatia integrando l’approccio odontoiatrico con una visione globale della persona.</p>
+
+<p>Ha ricoperto ruoli accademici di rilievo presso l’Università degli Studi di Cagliari e altre sedi universitarie italiane, tra cui:</p>
+
+<ul>
+  <li>Direttore della didattica del Corso di Laurea in Igiene Dentale</li>
+  <li>Docente a contratto nei Corsi di Laurea in Igiene Dentale e Odontoiatria</li>
+  <li>Coordinatore di progetti di ricerca in Odontoiatria preventiva e di comunità</li>
+</ul>
+
+<p>Da oltre 7 anni collabora con la Dr.ssa Barni nella gestione dei pazienti gnatologici, con un’attenzione particolare alle disfunzioni dell’apparato stomatognatico e alle <strong>problematiche correlate all’equilibrio cranio-mandibolare.</strong></p>
+
+<p>L’integrazione tra igiene dentale, prevenzione e approccio osteopatico consente una presa in carico completa del paziente. In particolare, dedica un’attenzione approfondita alla cura dei pazienti con <strong>problematiche </strong><strong>parodontali</strong>, seguendoli attraverso <strong>protocolli personalizzati di igiene professionale</strong>, mantenimento parodontale e prevenzione a lungo termine, con un <strong>approccio multidisciplinare</strong> orientato alla stabilità funzionale e al benessere generale.</p>
+
+<p>È autore di pubblicazioni scientifiche nazionali e relatore in congressi nazionali e internazionali.</p>
+
+<p>Attualmente esercita la libera professione come Igienista Dentale e Osteopata tra Cagliari e Olbia, occupandosi di prevenzione, salute orale, trattamento osteopatico per adulti, donne in gravidanza, neonati e bambini.</p>
+</PersonSection>
+
       {/* PACHÌ */}
 <PersonSection
   id="francescopachi"
   imageSrc="/images/francescopachi.png"
   imageAlt="Dott Francesco Pachi"
   prefix="Dott."
-  name="Francesco Pachì"
+  name="Dott. Francesco Pachì"
   roleLine="• Odontoiatra • Specialista in Ortodonzia • Docente del Corso di Laurea in Odontoiatria e Protesi Dentaria (Università di Roma Tor Vergata) • Socio ordinario della S.I.D.O. • Dentosofia"
 >
   <p>
@@ -356,7 +385,7 @@ export default function ChiSonoPage() {
   imageSrc="/images/luigisatta.jpg"
   imageAlt="Dott. Luigi Satta"
   prefix="Dott."
-  name="Luigi Satta"
+  name="Dott. Luigi Satta"
   roleLine="• Medico • Specializzazione in Pediatria • Omeopata • Omotossicologo • Naturopata • Esperto in elettroagopuntura secondo Voll"
 >
   <p>
@@ -437,8 +466,8 @@ export default function ChiSonoPage() {
 <PersonSection
   id="teresamazzei"
   imageSrc="/images/teresamazzei.jpeg"
-  imageAlt="Dott.ssa Teresa Mazzei"
-  prefix="Dott.ssa"
+  imageAlt="Teresa Mazzei"
+  prefix=""
   name="Teresa Mazzei"
   roleLine="• Euritmista • Arte-terapeuta ad indirizzo antroposofico (Italia) • Pedagogista di Emergenza (Germania)."
 >
@@ -463,37 +492,6 @@ export default function ChiSonoPage() {
     <strong>Mexico, Spagna, Portogallo, Australia</strong>).
   </p>
 </PersonSection>
-
-{/* NICOLASATTA */}
-<PersonSection
-  id="nicolasatta"
-  imageSrc="/images/module-bg-2.jpeg"
-  imageAlt="Dott. Nicola Satta"
-  prefix="Dott."
-  name="Nicola Satta"
-  roleLine="• Igienista Dentale • Osteopata • 20 anni di esperienza clinica, accademica e scientifica nel campo della prevenzione e della salute integrata."
->
-  <p>Il Dott. Nicola Satta è <strong>Igienista Dentale e Osteopata </strong>con oltre 20 anni di esperienza clinica, accademica e scientifica nel campo della prevenzione e della salute integrata.</p>
-
-<p>Laureato in Igiene Dentale presso l’Università di Trieste, ha conseguito con lode la Laurea in <strong>Scienze delle Professioni Sanitarie Tecniche Assistenziali</strong> e un <strong>Master di II livello in Management delle Aziende Sanitarie.</strong> Ha completato la formazione in Osteopatia integrando l’approccio odontoiatrico con una visione globale della persona.</p>
-
-<p>Ha ricoperto ruoli accademici di rilievo presso l’Università degli Studi di Cagliari e altre sedi universitarie italiane, tra cui:</p>
-
-<ul>
-  <li>Direttore della didattica del Corso di Laurea in Igiene Dentale</li>
-  <li>Docente a contratto nei Corsi di Laurea in Igiene Dentale e Odontoiatria</li>
-  <li>Coordinatore di progetti di ricerca in Odontoiatria preventiva e di comunità</li>
-</ul>
-
-<p>Da oltre 7 anni collabora con la Dr.ssa Barni nella gestione dei pazienti gnatologici, con un’attenzione particolare alle disfunzioni dell’apparato stomatognatico e alle <strong>problematiche correlate all’equilibrio cranio-mandibolare.</strong></p>
-
-<p>L’integrazione tra igiene dentale, prevenzione e approccio osteopatico consente una presa in carico completa del paziente. In particolare, dedica un’attenzione approfondita alla cura dei pazienti con <strong>problematiche </strong><strong>parodontali</strong>, seguendoli attraverso <strong>protocolli personalizzati di igiene professionale</strong>, mantenimento parodontale e prevenzione a lungo termine, con un <strong>approccio multidisciplinare</strong> orientato alla stabilità funzionale e al benessere generale.</p>
-
-<p>È autore di pubblicazioni scientifiche nazionali e relatore in congressi nazionali e internazionali.</p>
-
-<p>Attualmente esercita la libera professione come Igienista Dentale e Osteopata tra Cagliari e Olbia, occupandosi di prevenzione, salute orale, trattamento osteopatico per adulti, donne in gravidanza, neonati e bambini.</p>
-</PersonSection>
-
 
       {/* SHOW TOP — freccia fissa */}
       <a
