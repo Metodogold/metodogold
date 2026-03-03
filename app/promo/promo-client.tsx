@@ -37,6 +37,7 @@ const CONTENT = {
     "Optometristi",
     "Logopedisti",
   ],
+  
 
   promoTitle: "IN PROMOZIONE",
   promoSubtitle:
@@ -50,7 +51,7 @@ const CONTENT = {
       saving: "Risparmi € 134",
     },
     {
-      who: "Le altre professioni",
+      who: "Altre professioni",
       full: "€ 640 + IVA",
       promo: "€ 544 + IVA",
       note: "-15% sul 1° modulo",
@@ -60,11 +61,11 @@ const CONTENT = {
 
   objectivesTitle: "Obiettivi formativi",
   objectives: [
-    "Lettura sistemica funzionale dell’apparato stomatognatico",
-    "Sviluppare la capacità di ascolto del sistema cranio-sacrale e comprendere la relazione tra lavoro intraorale ed equilibrio generale dell’organismo",
-    "Gestione dei dispositivi intraorali funzionali delle DTM",
-    "Potenziare la comunicazione interdisciplinare tra Odontoiatria, Osteopatia e Medicine integrate",
-    "Ricercare le cause delle disfunzioni (non solo gestione del sintomo) nelle DTM in un contesto cranio–cervico–mandibolare e sistemico",
+    "Sviluppare una capacità diagnostica approfondita, basata su una valutazione clinica sistemica e funzionale dell’apparato stomatognatico. ",
+    "Sviluppare la capacità di ascolto palpatorio del sistema cranio-sacrale e comprendere la relazione tra lavoro intraorale ed equilibrio generale dell'organismo.",
+    "Acquisire competenze nella gestione dei dispositivi intraorali funzionali nelle DTM, in coerenza con il quadro diagnostico.",
+    "Ricercare le cause delle disfunzioni, superando la mera gestione del sintomo, attraverso un approccio eziologico e multidisciplinare nelle DTM.",
+    "Potenziare la comunicazione interdisciplinare tra Odontoiatria, Osteopatia e Medicine integrate, a partire da una diagnosi condivisa e funzionalmente orientata.",
   ],
 
   integrazioniTitle: "Integrazioni cliniche",
@@ -86,16 +87,16 @@ const CONTENT = {
 
   modules: [
     {
-      title: "Modulo 1 – Fondamenti clinici e sistemici",
+      title: "Modulo 1 – Fondamenti clinici e sistemici e diagnostici",
       intro:
-        "Basi anatomiche, fisiologiche e funzionali per una visione integrata dell’apparato stomatognatico nel contesto cranio-sacrale.",
+        "Basi anatomiche, fisiologiche e funzionali per una visione integrata e diagnostica dell’apparato stomatognatico nel contesto cranio-sacrale.",
       items: [
-        "Fondamenti di anatomia e fisiologia del sistema cranio-sacrale",
-        "Mobilità cranica e meccanismo respiratorio primario",
-        "Ascolto palpatorio e valutazione funzionale",
-        "Inquadramento delle malocclusioni e delle disfunzioni gnatologiche",
-        "Utilizzo dei dispositivi funzionali in una visione sistemica",
-        "Concetto di odontone come unità anatomo-funzionale in un sistema complesso",
+        "Fondamenti di anatomia e fisiologia del sistema cranio-sacrale, con lettura funzionale orientata alla diagnosi.",
+        "Mobilità cranica e meccanismo respiratorio primario come elementi chiave nella valutazione clinica e nell’inquadramento diagnostico.",
+        "Ascolto palpatorio e valutazione funzionale come strumenti di indagine clinica per l’identificazione delle alterazioni disfunzionali.",
+        "Inquadramento delle malocclusioni e delle disfunzioni gnatologiche in una prospettiva integrata.",
+        "Utilizzo dei dispositivi funzionali in coerenza con la diagnosi formulata.",
+        "Concetto di odontone come unità anatomo-funzionale all’interno di un sistema complesso, con implicazioni diagnostiche e terapeutiche.",
       ],
     },
     {
@@ -144,6 +145,12 @@ const CONTENT = {
       img: "/images/francescafaliva.png",
     },
     {
+      name: "Dr. Nicola Satta",
+      role:
+        'Igienista Dentale e Osteopata, con oltre 20 anni di esperienza clinica, accademica e scientifica nel campo della prevenzione e della salute integrata.',
+      img: "/images/module-bg-2.jpeg",
+    },
+    {
       name: "Dr. Francesco Pachi",
       role:
         "Odontoiatra, Spec. in Ortodonzia, Docente Università di Roma Tor Vergata (CL Odontoiatria e Protesi Dentaria), Socio ordinario S.I.D.O., Dentosofia",
@@ -161,12 +168,7 @@ const CONTENT = {
         'Euritmista, Master of Education Eurythmy, spec. in Euritmia Igienica e in "Eurythmy in working life", arte-terapia ad indirizzo antroposofico e Pedagogia di Emergenza',
       img: "/images/teresamazzei.jpeg",
     },
-    {
-      name: "Dr. Nicola Satta",
-      role:
-        'Igienista Dentale e Osteopata, con oltre 20 anni di esperienza clinica, accademica e scientifica nel campo della prevenzione e della salute integrata.',
-      img: "/images/module-bg-2.jpeg",
-    },
+
   ],
 };
 
@@ -245,11 +247,14 @@ function renderBoldPhrases(text: string, phrases: string[]) {
 }
 
 const OBJECTIVES_BOLD_PHRASES = [
-  "Lettura sistemica funzionale",
-  "la capacità di ascolto",
-  "Gestione dei dispositivi intraorali funzionali",
-  "comunicazione interdisciplinare",
-  "cause delle disfunzioni",
+  "capacità diagnostica approfondita",
+  "dell’apparato stomatognatico",
+  "ascolto palpatorio del sistema cranio-sacrale",
+  "relazione tra lavoro intraorale ed equilibrio generale dell'organismo",
+  "gestione dei dispositivi intraorali funzionali nelle DTM",
+  "le cause delle disfunzioni",
+  "approccio eziologico e multidisciplinare nelle DTM",
+  "la comunicazione interdisciplinare tra Odontoiatria, Osteopatia e Medicine integrate",
 ];
 
 const INTEGRAZIONI_BOLD_PHRASES = [
@@ -316,7 +321,7 @@ export default function PromoClient() {
         Percorso annuale teorico pratico in 3 moduli progressivi
       </p>
 
-      <p className="mt-2 text-lg font-semibold text-slate-600 md:text-2xl">
+      <p className="mt-2 text-lg font-bold text-slate-600 md:text-2xl">
         Maggio • Luglio • Ottobre 2026
       </p>
 
@@ -330,16 +335,57 @@ export default function PromoClient() {
 
         
       </div>
+      {/* INTRO TESTO (stile Metodo Gold) — dopo ROMA */}
+<section className="mt-8">
+  <div className="mx-auto max-w-5xl px-4">
+    <h2 className="relative inline-block text-2xl md:text-3xl font-extrabold tracking-tight text-slate-900 pb-3">
+  Una visione sistemica dell’apparato stomatognatico
 
-      {/* tengo il bottone */}
-      <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-        <a
-          href="#programma"
-          className="inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-300 bg-white px-6 py-3 text-base font-semibold text-slate-900 hover:bg-slate-50"
-        >
-          Vedi il programma
-        </a>
-      </div>
+  {/* underline gold sfumata */}
+  <span className="pointer-events-none absolute left-0 right-0 -bottom-0.5 h-[3px] rounded-full bg-gradient-to-r from-[#B8860B] via-[#D4AF37] to-[#F2D06B]" />
+</h2>
+
+    <div className="mt-6 space-y-6 text-[1.22rem] leading-[1.5] text-slate-700 sm:text-[1.28rem] sm:leading-[1.55] md:text-xl md:leading-relaxed">
+      <p>
+        Nella pratica odontoiatrica moderna il paziente gnatologico è sempre più spesso un paziente
+        complesso. Sintomi che migrano, compensi che si riorganizzano, trattamenti tecnicamente corretti
+        che non sempre conducono a una{" "}
+        <strong className="font-extrabold text-slate-900">
+          reale stabilità clinica nel tempo
+        </strong>
+        . Questo accade quando l’apparato stomatognatico viene osservato come un sistema isolato, senza
+        considerare il{" "}
+        <strong className="font-extrabold text-slate-900">
+          dialogo continuo con la postura, il sistema nervoso, il sistema cranio-sacrale e i meccanismi di
+          adattamento dell’organismo
+        </strong>
+        .
+      </p>
+
+      <p>
+        <strong className="font-extrabold text-slate-900">
+          Il Corso di Gnatologia Osteopatica Integrata nasce dall’esigenza di superare questa
+          frammentazione,
+        </strong>{" "}
+        offrendo all’odontoiatra una{" "}
+        <strong className="font-extrabold text-slate-900">
+          lettura sistemica, funzionale e ampliata della gnatologia,
+        </strong>{" "}
+        applicabile concretamente nella pratica clinica
+      </p>
+    </div>
+  </div>
+</section>
+
+     {/* tengo il bottone */}
+<div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+  <a
+    href="#programma"
+    className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[#B8860B] via-[#D4AF37] to-[#F2D06B] px-6 py-3 text-base font-semibold text-slate-950 shadow-sm hover:opacity-95 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37]/60 focus-visible:ring-offset-2"
+  >
+    Vedi il programma
+  </a>
+</div>
     </div>
 
     <div className="mt-8 grid gap-4 md:grid-cols-12 md:items-start">
@@ -485,7 +531,7 @@ export default function PromoClient() {
                 <div className="absolute top-8 left-0 right-0 z-20 flex justify-center px-4">
                   <div className="w-full max-w-4xl rounded-2xl bg-black/20 backdrop-blur-sm px-4 py-3">
                     <p className="text-center text-lg italic text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.65)] sm:text-xl md:text-2xl">
-                      Imparerai a sviluppare le capacità di ascolto del sistema
+                      Imparerai a sviluppare le capacità di ascolto palpatorio del sistema
                       cranio-sacrale e comprendere la relazione tra lavoro
                       intraorale ed equilibrio generale dell&apos;organismo
                     </p>
@@ -510,9 +556,9 @@ export default function PromoClient() {
       <section className="mx-auto max-w-6xl px-4 pb-14">
         <SectionTitle
           title="Costi del corso"
-          subtitle="Costo standard per modulo + promozione dedicata a chi si iscrive entro la scadenza."
-          titleClassName="text-4xl sm:text-5xl md:text-6xl"
-          subtitleClassName="text-xl md:text-2xl"
+          subtitle="Costo standard per modulo + promozione dedicata a chi si iscrive entro il 30 Marzo 2026."
+          titleClassName="text-4xl sm:text-5xl md:text-4xl"
+          subtitleClassName="text-xl md:text-2xl font-bold"
         />
 
         <div className="mt-2 rounded-[2rem] bg-[color:var(--gold)]/6 px-6 pb-6 pt-3 md:px-8 md:pb-8 md:pt-4">
@@ -594,10 +640,13 @@ export default function PromoClient() {
             <h2 className="mt-3 text-3xl font-semibold text-slate-900 md:text-4xl">
               Apparato stomatognatico e stabilità clinica
             </h2>
-            <p className="mt-3 max-w-2xl font-semibold text-lg text-slate-700">
-              Un percorso progressivo per integrare valutazione, terapia manuale,
-              dispositivi funzionali e lettura sistemica.
-            </p>
+            <p className="mt-3 max-w-2xl font-semibold text-lg text-slate-700 break-normal md:max-w-none">
+  Un percorso progressivo per integrare valutazione, terapia manuale,<wbr />{" "}
+  <span className="whitespace-nowrap break-normal">
+    dispositivi{"\u00A0"}funzionali
+  </span>{" "}
+  e lettura sistemica.
+</p>
           </div>
         </div>
       </section>
@@ -607,6 +656,7 @@ export default function PromoClient() {
         <SectionTitle
           title={CONTENT.structureTitle}
           subtitle={CONTENT.structureIntro}
+          subtitleClassName="text-xl md:text-2xl font-bold"
         />
 
         <div className="mt-10">
@@ -630,8 +680,11 @@ export default function PromoClient() {
           {/* BOX ADV ECM ridotto */}
           <div className="mt-4">
             <div className="mx-auto w-full max-w-2xl rounded-3xl bg-[color:var(--gold)] px-6 py-5 md:px-8 md:py-6 text-center shadow-sm">
-              <div className="text-3xl md:text-4xl font-extrabold leading-none text-white">
+              <div className="text-3xl md:text-5xl font-extrabold leading-none text-white">
                 50 ECM
+              </div>
+              <div className="text-3xl md:text-2xl font-extrabold leading-none text-white">
+                +
               </div>
 
               <div className="mt-2 text-sm md:text-base font-semibold text-white/95">
@@ -650,8 +703,8 @@ export default function PromoClient() {
         <SectionTitle
           title="I 3 moduli progressivi"
           subtitle="Teoria + esercitazioni pratiche guidate in ogni modulo."
-          titleClassName="text-4xl sm:text-5xl md:text-6xl"
-          subtitleClassName="text-xl md:text-2xl"
+          titleClassName="text-4xl sm:text-5xl md:text-4xl"
+          subtitleClassName="text-xl md:text-2xl font-bold"
         />
 
         <div className="mt-4 grid gap-4">
@@ -685,7 +738,7 @@ export default function PromoClient() {
                 {m.items.map((t) => (
                   <li key={t} className="flex items-start gap-3 py-1">
                     <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[color:var(--gold)]" />
-                    <span className="text-base text-slate-700 md:text-lg">{t}</span>
+                    <span className="text-lg text-slate-700 md:text-xl">{t}</span>
                   </li>
                 ))}
               </ul>
@@ -705,6 +758,7 @@ export default function PromoClient() {
         <SectionTitle
           title={CONTENT.docentiTitle}
           subtitle="Competenze complementari per una lettura realmente integrata."
+           subtitleClassName="text-xl md:text-2xl font-bold"
         />
 
         <div className="mt-10 grid gap-4 md:grid-cols-2">
