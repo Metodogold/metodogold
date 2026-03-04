@@ -26,30 +26,36 @@ export default function HeroHomeClient() {
   className="mx-auto text-center max-w-5xl translate-y-16 sm:translate-y-14 md:translate-y-0"
   style={{ textWrap: "balance" }}
 >
-              <h1 className="text-white drop-shadow-sm leading-tight tracking-tight">
-                <span className="block text-[34px] sm:text-[42px] md:text-[56px] font-semibold">
-                  Approccio multidisciplinare alla bocca per l’equilibrio globale
-                  del paziente
-                </span>
-              </h1>
+<h1 className="text-white drop-shadow-sm leading-tight tracking-tight">
+  <span className="block text-[34px] sm:text-[42px] md:text-[56px] font-semibold">
+    Approccio multidisciplinare alla bocca per l’equilibrio globale del paziente
+  </span>
+</h1>
 
-              <p className="mt-2 md:mt-10 text-xl sm:text-2xl md:text-4xl text-white/90 leading-relaxed font-medium tracking-wide">
-                <span className="text-yellow-500 font-semibold">G</span>natologia,{" "}
-                <span className="text-yellow-500 font-semibold">O</span>steopatia,{" "}
-                <span className="text-yellow-500 font-semibold">L</span>ogopedia,{" "}
-                <span className="text-yellow-500 font-semibold">D</span>entosofia
-              </p>
+{/* GOLD line: più grande su mobile + più interlinea, e su mobile va in 2 righe */}
+<p className="mt-5 md:mt-10 text-[1.65rem] sm:text-2xl md:text-4xl text-white/90 font-medium tracking-wide leading-[1.85] sm:leading-relaxed">
+  <span className="block sm:inline">
+    <span className="text-yellow-500 font-semibold">G</span>natologia,{" "}
+    <span className="text-yellow-500 font-semibold">O</span>steopatia,
+  </span>{" "}
+  <span className="block sm:inline">
+    <span className="text-yellow-500 font-semibold">L</span>ogopedia,{" "}
+    <span className="text-yellow-500 font-semibold">D</span>entosofia
+  </span>
+</p>
 
-            
-              
+{/* linea divisoria COME prima, prima del testo corsi */}
+<div className="mt-6 flex justify-center">
+  <span className="block w-80 h-[1px] bg-gradient-to-r from-transparent via-yellow-400/80 to-transparent" />
+</div>
 
-              <p className="mt-3 md:mt-8 italic text-white/80 text-base sm:text-lg md:text-xl leading-relaxed font-medium">
-                Corsi, percorsi e formazione per professionisti{" "}
-                <span className="block sm:inline">
-                  che lavorano con una visione integrata
-                </span>
-              </p>
-              <div className="mt-5 flex justify-center">
+{/* blocco “Corsi…” più in basso */}
+<p className="mt-8 md:mt-8 italic text-white/80 text-base sm:text-lg md:text-xl leading-relaxed font-medium">
+  Corsi, percorsi e formazione per professionisti{" "}
+  <span className="block sm:inline">che lavorano con una visione integrata</span>
+</p>
+
+<div className="mt-7 flex justify-center">
   <span className="block w-80 h-[1px] bg-gradient-to-r from-transparent via-yellow-400/80 to-transparent" />
 </div>
 
@@ -78,53 +84,56 @@ export default function HeroHomeClient() {
 
   <div className="relative z-10 px-7 pb-7 pt-1 md:px-9 md:pb-9 md:pt-2">
     {/* tolto mt-4 -> testo più in alto */}
-    <div className="text-center space-y-4 text-[15.5px] md:text-lg leading-relaxed text-white">
-      <p>
-        <strong className="font-bold text-white">Il Metodo GOLD®</strong>{" "}
-        è un approccio multidisciplinare alla salute che integra{" "}
-        <strong className="font-bold text-white">
-          Gnatologia, Osteopatia, Logopedia, Dentosofia
-        </strong>{" "}
-        e{" "}
-        <strong className="font-bold text-white">
-          Medicine complementari
-        </strong>{" "}
-        in una visione unitaria dell’essere umano.
-      </p>
+    <div
+  lang="it"
+  className="space-y-6 px-2 sm:px-6 md:px-14 text-[15.5px] md:text-lg leading-[1.7] text-white/90 text-justify"
+  style={{ hyphens: "auto" }}
+>
+  <p>
+    <strong className="font-bold text-white">Il Metodo GOLD®</strong>{" "}
+    è un approccio multidisciplinare alla salute che integra{" "}
+    <strong className="font-bold text-white">
+      Gnatologia, Osteopatia, Logopedia, Dentosofia
+    </strong>{" "}
+    e{" "}
+    <strong className="font-bold text-white">
+      Medicine complementari
+    </strong>{" "}
+    in una visione unitaria dell’essere umano.
+  </p>
 
-      <p>
-        <strong className="font-bold text-white">La bocca</strong> e
-        l’apparato stomatognatico diventano una chiave di lettura privilegiata
-        per comprendere l’equilibrio generale del corpo. Ogni sintomo viene
-        osservato non come evento isolato, ma come espressione di adattamenti e
-        compensi che coinvolgono{" "}
-        <strong className="font-bold text-white">
-          l’individuo nella sua totalità
-        </strong>{" "}
-        — nei suoi aspetti{" "}
-        <strong className="font-bold text-white">
-          fisici, funzionali, neurovegetativi, emozionali e nella sua dimensione
-          interiore
-        </strong>{" "}
-        — come un sistema unico e interconnesso.
-      </p>
+  <p>
+    <strong className="font-bold text-white">La bocca</strong> e
+    l’apparato stomatognatico diventano una chiave di lettura privilegiata
+    per comprendere l’equilibrio generale del corpo. Ogni sintomo viene
+    osservato non come evento isolato, ma come espressione di adattamenti e
+    compensi che coinvolgono{" "}
+    <strong className="font-bold text-white">
+      l’individuo nella sua totalità
+    </strong>{" "}
+    — nei suoi aspetti{" "}
+    <strong className="font-bold text-white">
+      fisici, funzionali, neurovegetativi, emozionali e nella sua dimensione
+      interiore
+    </strong>{" "}
+    — come un sistema unico e interconnesso.
+  </p>
 
-      <p>
-        Il <strong className="font-bold text-white">Metodo GOLD®</strong>{" "}
-        accompagna la persona in un percorso di comprensione, riequilibrio e
-        autoregolazione, rispettando i tempi individuali e la complessità
-        dell’organismo. Si rivolge a{" "}
-        <strong className="font-bold text-white">
-          professionisti che desiderano formarsi in modo realmente integrato
-        </strong>{" "}
-        e a pazienti che cercano un{" "}
-        <strong className="font-bold text-white">
-          approccio più consapevole e globale alla propria salute
-        </strong>
-        , in ogni fase della vita.
-      </p>
-    </div>
-
+  <p>
+    Il <strong className="font-bold text-white">Metodo GOLD®</strong>{" "}
+    accompagna la persona in un percorso di comprensione, riequilibrio e
+    autoregolazione, rispettando i tempi individuali e la complessità
+    dell’organismo. Si rivolge a{" "}
+    <strong className="font-bold text-white">
+      professionisti che desiderano formarsi in modo realmente integrato
+    </strong>{" "}
+    e a pazienti che cercano un{" "}
+    <strong className="font-bold text-white">
+      approccio più consapevole e globale alla propria salute
+    </strong>
+    , in ogni fase della vita.
+  </p>
+</div>
     {/* bottone: più in basso (più spazio sopra) */}
     <div className="mt-10 flex justify-center">
       <Link
