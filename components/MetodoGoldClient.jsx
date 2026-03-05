@@ -419,17 +419,17 @@ acufeni.
   Principali ambiti di intervento dell’osteopatia: 
   <br></br>
   <span className="font-semibold"> 
- Disturbi muscolo-scheletrici (cervicalgia, lombalgia, sciatalgia, dolori articolari),
-Squilibri posturali e compensi funzionali,
-Disfunzioni cranio-cervico-mandibolari e ATM,
-Cefalee e tensioni cervicali,
-Disturbi viscerali funzionali (digestivi, reflusso, gonfiore),
-Disturbi legati allo stress e alle tensioni croniche, 
-Disturbi del sonno,
-Limitazioni della mobilità e rigidità articolari,
-Disturbi in ambito pediatrico (coliche, torcicollo, plagiocefalia funzionale),
-Disturbi in gravidanza e nel post-parto,
-Prevenzione e supporto in ambito sportivo. </span>
+disturbi muscolo-scheletrici (cervicalgia, lombalgia, sciatalgia, dolori articolari),
+squilibri posturali e compensi funzionali,
+disfunzioni cranio-cervico-mandibolari e ATM,
+cefalee e tensioni cervicali,
+disturbi viscerali funzionali (digestivi, reflusso, gonfiore),
+disturbi legati allo stress e alle tensioni croniche, 
+disturbi del sonno,
+limitazioni della mobilità e rigidità articolari,
+listurbi in ambito pediatrico (coliche, torcicollo, plagiocefalia funzionale),
+disturbi in gravidanza e nel post-parto,
+prevenzione e supporto in ambito sportivo. </span>
 </p>
 
   </div>
@@ -440,6 +440,110 @@ Prevenzione e supporto in ambito sportivo. </span>
   ↑ Torna su
 </a>
 
+</section>
+{/* OMEOPATIA */}
+<section id="omeopatia" className="scroll-mt-32 mt-20">
+  <h3 className="text-2xl md:text-3xl font-semibold text-yellow-600 mb-4">
+    Omeopatia
+  </h3>
+
+  <div className="relative w-full h-[140px] sm:h-[170px] md:h-[200px] rounded-2xl overflow-hidden mb-6 bg-black">
+    <Image
+  src="/images/metodo/omeopatia.png"
+  alt="Omeopatia"
+  fill
+  quality={85}
+  sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 768px"
+  className="absolute inset-0 w-full h-full object-cover object-[center_55%] scale-[1.12] -translate-x-6"
+/>
+
+    <div className="absolute inset-0 bg-black/15" />
+
+    <div className="absolute inset-0 flex items-center px-6 sm:px-10">
+      <p className="italic font-semibold text-white text-sm sm:text-base md:text-lg leading-snug drop-shadow-sm max-w-2xl">
+        “Il rimedio giusto agisce come una scintilla che risveglia la forza vitale.”
+
+      </p>
+    </div>
+  </div>
+
+  <div className="text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
+    <p className="first-letter:text-3xl first-letter:font-semibold first-letter:text-yellow-600 first-letter:mr-1">
+     L’omeopatia nasce alla fine del XVIII secolo grazie al <strong>medico tedesco Samuel Hahnemann</strong>, che sviluppò questo approccio osservando come alcune sostanze, se somministrate in dosi minime, potessero stimolare una risposta di riequilibrio nell’organismo. Il principio su cui si fonda è la <strong>legge della similitudine</strong>, secondo cui una sostanza capace di provocare determinati sintomi in una persona sana può aiutare l’organismo a ritrovare l’equilibrio in presenza di sintomi simili. Il rimedio omeopatico, quindi, non agisce per opposizione al sintomo, ma per <strong> risonanza</strong> con esso, stimolando una <strong>risposta interna di autoregolazione</strong>. 
+    </p>
+    <p>
+      L’omeopatia è un sistema terapeutico che considera la persona nella sua globalità e si basa sull’idea che l’organismo possieda una naturale capacità di autoregolazione e di autoguarigione. <strong>Non si limita a sopprimere il sintomo</strong>, ma ricerca le cause profonde dello squilibrio, osservando come il corpo, la mente e le emozioni interagiscano tra loro. In questa visione, il sintomo non è un nemico da combattere, ma un <strong>messaggio </strong>attraverso cui l’organismo esprime una difficoltà di adattamento.</p>
+    <p>
+      I rimedi omeopatici derivano da sostanze di origine <strong> vegetale, animale e minerale</strong>. Piante, minerali, metalli e, in alcuni casi, sostanze di origine animale vengono utilizzati come base per la preparazione dei <strong> rimedi</strong>, secondo un processo rigoroso che ne preserva l’informazione originaria. Queste sostanze non vengono utilizzate in senso chimico o farmacologico, ma vengono sottoposte a un processo di <strong>diluizione e dinamizzazione</strong>, attraverso cui l’informazione energetica della sostanza viene progressivamente potenziata.</p>
+  <p>
+    La dinamizzazione è un passaggio fondamentale dell’omeopatia. Attraverso successive diluizioni e succussioni, il rimedio perde la componente materiale e chimica, ma mantiene e amplifica la sua <strong> impronta energetica</strong>. In questa prospettiva, non è la molecola a esercitare l’effetto, ma <strong>la frequenza, l’informazione vibratoria che il rimedio porta con sé</strong>. L’omeopatia, quindi, non lavora sul  piano chimico, ma sul <strong> piano informazionale ed energetico</strong>, dialogando con i sistemi di regolazione dell’organismo.
+      </p>
+      <div className="border-l-4 border-yellow-500 pl-4 py-2 my-2 text-gray-700 italic">
+      <p>“Il rimedio giusto agisce come una scintilla che risveglia la forza vitale.”
+(Ispirato al pensiero di J.T. Kent)
+        </p>
+        </div>
+<p>Questo spiega perché l’omeopatia si inserisce naturalmente in una visione di <strong> medicina integrata</strong>, in cui il corpo non è considerato solo come una macchina biochimica, ma come un sistema complesso, intelligente, sensibile e adattativo. Il rimedio omeopatico agisce come uno <strong>stimolo sottile</strong> che invita l’organismo a ritrovare il proprio <strong> equilibrio</strong>, senza forzarlo e senza sostituirsi ai suoi meccanismi naturali.
+        </p>
+        <p>L’approccio omeopatico non osserva soltanto la malattia, ma la modalità con cui la persona vive, reagisce, si adatta e risponde agli eventi. Ogni individuo è unico nella sua <strong>costituzione</strong>, nella sua storia, nella sua sensibilità e nel suo modo di esprimere il disagio. Per questo motivo, l’omeopatia non propone protocolli standardizzati, ma un <strong>percorso personalizzato </strong>che tiene conto della totalità della persona, includendo la sfera fisica, emotiva, mentale ed energetica.</p>
+  <p>L’omeopatia si inserisce con naturalezza nei percorsi multidisciplinari, in integrazione con osteopatia, gnatologia, dentosofia, logopedia e biomagnetismo, contribuendo a sostenere i processi di autoregolazione dell’organismo. Mentre le altre discipline lavorano prevalentemente sul piano strutturale, funzionale e biomeccanico, l’omeopatia accompagna l’individuo attraverso processi di <strong>disintossicazione</strong> e di riequilibrio sul piano sistemico, reattivo ed energetico, favorendo una migliore risposta dell’organismo agli stimoli interni ed esterni.</p>
+  <p>Questo approccio è <strong> adatto a tutte le età</strong>, dai <strong>bambini</strong> <strong>agli adulti</strong>, dagli<strong> anziani </strong>alle <strong> donne in gravidanza</strong>, e può essere utilizzato come sostegno nei momenti di cambiamento, di crescita, di stress o di fragilità. Non si pone in alternativa alla medicina convenzionale, ma in <strong>complementarità</strong>, con l’obiettivo di ampliare la lettura della persona e di accompagnarla verso un <strong>equilibrio più profondo e stabile</strong>.</p>
+  <p>Nella visione della medicina integrata, l’obiettivo dell’omeopatia non è combattere la malattia, ma <strong>sostenere la salute</strong>, favorendo la capacità dell’organismo a ritrovare il proprio centro. Perché la vera guarigione non è solo l’eliminazione del sintomo, ma il recupero dell’armonia tra corpo, mente e spirito.</p>
+  <p>Nella visione della medicina integrata, l’<strong>obiettivo dell’omeopatia</strong> non è quello di combattere il sintomo, ma è quello di andare alla causa di ciò che ha scatenato la malattia, sostenendo la salute e la capacità dell’organismo a ritrovare il proprio centro. La <strong> vera guarigione</strong> non è solo l’eliminazione del sintomo, ma il recupero dell’armonia tra corpo, mente e spirito.</p>
+  </div>
+
+  <a href="#top" className="inline-flex items-center gap-2 mt-6 text-sm text-yellow-600 hover:underline">
+    ↑ Torna su
+  </a>
+</section>
+
+{/* OPTOMETRIA */}
+<section id="optometria" className="scroll-mt-32 mt-20">
+  <h3 className="text-2xl md:text-3xl font-semibold text-yellow-600 mb-4">
+    Optometria
+  </h3>
+
+  <div className="relative w-full h-[140px] sm:h-[170px] md:h-[200px] rounded-2xl overflow-hidden mb-6 bg-black">
+    <Image
+  src="/images/metodo/optometria.png"
+  alt="Optometria"
+  fill
+  quality={85}
+  sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 768px"
+  className="absolute inset-0 w-full h-full object-cover object-[center_55%] scale-[1.12] -translate-x-6"
+/>
+
+    <div className="absolute inset-0 bg-black/15" />
+
+    <div className="absolute inset-0 flex items-center px-6 sm:px-10">
+      <p className="italic font-semibold text-white text-sm sm:text-base md:text-lg leading-snug drop-shadow-sm max-w-2xl">
+        “Il corpo risponde quando l’equilibrio viene ristabilito.”
+      </p>
+    </div>
+  </div>
+
+  <div className="text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
+    <p className="first-letter:text-3xl first-letter:font-semibold first-letter:text-yellow-600 first-letter:mr-1">
+     La Coppia Biomagnetica è un metodo integrativo e non invasivo, sviluppato dal Dr. Isaac Goiz Durán in oltre trent’anni di ricerca. Si inserisce in una visione olistica del benessere e si propone come strumento di supporto per favorire l’equilibrio dell’organismo e i naturali processi di autoregolazione.
+    </p>
+    <p>
+      Il metodo si fonda sul principio della Risonanza Biomagnetica, secondo il quale alcune disarmonie dell’organismo possono essere associate a variazioni del pH in specifiche aree del corpo, collegate tra loro in coppie. In determinate condizioni di squilibrio interno, queste alterazioni possono favorire una crescita non armonica di microrganismi, che l’organismo può avere difficoltà a gestire, creando così un ambiente meno favorevole all’equilibrio generale e al benessere della persona.
+    </p>
+    <p>
+      Durante una sessione di biomagnetismo, il ricevente rimane comodamente sdraiato su un lettino e non è necessario togliere gli indumenti. Il trattamento si articola in due fasi principali.
+Nella prima fase, detta rastreo, l’operatore individua le coppie biomagnetiche attraverso un test kinesiologico. Nella seconda fase, vengono applicati magneti di polarità opposta sui punti individuati, seguendo uno schema specifico elaborato dal Dr. Goiz. La durata complessiva della seduta è di circa 40–60 minuti.
+  </p>
+  <p>
+    L’applicazione dei magneti genera campi magnetici che, secondo il metodo, possono favorire un riequilibrio della bioelettricità dell’organismo e, di conseguenza, sostenere un ambiente più armonico a livello energetico e funzionale. Il lavoro mira a supportare i meccanismi naturali di equilibrio, adattamento e vitalità del corpo, contribuendo anche a un rilassamento profondo e a una riduzione degli effetti dello stress.
+      </p>
+      <p>La Coppia Biomagnetica può essere utilizzata come pratica preventiva, come supporto complementare ad altri percorsi di benessere o all’interno di un cammino di riequilibrio personale. È una tecnica che non interferisce con altri approcci, è delicata, accessibile e si integra facilmente in una visione globale della persona.
+        </p>
+
+  </div>
+
+  <a href="#top" className="inline-flex items-center gap-2 mt-6 text-sm text-yellow-600 hover:underline">
+    ↑ Torna su
+  </a>
 </section>
 
 
@@ -474,17 +578,12 @@ Prevenzione e supporto in ambito sportivo. </span>
 
   <div className="text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
     <p className="first-letter:text-3xl first-letter:font-semibold first-letter:text-yellow-600 first-letter:mr-1">
-      La logopedia è la disciplina che si occupa della valutazione e del trattamento delle funzioni orali,
-      della comunicazione e della coordinazione oro-facciale. In un’ottica funzionale e integrata, osserva
-      come respirazione, deglutizione, postura linguale, masticazione e fonazione si organizzano e
-      interagiscono tra loro.
+      La logopedia è la disciplina che si occupa della <strong>valutazione e del trattamento delle funzioni orali</strong>, della comunicazione e della <strong> coordinazione oro-facciale</strong>. In un’ottica funzionale e integrata, non si limita al linguaggio in senso stretto, ma osserva come <strong>respirazione, deglutizione, postura linguale, masticazione e fonazione </strong> si organizzano e interagiscono tra loro. La <strong>terapia miofunzionale </strong> si inserisce in questo contesto come un approccio specifico volto a rieducare la muscolatura orofacciale, favorendo schemi motori più fisiologici e stabili.
     </p>
 
     <p>
-      La bocca è un distretto altamente specializzato e ricchissimo di recettori, in costante dialogo con
-      il sistema nervoso centrale e con la postura. La posizione della lingua, il tono delle labbra e la
-      qualità della respirazione influenzano lo sviluppo delle arcate e l’organizzazione posturale globale.
-      <span className="italic text-yellow-600"> Quando una funzione cambia, cambia anche l’intero equilibrio.</span>
+      La bocca è un distretto altamente specializzato e ricchissimo di recettori, in costante dialogo con il sistema nervoso centrale e con la postura. La posizione della lingua, il tono delle labbra, la coordinazione dei muscoli facciali e la qualità della respirazione influenzano direttamente lo sviluppo delle arcate, la stabilità mandibolare, l’equilibrio cranio-cervicale e l’organizzazione posturale globale. 
+      <span className="italic text-yellow-600"> In questa prospettiva, una funzione alterata non è mai solo locale, ma si riflette sull’intero sistema.</span>
     </p>
 
     <div className="border-l-4 border-yellow-500 pl-4 py-2 my-2 text-gray-700 italic">
@@ -493,28 +592,20 @@ Prevenzione e supporto in ambito sportivo. </span>
     </div>
 
     <p>
-      La logopedia e la terapia miofunzionale accompagnano il passaggio da schemi disfunzionali a schemi
-      più fisiologici, lavorando su respirazione orale, deglutizione atipica, ipotonia o ipertonia muscolare,
-      difficoltà di coordinazione e compensi posturali. Il lavoro è progressivo, percettivo e neuromotorio:
-      non si tratta di forzare, ma di integrare.
+      La logopedia e la terapia miofunzionale si occupano di accompagnare il passaggio da schemi disfunzionali a schemi più fisiologici, lavorando su respirazione orale, deglutizione atipica, ipotonia o ipertonia muscolare, difficoltà di coordinazione e compensi posturali. Il <strong>lavoro</strong> non è meccanico, ma <strong>neuromotorio</strong>, poiché mira a riorganizzare il controllo centrale del movimento e a favorire una nuova integrazione tra muscolo, funzione e percezione.
     </p>
 
     <p>
-      In età evolutiva questo approccio è fondamentale per sostenere una crescita armonica. Nell’adulto è
-      utile nei disturbi mandibolari, nel bruxismo, nei disturbi della voce, nella fatica masticatoria e nei
-      disordini funzionali persistenti. La rieducazione permette di sciogliere schemi adattativi consolidati
-      e di restituire spazio alla funzione.
+      In età evolutiva, questo approccio è fondamentale per sostenere una crescita armonica, prevenire compensi e favorire uno sviluppo equilibrato delle strutture cranio-facciali. Nell’adulto, è particolarmente utile nei disturbi mandibolari, nelle tensioni croniche, nel bruxismo, nei disturbi della voce, nella fatica masticatoria e nei disordini funzionali persistenti. <strong>La rieducazione miofunzionale permette di sciogliere schemi adattativi consolidati e di restituire libertà alla funzione</strong>.
     </p>
 
     <p>
-      In un percorso integrato, lavora in sinergia con gnatologia, osteopatia, dentosofia, optometria e
-      posturologia. L’obiettivo non è correggere un gesto, ma riorganizzare un sistema, favorendo un
-      equilibrio più stabile tra struttura, funzione e controllo neurologico.
+      In un percorso di medicina integrata, la logopedia e la terapia miofunzionale lavorano in stretta sinergia con gnatologia, osteopatia, dentosofia, optometria e posturologia. L’obiettivo non è correggere un gesto, ma <strong> riorganizzare un sistema</strong>, favorendo un equilibrio più stabile tra struttura, funzione e controllo neurologico.
     </p>
 
     <p>
-      La logopedia e la terapia miofunzionale non impongono, ma accompagnano. Non forzano, ma facilitano.
-      <span className="italic text-yellow-600"> Perché ogni cambiamento duraturo nasce dall’integrazione.</span>
+      In questa visione, la bocca non è solo un organo di parola o di masticazione, ma un centro di regolazione, di relazione e di adattamento. La logopedia e la terapia miofunzionale non impongono, ma accompagnano. Non forzano, ma facilitano. 
+      <span className="italic text-yellow-600"> Perché ogni cambiamento duraturo nasce dall’integrazione tra consapevolezza, funzione e sistema nervoso..</span>
     </p>
   </div>
   <a
@@ -653,31 +744,21 @@ Prevenzione e supporto in ambito sportivo. </span>
   <h4 className="text-lg md:text-xl font-semibold text-yellow-600 mt-10 mb-3 tracking-wide">
    Euritmia
   </h4>
-    All’interno della visione antroposofica, un ruolo importante è svolto
-    dall’Euritmia, un’arte del movimento consapevole che unisce ritmo, postura,
-    respirazione e presenza, e che può trovare diverse applicazioni. Attraverso
-    gesti guidati e sequenze di movimento, l’Euritmia aiuta a portare attenzione
-    al corpo e al respiro, a modulare il tono neuromuscolare e a favorire una
-    migliore assimilazione dei cambiamenti funzionali che avvengono nel tempo.
- 
-
-  <p>
-    L’Euritmia si fonda su un’immagine dell’essere umano come essere spirituale
-    che compie un’esperienza terrena e che, per questo, assume una costituzione
-    complessa e integrata. In questa prospettiva l’uomo è mediatore tra mondo
-    fisico e mondo spirituale ed è composto da corpo, anima e spirito; e
-    l’anima, a sua volta, esprime tre facoltà fondamentali — pensare, sentire e
-    volere — attraverso le quali l’individuo sviluppa autocoscienza, relazione
-    con gli altri e comprensione del mondo. Quanto più questa coscienza diviene
-    viva, tanto più il gesto con cui l’essere umano “plasma” la realtà, come
-    singolo e come comunità, può diventare coerente con il suo ruolo nei
-    confronti della Natura, del Cosmo e degli altri uomini.
-  </p>
+    All’interno della visione antroposofica, un ruolo importante è svolto dall’<strong>Euritmia, 
+    un’arte del movimento consapevole </strong>che unisce <strong>ritmo, postura e presenza</strong>. 
+    Essa si fonda su un’immagine dell’essere umano come essere spirituale che compie u
+    n’esperienza terrena e che, per questo, assume una costituzione complessa e integrata. 
+    In questa prospettiva l’uomo è mediatore tra mondo fisico e mondo spirituale ed è composto da <strong>corpo, 
+    anima e spirito</strong>; e l’anima, a sua volta, esprime tre facoltà fondamentali — <strong>pensare, sentire e volere </strong>— 
+    attraverso le quali l’individuo sviluppa autocoscienza, relazione con gli altri e comprensione del mondo. 
+    Quanto più questa coscienza diviene viva, tanto più il gesto con cui l’essere umano “plasma” la realtà, 
+    come singolo e come comunità, può diventare coerente con il suo ruolo nei confronti della Natura, 
+    del Cosmo e degli altri uomini.
 
   <p>
     L’Euritmia offre un linguaggio pratico per entrare in contatto con una
     conoscenza che non sia soltanto intellettuale, ma vivente, rendendo
-    l’esperienza corporea un ponte tra percezione, consapevolezza e integrazione.
+    l’esperienza corporea un ponte tra <strong>percezione, consapevolezza e integrazione</strong>.
   </p>
 </div>
 
@@ -719,20 +800,51 @@ Prevenzione e supporto in ambito sportivo. </span>
 
   <div className="text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
     <p className="first-letter:text-3xl first-letter:font-semibold first-letter:text-yellow-600 first-letter:mr-1">
-     La Coppia Biomagnetica è un metodo integrativo e non invasivo, sviluppato dal Dr. Isaac Goiz Durán in oltre trent’anni di ricerca. Si inserisce in una visione olistica del benessere e si propone come strumento di supporto per favorire l’equilibrio dell’organismo e i naturali processi di autoregolazione.
-    </p>
-    <p>
-      Il metodo si fonda sul principio della Risonanza Biomagnetica, secondo il quale alcune disarmonie dell’organismo possono essere associate a variazioni del pH in specifiche aree del corpo, collegate tra loro in coppie. In determinate condizioni di squilibrio interno, queste alterazioni possono favorire una crescita non armonica di microrganismi, che l’organismo può avere difficoltà a gestire, creando così un ambiente meno favorevole all’equilibrio generale e al benessere della persona.
-    </p>
-    <p>
-      Durante una sessione di biomagnetismo, il ricevente rimane comodamente sdraiato su un lettino e non è necessario togliere gli indumenti. Il trattamento si articola in due fasi principali.
-Nella prima fase, detta rastreo, l’operatore individua le coppie biomagnetiche attraverso un test kinesiologico. Nella seconda fase, vengono applicati magneti di polarità opposta sui punti individuati, seguendo uno schema specifico elaborato dal Dr. Goiz. La durata complessiva della seduta è di circa 40–60 minuti.
-  </p>
-  <p>
-    L’applicazione dei magneti genera campi magnetici che, secondo il metodo, possono favorire un riequilibrio della bioelettricità dell’organismo e, di conseguenza, sostenere un ambiente più armonico a livello energetico e funzionale. Il lavoro mira a supportare i meccanismi naturali di equilibrio, adattamento e vitalità del corpo, contribuendo anche a un rilassamento profondo e a una riduzione degli effetti dello stress.
-      </p>
-      <p>La Coppia Biomagnetica può essere utilizzata come pratica preventiva, come supporto complementare ad altri percorsi di benessere o all’interno di un cammino di riequilibrio personale. È una tecnica che non interferisce con altri approcci, è delicata, accessibile e si integra facilmente in una visione globale della persona.
-        </p>
+  La <strong>Coppia Biomagnetica</strong> è un metodo
+  <strong>integrativo e non invasivo</strong>, sviluppato dal
+  <strong>Dr. Isaac Goiz Durán</strong> in oltre trent’anni di ricerca. Si inserisce
+  in una visione olistica del benessere e si propone come
+  <strong>strumento di supporto</strong> per favorire l’equilibrio dell’organismo e i
+  naturali processi di autoregolazione.
+</p>
+
+<p>
+  Il metodo si fonda sul <strong>principio della Risonanza Biomagnetica</strong>,
+  secondo il quale alcune disarmonie dell’organismo possono essere associate a
+  variazioni del pH in specifiche aree del corpo, collegate tra loro in coppie. In
+  determinate condizioni di squilibrio interno, queste alterazioni possono favorire
+  una crescita non armonica di microrganismi, che l’organismo può avere difficoltà a
+  gestire, creando così un ambiente meno favorevole all’equilibrio generale e al
+  benessere della persona.
+</p>
+
+<p>
+  Durante una <strong>sessione di biomagnetismo</strong>, il ricevente rimane comodamente
+  sdraiato su un lettino e non è necessario togliere gli indumenti. Il trattamento si
+  articola in due fasi principali.<br />
+  Nella prima fase, detta <strong>rastreo</strong>, l’operatore individua le coppie
+  biomagnetiche attraverso un test kinesiologico. Nella seconda fase, vengono applicati
+  <strong>magneti di polarità opposta</strong> sui punti individuati, seguendo uno schema
+  specifico elaborato dal Dr. Goiz. La durata complessiva della seduta è di circa
+  <strong>40–60 minuti</strong>.
+</p>
+
+<p>
+  L’applicazione dei magneti genera campi magnetici che, secondo il metodo, possono
+  favorire un riequilibrio della bioelettricità dell’organismo e, di conseguenza,
+  sostenere un ambiente più armonico a livello energetico e funzionale. Il lavoro mira
+  a supportare i meccanismi naturali di equilibrio, adattamento e vitalità del corpo,
+  contribuendo anche a un rilassamento profondo e a una riduzione degli effetti dello
+  stress.
+</p>
+
+<p>
+  La Coppia Biomagnetica può essere utilizzata come <strong>pratica preventiva</strong>,
+  come <strong>supporto complementare</strong> ad altri percorsi di benessere o
+  all’interno di un cammino di riequilibrio personale. È una tecnica che non interferisce
+  con altri approcci, è delicata, accessibile e si integra facilmente in una visione
+  globale della persona.
+</p>
 
   </div>
 
@@ -768,24 +880,75 @@ Nella prima fase, detta rastreo, l’operatore individua le coppie biomagnetiche
 
   <div className="text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
     <p className="first-letter:text-3xl first-letter:font-semibold first-letter:text-yellow-600 first-letter:mr-1">
-      Le Terapie Essene ed Egizie affondano le loro radici in un’antichissima Arte della Cura, sviluppata nell’antico Egitto e custodita nel tempo dalle comunità Essene. Si tratta di un approccio che considera l’essere umano nella sua totalità e multidimensionalità, riconoscendo l’interazione profonda tra corpo, dimensione energetica, emozioni, mente e spirito.
-    </p>
-    <p>
-      Questa Tradizione, rimasta nell’ombra per quasi duemila anni, è stata riportata alla luce nel nostro tempo grazie al lavoro di Daniel Meurois e Marie-Johanne Croteau, che ne hanno recuperato la memoria attraverso un profondo percorso di ricerca interiore e spirituale. Le pratiche oggi conosciute sono raccolte nel Nuovo Atlante delle Terapie Essene ed Egizie e rappresentano un adattamento contemporaneo di un sapere che possiamo definire senza tempo.
-    </p>
-    <p>Le origini di queste terapie risalgono in particolare alla XVIII dinastia egizia, durante il regno di Akhenaton, quando spiritualità, arte, architettura e medicina erano unite in una visione armonica dell’essere umano. In quel periodo, alla conoscenza delle piante e degli oli si affiancava un lavoro diretto sui livelli sottili dell’individuo, con l’intento di risalire alle cause profonde dei disagi. Dopo la morte di Akhenaton, questa conoscenza venne in gran parte dimenticata, ma fu trasmessa oralmente da sacerdoti iniziati fino a rifiorire secoli dopo nelle comunità Essene della Galilea, dove l’Arte della Cura venne ulteriormente sviluppata e praticata come parte integrante del cammino spirituale.
-    </p>
-    <p>Per comprendere come operano le Terapie Essene ed Egizie, l’esperienza diretta rimane la via più autentica, affidandosi a operatori che ne hanno acquisito la competenza nel rispetto della Tradizione trasmessa da Daniel Meurois e Marie-Johanne Croteau.
-    </p>
-    <p>La peculiarità fondamentale di questo approccio è il suo Aspetto Trinitario. Il trattamento non coinvolge soltanto chi riceve e l’operatore, ma si svolge all’interno di uno Spazio Sacro in cui è presente anche la dimensione spirituale che dimora in ogni essere. È questa presenza sottile a generare l’“Onda di Guarigione”, attraverso la quale il lavoro può avvenire in profondità.
-L’operatore non “cura” nel senso tradizionale del termine, ma si pone come tramite consapevole, mettendo a disposizione le proprie conoscenze, la sensibilità e la capacità di ascolto. Il processo avviene nel rispetto della volontà e della capacità di chi riceve di entrare in contatto con i livelli più profondi del proprio essere.
+  Le <strong>Terapie Essene ed Egizie</strong> affondano le loro radici in un’antichissima
+  <strong>Arte della Cura</strong>, sviluppata nell’antico Egitto e custodita nel tempo
+  dalle comunità Essene. Si tratta di un approccio che considera l’essere umano nella sua
+  <strong>totalità e multidimensionalità</strong>, riconoscendo l’interazione profonda tra
+  corpo, dimensione energetica, emozioni, mente e spirito.
 </p>
-<p>In questo percorso, il disagio non viene mai considerato come un nemico da combattere o un semplice sintomo da eliminare. L’attenzione è rivolta piuttosto alla ricerca delle cause originarie della disarmonia, che spesso si collocano su piani più sottili di quello fisico: vitale, emotivo, mentale o causale. La persona viene così accolta nella sua multidimensionalità di corpo, anima e spirito.
-  </p>
-  <p>I trattamenti possono talvolta concentrarsi su un disagio già manifestato sul piano fisico, oppure orientarsi prevalentemente sugli aspetti emotivi, mentali ed energetici. In altri casi vengono utilizzate tecniche più profonde, che coinvolgono archetipi, chakra e livelli sottili dell’essere. In generale, il lavoro si svolge soprattutto sul piano eterico, attraverso l’armonizzazione delle nadi, dei chakra principali e secondari, la pulizia dei corpi sottili e l’ascolto delle emozioni, delle forme-pensiero e delle memorie profonde.
-  </p>
-  <p>Più che una singola tecnica, le Terapie Essene ed Egizie si configurano come un percorso di consapevolezza, che accompagna la persona a riconoscere l’origine profonda dei propri disagi. Spesso questo avviene per tappe successive, nel pieno rispetto dei tempi interiori e del cammino personale di ciascuno.
-  </p>
+
+<p>
+  Questa Tradizione, rimasta nell’ombra per quasi duemila anni, è stata riportata alla
+  luce nel nostro tempo grazie al lavoro di
+  <strong>Daniel Meurois e Marie-Johanne Croteau</strong>, che ne hanno recuperato la
+  memoria attraverso un profondo percorso di ricerca interiore e spirituale. Le pratiche
+  oggi conosciute sono raccolte nel Nuovo Atlante delle Terapie Essene ed Egizie e
+  rappresentano un adattamento contemporaneo di un sapere che possiamo definire
+  <strong>senza tempo</strong>.
+</p>
+
+<p>
+  Le origini di queste terapie risalgono in particolare alla
+  <strong>XVIII dinastia egizia</strong>, durante il regno di Akhenaton, quando spiritualità,
+  arte, architettura e medicina erano unite in una visione armonica dell’essere umano. In
+  quel periodo, alla conoscenza delle piante e degli oli si affiancava un lavoro diretto
+  sui <strong>livelli sottili</strong> dell’individuo, con l’intento di risalire alle cause
+  profonde dei disagi. Dopo la morte di Akhenaton, questa conoscenza venne in gran parte
+  dimenticata, ma fu trasmessa oralmente da sacerdoti iniziati fino a rifiorire secoli
+  dopo nelle <strong>comunità Essene della Galilea</strong>, dove l’Arte della Cura venne
+  ulteriormente sviluppata e praticata come parte integrante del cammino spirituale.
+</p>
+
+<p>
+  Per comprendere come operano le Terapie Essene ed Egizie, l’esperienza diretta rimane la
+  via più autentica, affidandosi a operatori che ne hanno acquisito la competenza nel
+  rispetto della Tradizione trasmessa da Daniel Meurois e Marie-Johanne Croteau.
+</p>
+
+<p>
+  La peculiarità fondamentale di questo approccio è il suo <strong>Aspetto Trinitario</strong>.
+  Il trattamento non coinvolge soltanto chi riceve e l’operatore, ma si svolge all’interno
+  di uno <strong>Spazio Sacro </strong> in cui è presente anche la dimensione spirituale che dimora in ogni
+  essere. È questa presenza sottile a generare l’“Onda di Guarigione”, attraverso la quale
+  il lavoro può avvenire in profondità. L’operatore non “cura” nel senso tradizionale del
+  termine, ma si pone come <strong>tramite consapevole</strong>, mettendo a disposizione le proprie conoscenze,
+  la sensibilità e la capacità di ascolto. Il processo avviene nel rispetto della volontà e
+  della capacità di chi riceve di entrare in contatto con i livelli più profondi del proprio essere.
+</p>
+
+<p>
+  In questo percorso, il disagio non viene mai considerato come un nemico da combattere o un
+  semplice sintomo da eliminare. L’attenzione è rivolta piuttosto alla <strong> ricerca delle cause
+  originarie della disarmonia</strong>, che spesso si collocano su piani più sottili di quello fisico:
+  vitale, emotivo, mentale o causale. La persona viene così accolta nella sua <strong>multidimensionalità
+  di corpo, anima e spirito</strong>.
+</p>
+
+<p>
+  I trattamenti possono talvolta concentrarsi su un disagio già manifestato sul piano fisico,
+  oppure orientarsi prevalentemente sugli aspetti emotivi, mentali ed energetici. In altri casi
+  vengono utilizzate tecniche più profonde, che coinvolgono archetipi, chakra e livelli sottili
+  dell’essere. In generale, il lavoro si svolge soprattutto sul <strong> piano eterico</strong>, attraverso
+  l’armonizzazione delle nadi, dei chakra principali e secondari, la pulizia dei corpi sottili e
+  l’ascolto delle emozioni, delle forme-pensiero e delle memorie profonde.
+</p>
+
+<p>
+  Più che una singola tecnica, le Terapie Essene ed Egizie si configurano come un <strong>percorso di
+  consapevolezza</strong>, che accompagna la persona a riconoscere l’origine profonda dei propri disagi.
+  Spesso questo avviene per tappe successive, nel pieno rispetto dei tempi interiori e del cammino
+  personale di ciascuno.
+</p>
   </div>
 
   <a href="#top" className="inline-flex items-center gap-2 mt-6 text-sm text-yellow-600 hover:underline">
