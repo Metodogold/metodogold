@@ -87,7 +87,7 @@ const CONTENT = {
 
   modules: [
     {
-      title: "Modulo 1 – Fondamenti clinici e sistemici e diagnostici",
+      title: "Modulo 1 – Fondamenti clinici, sistemici e diagnostici",
       intro:
         "Basi anatomiche, fisiologiche e funzionali per una visione integrata e diagnostica dell’apparato stomatognatico nel contesto cranio-sacrale.",
       items: [
