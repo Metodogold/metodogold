@@ -200,17 +200,14 @@ export default function CorsiPage() {
                   osteopatia e medicina integrata, includendo anche:
                 </span>
 
-                <ul className="mt-3 space-y-2 text-sm text-gray-700">
-                  <Bullet>Una lettura antroposofica dell’essere umano</Bullet>
-                  <Bullet>La correlazione tra denti, funzione ed emotività</Bullet>
-                  <Bullet>
-                    L’utilizzo dell’omeopatia come supporto nei percorsi clinici
+               <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
+                 - Una lettura antroposofica dell’essere umano
+                 - La correlazione tra denti, funzione ed emotività
+                 - L’utilizzo dell’omeopatia come supporto nei percorsi clinici
                     complessi
-                  </Bullet>
-                  <Bullet>
-                    L’aiuto delle medicine complementari come strumenti di
+                 - L’aiuto delle medicine complementari come strumenti di
                     comprensione più profondi del paziente gnatologico
-                  </Bullet>
+                  
                 </ul>
               </div>
             </li>
@@ -335,7 +332,7 @@ export default function CorsiPage() {
 
         <div className="mt-5 rounded-2xl bg-gray-50 p-5">
           <p className="text-sm font-semibold text-gray-900">Vengono affrontati:</p>
-          <ul className="mt-3 space-y-2 text-sm text-gray-700">
+          <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
             <Bullet>fondamenti di anatomia e fisiologia del sistema cranio-sacrale</Bullet>
             <Bullet>mobilità cranica e meccanismo respiratorio primario</Bullet>
             <Bullet>ascolto palpatorio e valutazione funzionale</Bullet>
@@ -380,7 +377,7 @@ export default function CorsiPage() {
 
         <div className="mt-5 rounded-2xl bg-gray-50 p-5">
           <p className="text-sm font-semibold text-gray-900">Il modulo è dedicato a:</p>
-          <ul className="mt-3 space-y-2 text-sm text-gray-700">
+          <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
             <Bullet>relazione tra cranio, mandibola e articolazioni temporo-mandibolari</Bullet>
             <Bullet>adattamenti posturali e compensi</Bullet>
             <Bullet>sistema nervoso autonomo simpatico e parasimpatico e funzioni neurovegetative della bocca</Bullet>
@@ -425,7 +422,7 @@ export default function CorsiPage() {
 
         <div className="mt-5 rounded-2xl bg-gray-50 p-5">
           <p className="text-sm font-semibold text-gray-900">Vengono approfonditi:</p>
-          <ul className="mt-3 space-y-2 text-sm text-gray-700">
+          <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
             <Bullet>ruolo delle fasce e delle catene miofasciali</Bullet>
             <Bullet>interferenze corporee e cicatrici</Bullet>
             <Bullet>correlazione tra denti, sistema nervoso ed emotività</Bullet>
@@ -436,7 +433,7 @@ export default function CorsiPage() {
         </div>
 
         <div className="mt-5 rounded-2xl bg-amber-100/40 p-5">
-          <p className="text-sm text-amber-900 leading-relaxed">
+          <p className="text-base text-amber-900 leading-relaxed">
             Il modulo fornisce strumenti di lettura avanzata per comprendere perché
             alcuni trattamenti non si stabilizzano e come intervenire in modo più
             consapevole.
@@ -458,7 +455,7 @@ export default function CorsiPage() {
           Metodo didattico
         </h3>
         <p className="mt-3 text-gray-700 leading-relaxed">Il corso integra:</p>
-        <ul className="mt-4 space-y-2 text-sm text-gray-700">
+        <ul className="mt-3 space-y-2 text-base font-semibold text-gray-700 leading-relaxed">
           <Bullet>lezioni teoriche strutturate</Bullet>
           <Bullet>esercitazioni pratiche</Bullet>
           <Bullet>osservazione e discussione di casi clinici</Bullet>
@@ -474,10 +471,10 @@ export default function CorsiPage() {
         <h3 className="text-xl md:text-2xl font-semibold text-gray-900">
           Cosa porta nella pratica clinica
         </h3>
-        <p className="mt-3 text-gray-700 leading-relaxed">
+        <p className="mt-3 text-gray-700 font-semibold leading-relaxed">
           Al termine del percorso il partecipante avrà sviluppato:
         </p>
-        <ul className="mt-4 space-y-2 text-sm text-gray-700">
+        <ul className="mt-3 space-y-2 text-base font-semibold text-gray-700 leading-relaxed">
           <Bullet>una lettura sistemica dell’apparato stomatognatico</Bullet>
           <Bullet>maggiore capacità di valutazione dei compensi</Bullet>
           <Bullet>comprensione dell’influenza neurovegetativa ed emotiva degli interventi in bocca</Bullet>
