@@ -179,7 +179,7 @@ export default function CorsiPage() {
             Visione del corso
           </h3>
 
-          <ul className="mt-3 space-y-2 text-sm text-gray-700">
+          <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
             <Bullet>
               La bocca non è un distretto isolato, ma una vera e propria porta di
               ingresso al sistema.
@@ -220,7 +220,7 @@ export default function CorsiPage() {
             Obiettivo del corso
           </h3>
 
-          <ul className="mt-3 space-y-2 text-sm text-gray-700">
+          <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
             <Bullet>
               Utilizzare dei dispositivi gnatologici e ortodontici funzionali che,
               con le opportune modifiche durante il corso della terapia, possono
@@ -257,7 +257,7 @@ export default function CorsiPage() {
             A chi è rivolto
           </h3>
 
-          <ul className="mt-3 space-y-2 text-sm text-gray-700">
+          <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
             <Bullet>Odontoiatri</Bullet>
             <Bullet>Medici</Bullet>
             <Bullet>Osteopati</Bullet>
@@ -271,7 +271,7 @@ export default function CorsiPage() {
             È indicato per professionisti che:
           </p>
 
-          <ul className="mt-3 space-y-2 text-sm text-gray-700">
+          <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
             <Bullet>lavorano con pazienti gnatologici complessi</Bullet>
             <Bullet>
               desiderano integrare la visione occlusale con una lettura sistemica
