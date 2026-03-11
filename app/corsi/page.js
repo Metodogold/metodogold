@@ -421,7 +421,7 @@ export default function CorsiPage() {
         </p>
 
         <div className="mt-5 rounded-2xl bg-gray-50 p-5">
-          <ul className="mt-3 space-y-2 text-base text-gray-900 leading-relaxed">Vengono approfonditi:</p>
+          <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">Vengono approfonditi:</ul>
           <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
             <Bullet>ruolo delle fasce e delle catene miofasciali</Bullet>
             <Bullet>interferenze corporee e cicatrici</Bullet>
