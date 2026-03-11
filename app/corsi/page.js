@@ -421,7 +421,7 @@ export default function CorsiPage() {
         </p>
 
         <div className="mt-5 rounded-2xl bg-gray-50 p-5">
-          <p className="text-sm font-semibold text-gray-900">Vengono approfonditi:</p>
+          <ul className="mt-3 space-y-2 text-base text-gray-900 leading-relaxed">Vengono approfonditi:</p>
           <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
             <Bullet>ruolo delle fasce e delle catene miofasciali</Bullet>
             <Bullet>interferenze corporee e cicatrici</Bullet>
@@ -454,8 +454,8 @@ export default function CorsiPage() {
         <h3 className="text-xl md:text-2xl font-semibold text-gray-900">
           Metodo didattico
         </h3>
-        <p className="mt-3 text-gray-700 leading-relaxed">Il corso integra:</p>
-        <ul className="mt-3 space-y-2 text-base font-semibold text-gray-700 leading-relaxed">
+        <p className="mt-3 text-gray-700 font-semibold leading-relaxed">Il corso integra:</p>
+        <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
           <Bullet>lezioni teoriche strutturate</Bullet>
           <Bullet>esercitazioni pratiche</Bullet>
           <Bullet>osservazione e discussione di casi clinici</Bullet>
@@ -474,7 +474,7 @@ export default function CorsiPage() {
         <p className="mt-3 text-gray-700 font-semibold leading-relaxed">
           Al termine del percorso il partecipante avrà sviluppato:
         </p>
-        <ul className="mt-3 space-y-2 text-base font-semibold text-gray-700 leading-relaxed">
+        <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
           <Bullet>una lettura sistemica dell’apparato stomatognatico</Bullet>
           <Bullet>maggiore capacità di valutazione dei compensi</Bullet>
           <Bullet>comprensione dell’influenza neurovegetativa ed emotiva degli interventi in bocca</Bullet>
