@@ -323,25 +323,23 @@ export default function CorsiPage() {
         {/* Fascia gold (più “Metodo Gold”) */}
         <div className="mt-3 rounded-2xl bg-gradient-to-r from-amber-200/60 via-yellow-100/60 to-transparent px-5 py-3">
           <h3 className="text-2xl md:text-3xl font-semibold text-yellow-700 tracking-tight">
-            Fondamenti clinici e sistemici
+            Fondamenti clinici, sistemici e diagnostici
           </h3>
         </div>
 
         <p className="mt-5 text-gray-700 leading-relaxed">
-          Il primo modulo fornisce le basi anatomiche, fisiologiche e funzionali per
-          una lettura integrata dell’apparato stomatognatico inserito nel contesto
-          cranio-sacrale.
+          Il primo modulo fornisce le basi anatomiche, fisiologiche e funzionali per una visione integrata e diagnostica dell’apparato stomatognatico nel contesto cranio-sacrale.
         </p>
 
         <div className="mt-5 rounded-2xl bg-gray-50 p-5">
           <p className="mt-4 text-gray-900 font-semibold leading-relaxed">Vengono affrontati:</p>
           <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
-            <Bullet>fondamenti di anatomia e fisiologia del sistema cranio-sacrale</Bullet>
-            <Bullet>mobilità cranica e meccanismo respiratorio primario</Bullet>
-            <Bullet>ascolto palpatorio e valutazione funzionale</Bullet>
-            <Bullet>inquadramento delle malocclusioni e delle disfunzioni gnatologiche</Bullet>
-            <Bullet>utilizzo dei dispositivi funzionali in una visione sistemica</Bullet>
-            <Bullet>concetto di odontone come unità anatomo-funzionale inserita in un sistema complesso</Bullet>
+            <Bullet>Fondamenti di anatomia e fisiologia del sistema cranio-sacrale, con lettura funzionale orientata alla diagnosi.</Bullet>
+            <Bullet>Ascolto palpatorio e valutazione funzionale come strumenti di indagine clinica per l’identificazione delle alterazioni disfunzionali.</Bullet>
+            <Bullet>Utilizzo dei dispositivi funzionali in coerenza con la diagnosi formulata.</Bullet>
+            <Bullet>Mobilità cranica e meccanismo respiratorio primario come elementi chiave nella valutazione clinica e nell’inquadramento diagnostico.</Bullet>
+            <Bullet>Inquadramento delle malocclusioni e delle disfunzioni gnatologiche in una prospettiva integrata.</Bullet>
+            <Bullet>Concetto di odontone come unità anatomo-funzionale all’interno di un sistema complesso, con implicazioni diagnostiche e terapeutiche.</Bullet>
           </ul>
         </div>
 
@@ -381,12 +379,12 @@ export default function CorsiPage() {
         <div className="mt-5 rounded-2xl bg-gray-50 p-5">
           <p className="mt-4 text-gray-900 font-semibold leading-relaxed">Il modulo è dedicato a:</p>
           <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
-            <Bullet>relazione tra cranio, mandibola e articolazioni temporo-mandibolari</Bullet>
-            <Bullet>adattamenti posturali e compensi</Bullet>
-            <Bullet>sistema nervoso autonomo simpatico e parasimpatico e funzioni neurovegetative della bocca</Bullet>
+            <Bullet>Relazione tra cranio, mandibola e articolazioni temporo-mandibolari</Bullet>
+            <Bullet>Adattamenti posturali e compensi</Bullet>
+            <Bullet>Sistema nervoso autonomo simpatico e parasimpatico e funzioni neurovegetative della bocca</Bullet>
             <Bullet>Riabilitazione Neuro-Occlusale secondo Planas, con studio degli angoli funzionali masticatori e utilizzo delle piste di Planas</Bullet>
-            <Bullet>ruolo della bocca nei processi di neuroplasticità e nelle disfunzioni neurologiche</Bullet>
-            <Bullet>il ruolo della terapia logopedica e miofunzionale</Bullet>
+            <Bullet>Ruolo della bocca nei processi di neuroplasticità e nelle disfunzioni neurologiche</Bullet>
+            <Bullet>Il ruolo della terapia logopedica e miofunzionale</Bullet>
           </ul>
         </div>
 
@@ -426,12 +424,12 @@ export default function CorsiPage() {
         <div className="mt-5 rounded-2xl bg-gray-50 p-5">
           <ul className="mt-3 space-y-2 text-base font-semibold text-gray-700 leading-relaxed">Vengono approfonditi:</ul>
           <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
-            <Bullet>ruolo delle fasce e delle catene miofasciali</Bullet>
-            <Bullet>interferenze corporee e cicatrici</Bullet>
-            <Bullet>correlazione tra denti, sistema nervoso ed emotività</Bullet>
-            <Bullet>contributi antroposofici alla lettura dell’apparato stomatognatico</Bullet>
-            <Bullet>utilizzo dell’omeopatia come supporto nei percorsi clinici complessi</Bullet>
-            <Bullet>il ruolo dei recettori oculari nella propriocezione posturale</Bullet>
+            <Bullet>Ruolo delle fasce e delle catene miofasciali</Bullet>
+            <Bullet>Interferenze corporee e cicatrici</Bullet>
+            <Bullet>Correlazione tra denti, sistema nervoso ed emotività</Bullet>
+            <Bullet>Contributi antroposofici alla lettura dell’apparato stomatognatico</Bullet>
+            <Bullet>Utilizzo dell’omeopatia come supporto nei percorsi clinici complessi</Bullet>
+            <Bullet>Il ruolo dei recettori oculari nella propriocezione posturale</Bullet>
           </ul>
         </div>
 
@@ -457,14 +455,14 @@ export default function CorsiPage() {
         <h3 className="text-xl md:text-2xl font-semibold text-gray-900">
           Metodo didattico
         </h3>
-        <p className="mt-3 text-gray-700 font-semibold leading-relaxed">Il corso integra:</p>
-        <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
+        <p className="mt-3 text-gray-900 font-semibold leading-relaxed">Il corso integra:</p>
+        <ul className="mt-3 space-y-2 text-base text-gray-790 leading-relaxed">
           <Bullet>lezioni teoriche strutturate</Bullet>
           <Bullet>esercitazioni pratiche</Bullet>
           <Bullet>osservazione e discussione di casi clinici</Bullet>
           <Bullet>momenti di esperienza percettiva utili a sviluppare capacità di ascolto e valutazione</Bullet>
         </ul>
-        <p className="mt-5 text-gray-700 leading-relaxed">
+        <p className="mt-5 text-gray-900 leading-relaxed">
           L’obiettivo è rendere il partecipante più autonomo, più consapevole e più efficace nella gestione clinica del paziente gnatologico.
         </p>
       </section>
@@ -474,10 +472,10 @@ export default function CorsiPage() {
         <h3 className="text-xl md:text-2xl font-semibold text-gray-900">
           Cosa porta nella pratica clinica
         </h3>
-        <p className="mt-3 text-gray-700 font-semibold leading-relaxed">
+        <p className="mt-3 text-gray-900 font-semibold leading-relaxed">
           Al termine del percorso il partecipante avrà sviluppato:
         </p>
-        <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
+        <ul className="mt-3 space-y-2 text-base text-gray-900 leading-relaxed">
           <Bullet>una lettura sistemica dell’apparato stomatognatico</Bullet>
           <Bullet>maggiore capacità di valutazione dei compensi</Bullet>
           <Bullet>comprensione dell’influenza neurovegetativa ed emotiva degli interventi in bocca</Bullet>
@@ -487,19 +485,7 @@ export default function CorsiPage() {
       </section>
 
       {/* CONCLUSIONE */}
-      <section className="rounded-3xl border border-yellow-200 bg-gradient-to-b from-yellow-50 to-white p-7 md:p-9 shadow-sm">
-        <p className="text-[13px] font-semibold tracking-widest uppercase text-yellow-700">
-          Conclusione
-        </p>
-
-        <h3 className="mt-3 text-xl md:text-2xl font-semibold text-gray-900">
-          La gnatologia è una chiave di lettura del sistema
-        </h3>
-
-        <p className="mt-3 text-gray-700 leading-relaxed">
-          Non è solo una questione di denti: è comprensione, integrazione e stabilità clinica nel tempo. Questo corso è pensato per professionisti che desiderano vedere di più, comprendere meglio e trattare con maggiore consapevolezza.
-        </p>
-
+      
         <div className="mt-6 flex flex-wrap gap-3">
           <Link
             href="/prenota"
@@ -515,7 +501,7 @@ export default function CorsiPage() {
             Vai alla descrizione completa
           </Link>
         </div>
-      </section>
+      
     </div>
   </div>
 </section>
