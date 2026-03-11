@@ -523,21 +523,13 @@ prevenzione e supporto in ambito sportivo. </span>
   </div>
 
   <div className="text-gray-800 leading-relaxed text-[15.5px] md:text-[16px] space-y-5">
-    <p className="first-letter:text-3xl first-letter:font-semibold first-letter:text-yellow-600 first-letter:mr-1">
-     La Coppia Biomagnetica è un metodo integrativo e non invasivo, sviluppato dal Dr. Isaac Goiz Durán in oltre trent’anni di ricerca. Si inserisce in una visione olistica del benessere e si propone come strumento di supporto per favorire l’equilibrio dell’organismo e i naturali processi di autoregolazione.
-    </p>
-    <p>
-      Il metodo si fonda sul principio della Risonanza Biomagnetica, secondo il quale alcune disarmonie dell’organismo possono essere associate a variazioni del pH in specifiche aree del corpo, collegate tra loro in coppie. In determinate condizioni di squilibrio interno, queste alterazioni possono favorire una crescita non armonica di microrganismi, che l’organismo può avere difficoltà a gestire, creando così un ambiente meno favorevole all’equilibrio generale e al benessere della persona.
-    </p>
-    <p>
-      Durante una sessione di biomagnetismo, il ricevente rimane comodamente sdraiato su un lettino e non è necessario togliere gli indumenti. Il trattamento si articola in due fasi principali.
-Nella prima fase, detta rastreo, l’operatore individua le coppie biomagnetiche attraverso un test kinesiologico. Nella seconda fase, vengono applicati magneti di polarità opposta sui punti individuati, seguendo uno schema specifico elaborato dal Dr. Goiz. La durata complessiva della seduta è di circa 40–60 minuti.
-  </p>
-  <p>
-    L’applicazione dei magneti genera campi magnetici che, secondo il metodo, possono favorire un riequilibrio della bioelettricità dell’organismo e, di conseguenza, sostenere un ambiente più armonico a livello energetico e funzionale. Il lavoro mira a supportare i meccanismi naturali di equilibrio, adattamento e vitalità del corpo, contribuendo anche a un rilassamento profondo e a una riduzione degli effetti dello stress.
-      </p>
-      <p>La Coppia Biomagnetica può essere utilizzata come pratica preventiva, come supporto complementare ad altri percorsi di benessere o all’interno di un cammino di riequilibrio personale. È una tecnica che non interferisce con altri approcci, è delicata, accessibile e si integra facilmente in una visione globale della persona.
-        </p>
+    <p className="first-letter:text-3xl first-letter:font-semibold first-letter:text-yellow-600 first-letter:mr-1"></p>
+   <p>L’optometria è la disciplina che si occupa della valutazione della funzione visiva e del modo in cui il sistema visivo si integra con il resto del corpo. Non si limita a misurare la vista in termini di acuità visiva, ma osserva come gli occhi si muovono, come collaborano tra loro, come mettono a fuoco, come si coordinano con la postura, con il sistema nervoso e con i processi cognitivi.</p>
+  <p>La visione non è un atto puramente meccanico, ma un processo complesso che coinvolge <strong>occhi, cervello, muscoli, postura ed equilibrio</strong>. In questa prospettiva, l’optometria funzionale considera il sistema visivo come parte integrante dell’organizzazione globale della persona, in continuo dialogo con il sistema muscolo-scheletrico, con il sistema nervoso e con la percezione dello spazio.</p>
+  <p>L’optometria si occupa di valutare e trattare <strong>le disfunzioni visive funzionali, come difficoltà di messa a fuoco, problemi di convergenza, affaticamento visivo, alterazioni della coordinazione oculo-motoria e disturbi legati all’uso prolungato degli schermi</strong>. Interviene anche nei casi in cui la visione influisce sulla postura, sull’equilibrio e sull’orientamento nello spazio, contribuendo a creare compensi a distanza.</p>
+  <p>In un’ottica integrata, l’optometria ha un ruolo fondamentale nei percorsi multidisciplinari, in collaborazione con osteopatia, gnatologia, dentosofia, logopedia e altre discipline. La funzione visiva, infatti, è strettamente collegata alla postura, alla posizione della testa, all’equilibrio cranio-cervicale e alla regolazione neuromuscolare.</p>
+  <p>L’approccio optometrico non si limita a correggere un difetto visivo, ma accompagna la persona verso una visione più efficiente, stabile e integrata, favorendo una migliore organizzazione del sistema. In questa visione, vedere bene non significa solo vedere nitido, ma vedere in equilibrio.</p>
+  <p></p>
 
   </div>
 
