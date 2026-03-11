@@ -202,9 +202,12 @@ export default function CorsiPage() {
 
                <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
                  - Una lettura antroposofica dell’essere umano
+                 <br></br>
                  - La correlazione tra denti, funzione ed emotività
+                 <br></br>
                  - L’utilizzo dell’omeopatia come supporto nei percorsi clinici
                     complessi
+                    <br></br>
                  - L’aiuto delle medicine complementari come strumenti di
                     comprensione più profondi del paziente gnatologico
                   
@@ -264,7 +267,7 @@ export default function CorsiPage() {
             <Bullet>Posturologi</Bullet>
           </ul>
 
-          <p className="mt-4 text-gray-700 leading-relaxed">
+          <p className="mt-4 text-gray-900 font-semibold leading-relaxed">
             È indicato per professionisti che:
           </p>
 
@@ -331,7 +334,7 @@ export default function CorsiPage() {
         </p>
 
         <div className="mt-5 rounded-2xl bg-gray-50 p-5">
-          <p className="text-sm font-semibold text-gray-900">Vengono affrontati:</p>
+          <p className="mt-4 text-gray-900 font-semibold leading-relaxed">Vengono affrontati:</p>
           <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
             <Bullet>fondamenti di anatomia e fisiologia del sistema cranio-sacrale</Bullet>
             <Bullet>mobilità cranica e meccanismo respiratorio primario</Bullet>
@@ -376,7 +379,7 @@ export default function CorsiPage() {
         </p>
 
         <div className="mt-5 rounded-2xl bg-gray-50 p-5">
-          <p className="text-sm font-semibold text-gray-900">Il modulo è dedicato a:</p>
+          <p className="mt-4 text-gray-900 font-semibold leading-relaxed">Il modulo è dedicato a:</p>
           <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
             <Bullet>relazione tra cranio, mandibola e articolazioni temporo-mandibolari</Bullet>
             <Bullet>adattamenti posturali e compensi</Bullet>
@@ -421,7 +424,7 @@ export default function CorsiPage() {
         </p>
 
         <div className="mt-5 rounded-2xl bg-gray-50 p-5">
-          <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">Vengono approfonditi:</ul>
+          <ul className="mt-3 space-y-2 text-base font-semibold text-gray-700 leading-relaxed">Vengono approfonditi:</ul>
           <ul className="mt-3 space-y-2 text-base text-gray-700 leading-relaxed">
             <Bullet>ruolo delle fasce e delle catene miofasciali</Bullet>
             <Bullet>interferenze corporee e cicatrici</Bullet>
