@@ -1,12 +1,22 @@
 export default function sitemap() {
-  return [
-    {
-      url: "https://www.metodogold.it",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://www.metodogold.it/chi-sono/il-metodo-gold",
-      lastModified: new Date(),
-    },
+  const baseUrl = "https://www.metodogold.it";
+  const lastModified = new Date();
+
+  const routes = [
+    "",
+    "/chi-sono",
+    "/chi-sono/il-metodo-gold",
+    "/corsi",
+    "/promo",
+    "/eventi",
+    "/media",
+    "/contatti",
   ];
+
+  return routes.map((path) => ({
+    url: `${baseUrl}${path}`,
+    lastModified,
+    changeFrequency: "weekly",
+    priority: path === "" ? 1 : 0.8,
+  }));
 }
