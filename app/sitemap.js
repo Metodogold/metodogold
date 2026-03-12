@@ -11,6 +11,8 @@ export default function sitemap() {
     "/eventi",
     "/media",
     "/contatti",
+    "/privacy",
+    "/cookie",
   ];
 
   return routes.map((path) => ({
