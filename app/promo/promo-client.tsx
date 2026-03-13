@@ -575,7 +575,7 @@ export default function PromoClient() {
                     </div>
                     <div className="mt-2 h-1 w-16 rounded-full bg-[color:var(--gold)]/80" />
                     <div className="mt-8 text-lg font-medium text-slate-600 md:text-xl">
-                    *Costo per modulo
+                    *Costo per modulo (iva incl.)
                     </div>
                   </div>
                   <BadgePercent className="h-7 w-7 text-[color:var(--gold)]" />
