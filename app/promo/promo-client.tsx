@@ -45,15 +45,15 @@ const CONTENT = {
   pricing: [
     {
       who: "Odontoiatri e Medici",
-      full: "€ 890 + IVA",
-      promo: "€ 756 + IVA",
+      full: "€ 890 Iva incl.",
+      promo: "€ 756 Iva incl.",
       note: "-15% sul 1° modulo",
       saving: "Risparmi € 134",
     },
     {
       who: "Altre professioni",
-      full: "€ 640 + IVA",
-      promo: "€ 544 + IVA",
+      full: "€ 640 Iva incl.",
+      promo: "€ 544 Iva incl.",
       note: "-15% sul 1° modulo",
       saving: "Risparmi € 96",
     },
