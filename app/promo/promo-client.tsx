@@ -122,7 +122,7 @@ const CONTENT = {
         "Interferenze corporee e cicatrici",
         "Correlazione tra denti, sistema nervoso ed emotività",
         "Contributi antroposofici alla lettura dell’apparato stomatognatico",
-        "Omeopatia come supporto nei percorsi clinici complessi",
+        "Omeopatia come supporto nei percorsi clinici",
         "Recettori oculari nella propriocezione posturale",
       ],
       outro:
