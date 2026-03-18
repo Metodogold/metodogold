@@ -233,7 +233,7 @@ export default function MetodoGoldClient() {
   {
     id: "dentosofia",
     title: "Dentosofia",
-    img: "/images/metodo/attivatore.png",
+    img: "/images/metodo/attivatore.jpg",
     quote:
       "“La forma è memoria della funzione, e la funzione è espressione dell’essere.”",
     abstract:
