@@ -672,7 +672,7 @@ prevenzione e supporto in ambito sportivo. </span>
 
   <div className="relative w-full h-[140px] sm:h-[170px] md:h-[200px] rounded-2xl overflow-hidden mb-6 bg-black">
     <Image
-  src="/images/metodo/dentosofia.png"
+  src="/images/metodo/attivatore.JPG"
   alt="Dentosofia"
   fill
   quality={85}
