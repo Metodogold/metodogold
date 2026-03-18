@@ -52,7 +52,7 @@ export default function MetodoGoldClient() {
 
 
       {/* CONTENUTO */}
-      <section className="max-w-4xl mx-auto px-6 pt-8 pb-24">
+      <section className="max-w-6xl mx-auto px-6 pt-8 pb-24">
         
 
        {/* 4 VOCI LINKABILI */}
@@ -78,56 +78,109 @@ export default function MetodoGoldClient() {
 </div>
         
 
-        {/* TESTO INTRO */}
-        <div className="text-gray-800 leading-relaxed text-[15px] space-y-3 mt-6">
-
-  <p>
-    <span className="font-semibold text-lg text-yellow-600">Il Metodo Gold <sup>®</sup></span> propone un approccio multidisciplinare alla salute, basato su una comprensione integrata e globale dell’essere umano, in cui la bocca e i denti rappresentano una chiave di lettura per l’equilibrio generale.<br></br><br></br> Questo progetto nasce con l’obiettivo di creare un dialogo reale tra discipline diverse, mettendo in relazione {" "}
-    <span className="text-yellow-600 font-medium">Gnatologia</span>,{" "}
-    <span className="text-yellow-600 font-medium">Osteopatia</span>,{" "}
-    <span className="text-yellow-600 font-medium">Logopedia</span>,{" "}
-    <span className="text-yellow-600 font-medium">Dentosofia</span>,{" "}
-    <span className="text-yellow-600 font-medium">Omeopatia</span> e{" "}
-    <span className="text-yellow-600 font-medium">Biomagnetismo</span> in un’unica prospettiva coerente.
-  </p>
+ {/* TESTO INTRO — immagini alternate ai paragrafi */}
+<section className="mt-2">
+  <div className="rounded-[2rem] bg-gradient-to-br from-white via-amber-50/10 to-white shadow-sm px-6 py-8 md:px-10 md:py-10 lg:px-12">
+    <div className="max-w-5xl">
 
 
-  <p>
-    Nei livelli più avanzati, il percorso si apre anche a un approfondimento delle energie sottili, attraverso pratiche tramandate dall’<span className="text-yellow-600 font-medium">Antroposofia </span>e dalle <span className="text-yellow-600 font-medium">Terapie Essene ed Egizie.</span>{" "} In questa visione, l’individuo viene considerato nella sua totalità, nei suoi aspetti fisici, funzionali, emozionali, mentali e spirituali, come un sistema unico e inscindibile.
-    </p>
+      <h2 className="text-3xl md:text-4xl lg:text-[2.8rem] font-extrabold tracking-tight text-slate-900 leading-tight">
+       Il Metodo Gold <sup>®</sup> propone un approccio multidisciplinare alla salute
+      </h2>
 
-     <p>
-    La salute, in questa visione, non è semplicemente l’assenza di sintomi, ma <span className="font-semibold">l’espressione di un equilibrio dinamico </span> tra le diverse parti dell'individuo.
-  </p>
+  
 
+      <div className="text-gray-800 leading-relaxed text-[15px] md:text-[15.5px] lg:text-[16px] space-y-4 mt-8">
+        <p>
+          basato su una comprensione integrata e globale dell’essere umano, in cui la bocca e i denti rappresentano una chiave di lettura per l’equilibrio generale.<br></br><br></br> Questo progetto nasce con l’obiettivo di creare un dialogo reale tra discipline diverse, mettendo in relazione {" "}
+          <span className="text-yellow-600 font-medium">Gnatologia</span>,{" "}
+          <span className="text-yellow-600 font-medium">Osteopatia</span>,{" "}
+          <span className="text-yellow-600 font-medium">Logopedia</span>,{" "}
+          <span className="text-yellow-600 font-medium">Dentosofia</span>,{" "}
+          <span className="text-yellow-600 font-medium">Omeopatia</span> e{" "}
+          <span className="text-yellow-600 font-medium">Biomagnetismo</span> in un’unica prospettiva coerente.
+        </p>
 
-  <p className="border-l-4 border-yellow-600 pl-4 italic text-gray-600">
-    Ogni disturbo è spesso il risultato di adattamenti e compensi che coinvolgono più sistemi contemporaneamente e che si sviluppano nel tempo come risposta a sollecitazioni fisiche, emotive e ambientali.
-  </p>
+        <p>
+          Nei livelli più avanzati, il percorso si apre anche a un approfondimento delle energie sottili, attraverso pratiche tramandate dall’<span className="text-yellow-600 font-medium">Antroposofia </span>e dalle <span className="text-yellow-600 font-medium">Terapie Essene ed Egizie.</span>{" "} In questa visione, l’individuo viene considerato nella sua totalità, nei suoi aspetti fisici, funzionali, emozionali, mentali e spirituali, come un sistema unico e inscindibile.
+        </p>
 
+        <p>
+          La salute, in questa visione, non è semplicemente l’assenza di sintomi, ma <span className="font-semibold">l’espressione di un equilibrio dinamico </span> tra le diverse parti dell'individuo.
+        </p>
 
-  <p>
-    Il corpo si adatta continuamente e il sintomo rappresenta spesso il segnale visibile di un equilibrio che si è progressivamente alterato.
-</p>
-<p> Questo spazio è pensato sia per i <span className="font-semibold">professionisti sanitari e non sanitari </span> che desiderano approfondire, formarsi e lavorare in modo realmente integrato, sia per i pazienti che cercano una comprensione più ampia, consapevole e profonda del proprio stato di salute. Qui la persona non viene divisa in compartimenti, ma osservata nella sua globalità, riconoscendo le relazioni costanti tra corpo, funzione, sistema nervoso ed esperienza emotiva.
-    </p>
-    <p>
-      <span className="font-semibold text-lg text-yellow-600">L’approccio integrato del Metodo GOLD </span> è studiato per accompagnare l’individuo in ogni fase della vita ed è pertanto adatto ad < span className="font-semibold">adulti, bambini, anziani, sportivi, donne in gravidanza.</span> Ogni età e ogni condizione presentano specifiche esigenze di adattamento e di equilibrio, e l’integrazione delle discipline consente di rispondere in modo personalizzato e rispettoso alla complessità della persona.</p>
+        <p className="border-l-4 border-yellow-600 pl-4 italic text-gray-600">
+          Ogni disturbo è spesso il risultato di adattamenti e compensi che coinvolgono più sistemi contemporaneamente e che si sviluppano nel tempo come risposta a sollecitazioni fisiche, emotive e ambientali.
+        </p>
 
- <p className="border-l-4 border-yellow-600 pl-4"> Questo tipo di approccio è indicato in presenza di disturbi muscolo-scheletrici come cervicalgie, dorsalgie, lombalgie, sciatalgie, dolori articolari, rigidità e limitazioni di movimento, così come nei disturbi posturali caratterizzati da asimmetrie, compensi, atteggiamenti scorretti e squilibri globali. È particolarmente utile nei disturbi cranio-cervico-mandibolari, nelle < span className="font-semibold"> disfunzioni dell’articolazione temporo-mandibolare, nelle cefalee, nelle tensioni craniche, nei dolori facciali e nelle malocclusioni. </span> Trova inoltre indicazione nei disturbi viscerali funzionali, come < span className="font-semibold">problematiche digestive, reflusso, gonfiore e tensioni addominali, e nei disturbi legati allo stress,</span> in cui si manifestano tensioni croniche, affaticamento e < span className="font-semibold">alterazioni del tono neurovegetativo. </span>
-</p>
-<p> Ma è altresi indicato in chi vuole portare il proprio stato di consapevolezza ad un livello superiore, andando a rimuovere blocchi fisici ed emotivi dal proprio sistema e portare un miglioramento nella propria vita attraverso un lavoro su se stesso a diversi livelli.
-  </p>
+        <p>
+          Il corpo si adatta continuamente e il sintomo rappresenta spesso il segnale visibile di un equilibrio che si è progressivamente alterato.
+        </p>
 
-  <p>< span className="font-semibold text-yellow-600"> Il Metodo GOLD </span> non si propone di eliminare il sintomo in modo isolato, ma di comprendere il linguaggio del corpo, leggere i compensi, sciogliere le tensioni e accompagnare l’organismo verso un recupero della sua capacità di autoregolazione. </p>
+      
+        <p>
+          Questo spazio è pensato sia per i <span className="font-semibold">professionisti sanitari e non sanitari </span> che desiderano approfondire, formarsi e lavorare in modo realmente integrato, sia per i pazienti che cercano una comprensione più ampia, consapevole e profonda del proprio stato di salute. Qui la persona non viene divisa in compartimenti, ma osservata nella sua globalità, riconoscendo le relazioni costanti tra corpo, funzione, sistema nervoso ed esperienza emotiva.
+        </p>
+         {/* IMMAGINE 1 */}
+        <div className="overflow-hidden rounded-[1.75rem] mt-8">
+          <div className="relative h-[240px] sm:h-[300px] md:h-[360px] w-full">
+            <img
+              src="/images/metodo/dentosofia.png"
+              alt="Approccio integrato alla salute"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black/20" />
+            <div className="absolute bottom-0 left-0 right-0 p-6">
+              <p className="text-white text-lg md:text-2xl font-bold">
+                Corpo, funzione, sistema nervoso, adattamento
+              </p>
+            </div>
+          </div>
+        </div>
 
-<p className="border-l-4 border-yellow-600 pl-4 italic text-gray-600"> È un approccio che rispetta i tempi della persona, che ascolta prima di intervenire e che considera la salute come un processo dinamico di adattamento, equilibrio e consapevolezza.</p>
+        <p>
+          <span className="font-semibold text-lg text-yellow-600">L’approccio integrato del Metodo GOLD </span> è studiato per accompagnare l’individuo in ogni fase della vita ed è pertanto adatto ad <span className="font-semibold">adulti, bambini, anziani, sportivi, donne in gravidanza.</span> Ogni età e ogni condizione presentano specifiche esigenze di adattamento e di equilibrio, e l’integrazione delle discipline consente di rispondere in modo personalizzato e rispettoso alla complessità della persona.
+        </p>
 
-<br></br>
-<p className="font-semibold">Dott.ssa Cristina Barni</p>
-</div>
+        <p className="border-l-4 border-yellow-600 pl-4">
+          Questo tipo di approccio è indicato in presenza di disturbi muscolo-scheletrici come cervicalgie, dorsalgie, lombalgie, sciatalgie, dolori articolari, rigidità e limitazioni di movimento, così come nei disturbi posturali caratterizzati da asimmetrie, compensi, atteggiamenti scorretti e squilibri globali. È particolarmente utile nei disturbi cranio-cervico-mandibolari, nelle <span className="font-semibold"> disfunzioni dell’articolazione temporo-mandibolare, nelle cefalee, nelle tensioni craniche, nei dolori facciali e nelle malocclusioni. </span> Trova inoltre indicazione nei disturbi viscerali funzionali, come <span className="font-semibold">problematiche digestive, reflusso, gonfiore e tensioni addominali, e nei disturbi legati allo stress,</span> in cui si manifestano tensioni croniche, affaticamento e <span className="font-semibold">alterazioni del tono neurovegetativo. </span>
+        </p>
 
-        
+        {/* IMMAGINE 2 */}
+        <div className="overflow-hidden rounded-[1.75rem] mt-8">
+          <div className="relative h-[240px] sm:h-[300px] md:h-[360px] w-full">
+            <img
+              src="/images/metodo/osteo.jpeg"
+              alt="Visione globale e consapevolezza"
+              className="w-full h-full object-cover object-[center_78%]"
+            />
+            <div className="absolute inset-0 bg-black/20" />
+            <div className="absolute bottom-0 left-0 right-0 p-6">
+              <p className="text-white text-lg md:text-2xl font-bold">
+                Equilibrio, ascolto e consapevolezza
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          Ma è altresi indicato in chi vuole portare il proprio stato di consapevolezza ad un livello superiore, andando a rimuovere blocchi fisici ed emotivi dal proprio sistema e portare un miglioramento nella propria vita attraverso un lavoro su se stesso a diversi livelli.
+        </p>
+
+        <p>
+          <span className="font-semibold text-yellow-600"> Il Metodo GOLD </span> non si propone di eliminare il sintomo in modo isolato, ma di comprendere il linguaggio del corpo, leggere i compensi, sciogliere le tensioni e accompagnare l’organismo verso un recupero della sua capacità di autoregolazione.
+        </p>
+
+        <p className="border-l-4 border-yellow-600 pl-4 italic text-gray-600">
+          È un approccio che rispetta i tempi della persona, che ascolta prima di intervenire e che considera la salute come un processo dinamico di adattamento, equilibrio e consapevolezza.
+        </p>
+
+        <br></br>
+        <p className="font-semibold">Dott.ssa Cristina Barni</p>
+      </div>
+    </div>
+  </div>
+</section>
 {/* CARD ABSTRACT (UNICO BLOCCO) */}
 <section className="mt-10">
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -144,7 +197,7 @@ export default function MetodoGoldClient() {
   {
     id: "osteopatia",
     title: "Osteopatia",
-    img: "/images/metodo/osteopatia.png",
+    img: "/images/metodo/osteo.jpeg",
     quote:
       "“Il corpo non mente. Racconta sempre la sua storia, se impariamo ad ascoltarla.”",
     abstract:
@@ -365,7 +418,7 @@ acufeni.
 <div className="relative w-full h-[140px] sm:h-[170px] md:h-[200px] rounded-2xl overflow-hidden mb-6 bg-black">
   {/* immagine "spinta" a sinistra per eliminare il bordo vuoto */}
   <Image
-  src="/images/metodo/osteopatia.png"
+  src="/images/metodo/osteo.jpeg"
   alt="Osteopatia"
   fill
   quality={85}
