@@ -197,7 +197,7 @@ export default function MetodoGoldClient() {
   {
     id: "osteopatia",
     title: "Osteopatia",
-    img: "/images/metodo/osteo.jpeg",
+    img: "/images/metodo/osteopatia.png",
     quote:
       "“Il corpo non mente. Racconta sempre la sua storia, se impariamo ad ascoltarla.”",
     abstract:
