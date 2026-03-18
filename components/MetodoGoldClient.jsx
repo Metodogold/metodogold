@@ -423,7 +423,7 @@ acufeni.
   fill
   quality={85}
   sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 768px"
-  className="absolute inset-0 w-full h-full object-cover object-[center_55%] scale-[1.12] -translate-x-6"
+  className="absolute inset-0 w-full h-full object-cover object-[center_50%] scale-[1.12] -translate-x-6"
 />
 
 
@@ -563,7 +563,7 @@ prevenzione e supporto in ambito sportivo. </span>
   fill
   quality={85}
   sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 768px"
-  className="absolute inset-0 w-full h-full object-cover object-[center_55%] scale-[1.12] -translate-x-6"
+  className="absolute inset-0 w-full h-full object-cover object-[center_30%] scale-[1.12] -translate-x-6"
 />
 
     <div className="absolute inset-0 bg-black/15" />
@@ -607,7 +607,7 @@ prevenzione e supporto in ambito sportivo. </span>
   fill
   quality={85}
   sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 768px"
-  className="absolute inset-0 w-full h-full object-cover object-[center_55%] scale-[1.12] -translate-x-6"
+  className="absolute inset-0 w-full h-full object-cover object-[center_30%] scale-[1.12] -translate-x-6"
 />
 
     <div className="absolute inset-0 bg-black/15" />
@@ -677,7 +677,7 @@ prevenzione e supporto in ambito sportivo. </span>
   fill
   quality={85}
   sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 768px"
-  className="absolute inset-0 w-full h-full object-cover object-[center_55%] scale-[1.12] -translate-x-6"
+  className="absolute inset-0 w-full h-full object-cover object-[center_63%] scale-[1.12] -translate-x-6"
 />
 
     <div className="absolute inset-0 bg-black/15" />
