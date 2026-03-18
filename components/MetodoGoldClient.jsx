@@ -418,7 +418,7 @@ acufeni.
 <div className="relative w-full h-[140px] sm:h-[170px] md:h-[200px] rounded-2xl overflow-hidden mb-6 bg-black">
   {/* immagine "spinta" a sinistra per eliminare il bordo vuoto */}
   <Image
-  src="/images/metodo/osteo.jpeg"
+  src="/images/metodo/osteopatia.png"
   alt="Osteopatia"
   fill
   quality={85}
