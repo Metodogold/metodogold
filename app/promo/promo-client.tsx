@@ -39,23 +39,15 @@ const CONTENT = {
   ],
   
 
-  promoTitle: "IN PROMOZIONE",
-  promoSubtitle:
-    "Iscrizione entro il 28 Febbraio 2026: sconto del 15% sul primo modulo",
   pricing: [
     {
       who: "Odontoiatri e Medici",
       full: "€ 890",
       promo: "€ 756",
-      note: "-15% sul 1° modulo",
-      saving: "Risparmi € 134",
     },
     {
       who: "Altre professioni",
       full: "€ 640",
-      promo: "€ 544",
-      note: "-15% sul 1° modulo",
-      saving: "Risparmi € 96",
     },
   ],
 
