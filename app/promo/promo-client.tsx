@@ -43,7 +43,6 @@ const CONTENT = {
     {
       who: "Odontoiatri e Medici",
       full: "€ 890",
-      promo: "€ 756",
     },
     {
       who: "Altre professioni",
@@ -548,7 +547,7 @@ export default function PromoClient() {
       <section className="mx-auto max-w-6xl px-4 pb-14">
         <SectionTitle
           title="Costi del corso"
-          subtitle="Costo standard per modulo + promozione dedicata a chi si iscrive entro il 30 Marzo 2026."
+          subtitle="Costo standard per modulo."
           titleClassName="text-4xl sm:text-5xl md:text-4xl"
           subtitleClassName="text-xl md:text-2xl font-bold"
         />
@@ -581,25 +580,6 @@ export default function PromoClient() {
                     {p.full}
                   </div>
                 </div>
-
-                {p.promo && (
-                <div className="mt-4 rounded-2xl border border-[color:var(--gold)]/25 bg-[color:var(--gold)]/8 p-4">
-                  <div className="flex flex-wrap items-center justify-between gap-2">
-                    <div className="text-base font-semibold tracking-[0.14em] text-[color:var(--gold)] md:text-lg">
-                      IN PROMOZIONE
-                    </div>
-                  </div>
-
-                  <div className="mt-2 text-lg text-slate-700 md:text-xl">
-                    Costo scontato entro{" "}
-                    <span className="font-semibold">30 Marzo 2026</span>
-                  </div>
-
-                  <div className="mt-2 text-5xl font-extrabold leading-tight text-[color:var(--gold)] md:text-6xl">
-                    {p.promo}
-                  </div>
-                </div>
-                )}
               </div>
             ))}
           </div>
