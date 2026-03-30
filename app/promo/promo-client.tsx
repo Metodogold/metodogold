@@ -53,7 +53,7 @@ const CONTENT = {
 
   objectivesTitle: "Obiettivi formativi",
   objectives: [
-    "Sviluppare una capacità diagnostica approfondita, basata su una valutazione clinica sistemica e funzionale dell’apparato stomatognatico. ",
+    "Sviluppare una capacità diagnostica approfondita, basata su una valutazione clinica sistemica e funzionale dell'apparato stomatognatico. ",
     "Sviluppare la capacità di ascolto palpatorio del sistema cranio-sacrale e comprendere la relazione tra lavoro intraorale ed equilibrio generale dell'organismo.",
     "Acquisire competenze nella gestione dei dispositivi intraorali funzionali nelle DTM, in coerenza con il quadro diagnostico.",
     "Ricercare le cause delle disfunzioni, superando la mera gestione del sintomo, attraverso un approccio eziologico e multidisciplinare nelle DTM.",
@@ -65,7 +65,7 @@ const CONTENT = {
     "Disintossicazione e supporto del terreno attraverso metodiche naturali in ottica integrata",
     "Ruolo dei recettori oculari e implicazioni posturali e neurologiche",
     "Ruolo di interferenze corporee e cicatrici (anche a distanza) nei compensi e nelle recidive",
-    "Contributo dell’Antroposofia nella lettura dell’apparato stomatognatico",
+    "Contributo dell'Antroposofia nella lettura dell'apparato stomatognatico",
   ],
 
   structureTitle: "Struttura del corso",
@@ -81,14 +81,14 @@ const CONTENT = {
     {
       title: "Modulo 1 – Fondamenti clinici, sistemici e diagnostici",
       intro:
-        "Basi anatomiche, fisiologiche e funzionali per una visione integrata e diagnostica dell’apparato stomatognatico nel contesto cranio-sacrale.",
+        "Basi anatomiche, fisiologiche e funzionali per una visione integrata e diagnostica dell'apparato stomatognatico nel contesto cranio-sacrale.",
       items: [
         "Fondamenti di anatomia e fisiologia del sistema cranio-sacrale, con lettura funzionale orientata alla diagnosi.",
-        "Mobilità cranica e meccanismo respiratorio primario come elementi chiave nella valutazione clinica e nell’inquadramento diagnostico.",
-        "Ascolto palpatorio e valutazione funzionale come strumenti di indagine clinica per l’identificazione delle alterazioni disfunzionali.",
+        "Mobilità cranica e meccanismo respiratorio primario come elementi chiave nella valutazione clinica e nell'inquadramento diagnostico.",
+        "Ascolto palpatorio e valutazione funzionale come strumenti di indagine clinica per l'identificazione delle alterazioni disfunzionali.",
         "Inquadramento delle malocclusioni e delle disfunzioni gnatologiche in una prospettiva integrata.",
         "Utilizzo dei dispositivi funzionali in coerenza con la diagnosi formulata.",
-        "Concetto di odontone come unità anatomo-funzionale all’interno di un sistema complesso, con implicazioni diagnostiche e terapeutiche.",
+        "Concetto di odontone come unità anatomo-funzionale all'interno di un sistema complesso, con implicazioni diagnostiche e terapeutiche.",
       ],
     },
     {
@@ -113,7 +113,7 @@ const CONTENT = {
         "Ruolo delle fasce e delle catene miofasciali",
         "Interferenze corporee e cicatrici",
         "Correlazione tra denti, sistema nervoso ed emotività",
-        "Contributi antroposofici alla lettura dell’apparato stomatognatico",
+        "Contributi antroposofici alla lettura dell'apparato stomatognatico",
         "Omeopatia come supporto nei percorsi clinici",
         "Recettori oculari nella propriocezione posturale",
       ],
@@ -240,7 +240,7 @@ function renderBoldPhrases(text: string, phrases: string[]) {
 
 const OBJECTIVES_BOLD_PHRASES = [
   "capacità diagnostica approfondita",
-  "dell’apparato stomatognatico",
+  "dell'apparato stomatognatico",
   "ascolto palpatorio del sistema cranio-sacrale",
   "relazione tra lavoro intraorale ed equilibrio generale dell'organismo",
   "gestione dei dispositivi intraorali funzionali nelle DTM",
@@ -255,7 +255,7 @@ const INTEGRAZIONI_BOLD_PHRASES = [
   "Ruolo dei recettori oculari",
   "interferenze corporee e cicatrici",
   "nei compensi",
-  "dell’Antroposofia",
+  "dell'Antroposofia",
   "dell'Antroposofia",
 ];
 
@@ -331,7 +331,7 @@ export default function PromoClient() {
 <section className="mt-8">
   <div className="mx-auto max-w-5xl px-4">
     <h2 className="relative inline-block text-2xl md:text-3xl font-extrabold tracking-tight text-slate-900 pb-3">
-  Una visione sistemica dell’apparato stomatognatico
+  Una visione sistemica dell'apparato stomatognatico
 
   {/* underline gold sfumata */}
   <span className="pointer-events-none absolute left-0 right-0 -bottom-0.5 h-[3px] rounded-full bg-gradient-to-r from-[#B8860B] via-[#D4AF37] to-[#F2D06B]" />
@@ -345,21 +345,21 @@ export default function PromoClient() {
         <strong className="font-extrabold text-slate-900">
           reale stabilità clinica nel tempo
         </strong>
-        . Questo accade quando l’apparato stomatognatico viene osservato come un sistema isolato, senza
+        . Questo accade quando l'apparato stomatognatico viene osservato come un sistema isolato, senza
         considerare il{" "}
         <strong className="font-extrabold text-slate-900">
           dialogo continuo con la postura, il sistema nervoso, il sistema cranio-sacrale e i meccanismi di
-          adattamento dell’organismo
+          adattamento dell'organismo
         </strong>
         .
       </p>
 
       <p>
         <strong className="font-extrabold text-slate-900">
-          Il Corso di Gnatologia Osteopatica Integrata nasce dall’esigenza di superare questa
+          Il Corso di Gnatologia Osteopatica Integrata nasce dall'esigenza di superare questa
           frammentazione,
         </strong>{" "}
-        offrendo all’odontoiatra una{" "}
+        offrendo all'odontoiatra una{" "}
         <strong className="font-extrabold text-slate-900">
           lettura sistemica, funzionale e ampliata della gnatologia,
         </strong>{" "}
@@ -582,14 +582,12 @@ export default function PromoClient() {
                   </div>
                 </div>
 
+                {p.promo && (
                 <div className="mt-4 rounded-2xl border border-[color:var(--gold)]/25 bg-[color:var(--gold)]/8 p-4">
                   <div className="flex flex-wrap items-center justify-between gap-2">
                     <div className="text-base font-semibold tracking-[0.14em] text-[color:var(--gold)] md:text-lg">
                       IN PROMOZIONE
                     </div>
-                    <span className="rounded-full bg-[color:var(--gold)] px-3 py-1 text-base font-semibold text-slate-950 md:text-lg">
-                      {p.note}
-                    </span>
                   </div>
 
                   <div className="mt-2 text-lg text-slate-700 md:text-xl">
@@ -600,11 +598,8 @@ export default function PromoClient() {
                   <div className="mt-2 text-5xl font-extrabold leading-tight text-[color:var(--gold)] md:text-6xl">
                     {p.promo}
                   </div>
-
-                  <div className="mt-2 inline-flex items-center rounded-full border border-[color:var(--gold)]/30 bg-white px-3 py-1 text-base font-semibold text-[color:var(--gold)] md:text-lg">
-                    {p.saving}
-                  </div>
                 </div>
+                )}
               </div>
             ))}
           </div>
