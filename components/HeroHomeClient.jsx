@@ -87,7 +87,7 @@ export default function HeroHomeClient() {
     <div
   lang="it"
   className="space-y-6 px-2 sm:px-6 md:px-14 text-[15.5px] md:text-lg leading-[1.7] text-white/90 text-justify"
-  style={{ hyphens: "auto" }}
+  style={{ hyphens: "none" }}
 >
   <p>
     <strong className="font-bold text-white">Il Metodo GOLD®</strong>{" "}
