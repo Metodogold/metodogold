@@ -147,7 +147,7 @@ export default function ChiSonoPage() {
                   bruxismo, serramento, dolori cranio-cervico-facciali, cefalee
                   muscolo-tensive, tensioni mandibolari e disfunzioni dell’ATM
                 </strong>
-                ). Per circa dieci anni ho lavorato a Roma, collaborando con
+                ). Per circa quindici anni ho lavorato a Roma, collaborando con
                 diversi studi e con figure professionali differenti, in un
                 confronto continuo tra clinica, osservazione e integrazione.
               </p>
