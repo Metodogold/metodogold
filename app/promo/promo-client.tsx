@@ -313,7 +313,7 @@ export default function PromoClient() {
       </p>
 
       <p className="mt-2 text-lg font-bold text-slate-600 md:text-2xl">
-        Maggio • Luglio • Ottobre 2026
+        ottobre 2026 • dicembre 2026 • febbraio 2027 • aprile 2027
       </p>
 
       {/* lascio qualche icona */}
