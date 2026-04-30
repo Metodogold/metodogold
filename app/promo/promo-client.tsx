@@ -19,13 +19,13 @@ const gold2 = "#F2D06B";
 
 const CONTENT = {
   title: "CORSO GNATOLOGIA OSTEOPATICA INTEGRATA",
-  subtitle: "Percorso annuale teorico – pratico in 3 moduli",
+  subtitle: "Percorso annuale teorico – pratico in 3 moduli + Webinar Q&A",
   collab: "In collaborazione con Salute Sì e NaturaSì",
 
   attestato: "Attestato di Partecipazione",
 
-  datesTitle: "Date (3 weekend)",
-  dates: ["8-9-10 Maggio 2026", "3-4-5 Luglio 2026", "9-10-11 Ottobre 2026"],
+  datesTitle: "Date",
+  dates: ["9-10-11 ottobre 2026", "Dicembre 2026 (Webinar Q&A)", "19-20-21 febbraio 2027", "16-17-18 aprile 2027"],
 
   destinatariTitle: "Destinatari",
   destinatariList: [
