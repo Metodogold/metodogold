@@ -669,7 +669,7 @@ export default function PromoClient() {
       >
         <SectionTitle
           title="I 3 moduli progressivi"
-          subtitle="Teoria + esercitazioni pratiche guidate in ogni modulo."
+          subtitle="Teoria + esercitazioni pratiche guidate in ogni modulo + Webinar Q&A"
           titleClassName="text-4xl sm:text-5xl md:text-4xl"
           subtitleClassName="text-xl md:text-2xl font-bold"
         />
