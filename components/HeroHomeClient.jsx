@@ -86,7 +86,7 @@ export default function HeroHomeClient() {
     {/* tolto mt-4 -> testo più in alto */}
     <div
   lang="it"
-  className="space-y-6 px-2 sm:px-6 md:px-14 text-[15.5px] md:text-lg leading-[1.7] text-white/90 text-justify"
+  className="space-y-6 px-2 sm:px-6 md:px-14 text-[15.5px] md:text-lg leading-[1.7] text-white/90 text-left"
   style={{ hyphens: "none" }}
 >
   <p>
